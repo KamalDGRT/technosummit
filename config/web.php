@@ -6,6 +6,7 @@ $db = require __DIR__ . '/db.php';
 $config = [
     'id' => 'basic',
     'name' => 'TechnoSummit',
+    //'defaultRoute' => '/site/register',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
     'aliases' => [
@@ -54,6 +55,7 @@ $config = [
                 '/signup' => '/site/signup',
                 '/about' => '/site/about',
                 '/contact' => '/site/contact',
+                '/register' => '/site/register'
             ],
         ],
 
