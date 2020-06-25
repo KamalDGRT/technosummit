@@ -5,6 +5,7 @@ $db = require __DIR__ . '/db.php';
 
 $config = [
     'id' => 'basic',
+    'name' => 'TechnoSummit',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
     'aliases' => [
@@ -43,14 +44,19 @@ $config = [
             ],
         ],
         'db' => $db,
-        /*
+
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
+                '/' => '/site/index',
+                '/login' => '/site/login',
+                '/signup' => '/site/signup',
+                '/about' => '/site/about',
+                '/contact' => '/site/contact',
             ],
         ],
-        */
+
     ],
     'params' => $params,
 ];
