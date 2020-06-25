@@ -18,7 +18,7 @@ class EventsSearch extends Events
     {
         return [
             [['id', 'status', 'created_at'], 'integer'],
-            [['name', 'image', 'description'], 'safe'],
+            [['name', 'image_name', 'image_id', 'club', 'short_description'], 'safe'],
         ];
     }
 
@@ -64,8 +64,10 @@ class EventsSearch extends Events
         ]);
 
         $query->andFilterWhere(['like', 'name', $this->name])
-            ->andFilterWhere(['like', 'image', $this->image])
-            ->andFilterWhere(['like', 'description', $this->description]);
+            ->andFilterWhere(['like', 'image_name', $this->image_name])
+            ->andFilterWhere(['like', 'image_id', $this->image_id])
+            ->andFilterWhere(['like', 'club', $this->club])
+            ->andFilterWhere(['like', 'short_description', $this->short_description]);
 
         return $dataProvider;
     }

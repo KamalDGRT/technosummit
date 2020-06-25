@@ -19,11 +19,15 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'name') ?>
 
-    <?= $form->field($model, 'image') ?>
+    <?= $form->field($model, 'image_name') ?>
+
+    <?= $form->field($model, 'image_id') ?>
 
     <?= $form->field($model, 'status') ?>
 
-    <?= $form->field($model, 'description') ?>
+    <?php // echo $form->field($model, 'club') ?>
+
+    <?php // echo $form->field($model, 'short_description') ?>
 
     <?php // echo $form->field($model, 'created_at') ?>
 
