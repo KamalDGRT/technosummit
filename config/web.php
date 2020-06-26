@@ -7,6 +7,7 @@ $config = [
     'id' => 'basic',
     'name' => 'TechnoSummit',
     //'defaultRoute' => '/site/register',
+    'timeZone' => 'Asia/Kolkata',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
     'aliases' => [
@@ -55,10 +56,15 @@ $config = [
                 '/signup' => '/site/signup',
                 '/about' => '/site/about',
                 '/contact' => '/site/contact',
-                '/register' => '/site/register'
+                '/register' => '/site/register',
+                'event/update/<id>' => 'video/update',
+                'event/view/<id>' => 'video/view'
             ],
         ],
 
+        'assetManager' => [
+            'appendTimestamp' => true
+        ]
     ],
     'params' => $params,
 ];

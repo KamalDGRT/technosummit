@@ -3,16 +3,17 @@
 namespace app\controllers;
 
 use Yii;
-use app\models\Events;
-use app\models\EventsSearch;
+use app\models\Event;
+use app\models\EventSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
+use yii\web\UploadedFile;
 
 /**
- * EventsController implements the CRUD actions for Events model.
+ * EventController implements the CRUD actions for Event model.
  */
-class EventsController extends Controller
+class EventController extends Controller
 {
     /**
      * {@inheritdoc}
@@ -30,12 +31,12 @@ class EventsController extends Controller
     }
 
     /**
-     * Lists all Events models.
+     * Lists all Event models.
      * @return mixed
      */
     public function actionIndex()
     {
-        $searchModel = new EventsSearch();
+        $searchModel = new EventSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
         return $this->render('index', [
@@ -45,7 +46,7 @@ class EventsController extends Controller
     }
 
     /**
-     * Displays a single Events model.
+     * Displays a single Event model.
      * @param integer $id
      * @return mixed
      * @throws NotFoundHttpException if the model cannot be found
@@ -58,14 +59,15 @@ class EventsController extends Controller
     }
 
     /**
-     * Creates a new Events model.
+     * Creates a new Event model.
      * If creation is successful, the browser will be redirected to the 'view' page.
      * @return mixed
      */
     public function actionCreate()
     {
-        $model = new Events();
+        $model = new Event();
 
+        $model->image = UploadedFile::getInstanceByName('image');
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             return $this->redirect(['view', 'id' => $model->id]);
         }
@@ -76,7 +78,7 @@ class EventsController extends Controller
     }
 
     /**
-     * Updates an existing Events model.
+     * Updates an existing Event model.
      * If update is successful, the browser will be redirected to the 'view' page.
      * @param integer $id
      * @return mixed
@@ -86,8 +88,9 @@ class EventsController extends Controller
     {
         $model = $this->findModel($id);
 
+        $model->image = UploadedFile::getInstanceByName('image');
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'id' => $model->id]);
+            return $this->redirect(['update', 'id' => $model->id]);
         }
 
         return $this->render('update', [
@@ -96,7 +99,7 @@ class EventsController extends Controller
     }
 
     /**
-     * Deletes an existing Events model.
+     * Deletes an existing Event model.
      * If deletion is successful, the browser will be redirected to the 'index' page.
      * @param integer $id
      * @return mixed
@@ -110,18 +113,20 @@ class EventsController extends Controller
     }
 
     /**
-     * Finds the Events model based on its primary key value.
+     * Finds the Event model based on its primary key value.
      * If the model is not found, a 404 HTTP exception will be thrown.
      * @param integer $id
-     * @return Events the loaded model
+     * @return Event the loaded model
      * @throws NotFoundHttpException if the model cannot be found
      */
     protected function findModel($id)
     {
-        if (($model = Events::findOne($id)) !== null) {
+        if (($model = Event::findOne($id)) !== null) {
             return $model;
         }
 
         throw new NotFoundHttpException('The requested page does not exist.');
     }
+
+
 }

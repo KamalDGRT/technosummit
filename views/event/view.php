@@ -4,14 +4,14 @@ use yii\helpers\Html;
 use yii\widgets\DetailView;
 
 /* @var $this yii\web\View */
-/* @var $model app\models\Events */
+/* @var $model app\models\Event */
 
 $this->title = $model->name;
 $this->params['breadcrumbs'][] = ['label' => 'Events', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 \yii\web\YiiAsset::register($this);
 ?>
-<div class="events-view">
+<div class="event-view">
 
     <h1><?= Html::encode($this->title) ?></h1>
 
@@ -30,13 +30,17 @@ $this->params['breadcrumbs'][] = $this->title;
         'model' => $model,
         'attributes' => [
             'id',
-            'name',
-            'image_name',
             'image_id',
-            'status',
+            'name',
+            'short_description:ntext',
             'club',
-            'short_description',
+            'status',
+            'has_image',
+            'image_name',
             'created_at',
+            'updated_at',
+            'created_by',
+            'updated_by',
         ],
     ]) ?>
 

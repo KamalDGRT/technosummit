@@ -3,11 +3,11 @@
 namespace app\models\query;
 
 /**
- * This is the ActiveQuery class for [[\app\models\Events]].
+ * This is the ActiveQuery class for [[\app\models\Event]].
  *
- * @see \app\models\Events
+ * @see \app\models\Event
  */
-class EventsQuery extends \yii\db\ActiveQuery
+class EventQuery extends \yii\db\ActiveQuery
 {
     /*public function active()
     {
@@ -16,7 +16,7 @@ class EventsQuery extends \yii\db\ActiveQuery
 
     /**
      * {@inheritdoc}
-     * @return \app\models\Events[]|array
+     * @return \app\models\Event[]|array
      */
     public function all($db = null)
     {
@@ -25,7 +25,7 @@ class EventsQuery extends \yii\db\ActiveQuery
 
     /**
      * {@inheritdoc}
-     * @return \app\models\Events|array|null
+     * @return \app\models\Event|array|null
      */
     public function one($db = null)
     {

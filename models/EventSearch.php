@@ -4,12 +4,12 @@ namespace app\models;
 
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use app\models\Events;
+use app\models\Event;
 
 /**
- * EventsSearch represents the model behind the search form of `app\models\Events`.
+ * EventSearch represents the model behind the search form of `app\models\Event`.
  */
-class EventsSearch extends Events
+class EventSearch extends Event
 {
     /**
      * {@inheritdoc}
@@ -17,8 +17,8 @@ class EventsSearch extends Events
     public function rules()
     {
         return [
-            [['id', 'status', 'created_at'], 'integer'],
-            [['name', 'image_name', 'image_id', 'club', 'short_description'], 'safe'],
+            [['id', 'status', 'has_image', 'created_at', 'updated_at', 'created_by', 'updated_by'], 'integer'],
+            [['image_id', 'name', 'short_description', 'club', 'image_name'], 'safe'],
         ];
     }
 
@@ -40,7 +40,7 @@ class EventsSearch extends Events
      */
     public function search($params)
     {
-        $query = Events::find();
+        $query = Event::find();
 
         // add conditions that should always apply here
 
@@ -60,14 +60,18 @@ class EventsSearch extends Events
         $query->andFilterWhere([
             'id' => $this->id,
             'status' => $this->status,
+            'has_image' => $this->has_image,
             'created_at' => $this->created_at,
+            'updated_at' => $this->updated_at,
+            'created_by' => $this->created_by,
+            'updated_by' => $this->updated_by,
         ]);
 
-        $query->andFilterWhere(['like', 'name', $this->name])
-            ->andFilterWhere(['like', 'image_name', $this->image_name])
-            ->andFilterWhere(['like', 'image_id', $this->image_id])
+        $query->andFilterWhere(['like', 'image_id', $this->image_id])
+            ->andFilterWhere(['like', 'name', $this->name])
+            ->andFilterWhere(['like', 'short_description', $this->short_description])
             ->andFilterWhere(['like', 'club', $this->club])
-            ->andFilterWhere(['like', 'short_description', $this->short_description]);
+            ->andFilterWhere(['like', 'image_name', $this->image_name]);
 
         return $dataProvider;
     }

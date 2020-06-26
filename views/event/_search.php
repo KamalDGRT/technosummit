@@ -4,11 +4,11 @@ use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 
 /* @var $this yii\web\View */
-/* @var $model app\models\EventsSearch */
+/* @var $model app\models\EventSearch */
 /* @var $form yii\widgets\ActiveForm */
 ?>
 
-<div class="events-search">
+<div class="event-search">
 
     <?php $form = ActiveForm::begin([
         'action' => ['index'],
@@ -17,19 +17,27 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'id') ?>
 
-    <?= $form->field($model, 'name') ?>
-
-    <?= $form->field($model, 'image_name') ?>
-
     <?= $form->field($model, 'image_id') ?>
 
-    <?= $form->field($model, 'status') ?>
+    <?= $form->field($model, 'name') ?>
 
-    <?php // echo $form->field($model, 'club') ?>
+    <?= $form->field($model, 'short_description') ?>
 
-    <?php // echo $form->field($model, 'short_description') ?>
+    <?= $form->field($model, 'club') ?>
+
+    <?php // echo $form->field($model, 'status') ?>
+
+    <?php // echo $form->field($model, 'has_image') ?>
+
+    <?php // echo $form->field($model, 'image_name') ?>
 
     <?php // echo $form->field($model, 'created_at') ?>
+
+    <?php // echo $form->field($model, 'updated_at') ?>
+
+    <?php // echo $form->field($model, 'created_by') ?>
+
+    <?php // echo $form->field($model, 'updated_by') ?>
 
     <div class="form-group">
         <?= Html::submitButton('Search', ['class' => 'btn btn-primary']) ?>
