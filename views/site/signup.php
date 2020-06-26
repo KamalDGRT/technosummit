@@ -3,7 +3,7 @@
 /** @var $this \yii\web\View */
 /** @var $model \app\models\User */
 
-use yii\bootstrap\ActiveForm;
+use yii\bootstrap4\ActiveForm;
 use yii\helpers\Html; ?>
 
 <div class="site-register">
