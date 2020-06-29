@@ -7,14 +7,13 @@ required_plugins.each do |plugin|
 end
 
 domains = {
-  app: 'yii2basic.test'
+  frontend: 'y2aa-frontend.test',
+  backend:  'y2aa-backend.test'
 }
 
-vagrantfile_dir_path = File.dirname(__FILE__)
-
 config = {
-  local: vagrantfile_dir_path + '/vagrant/config/vagrant-local.yml',
-  example: vagrantfile_dir_path + '/vagrant/config/vagrant-local.example.yml'
+  local: './vagrant/config/vagrant-local.yml',
+  example: './vagrant/config/vagrant-local.example.yml'
 }
 
 # copy config from example if local config not exists
@@ -24,7 +23,7 @@ options = YAML.load_file config[:local]
 
 # check github token
 if options['github_token'].nil? || options['github_token'].to_s.length != 40
-  puts "You must place REAL GitHub token into configuration:\n/yii2-app-basic/vagrant/config/vagrant-local.yml"
+  puts "You must place REAL GitHub token into configuration:\n/yii2-app-advanced/vagrant/config/vagrant-local.yml"
   exit
 end
 
@@ -68,14 +67,11 @@ Vagrant.configure(2) do |config|
   config.hostmanager.include_offline    = true
   config.hostmanager.aliases            = domains.values
 
-  # quick fix for failed guest additions installations
-  # config.vbguest.auto_update = false
-
   # provisioners
   config.vm.provision 'shell', path: './vagrant/provision/once-as-root.sh', args: [options['timezone']]
   config.vm.provision 'shell', path: './vagrant/provision/once-as-vagrant.sh', args: [options['github_token']], privileged: false
   config.vm.provision 'shell', path: './vagrant/provision/always-as-root.sh', run: 'always'
 
   # post-install message (vagrant console)
-  config.vm.post_up_message = "App URL: http://#{domains[:app]}"
+  config.vm.post_up_message = "Frontend URL: http://#{domains[:frontend]}\nBackend URL: http://#{domains[:backend]}"
 end
