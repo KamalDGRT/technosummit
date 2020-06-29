@@ -46,6 +46,7 @@ return [
                 '/login' => '/site/login',
                 '/about' => '/site/about',
                 '/contact' => '/site/contact',
+                '/navigation' => '/site/nav'
             ],
         ],
 

@@ -79,6 +79,11 @@ class SiteController extends Controller
         return $this->render('index');
     }
 
+    public function actionNav()
+    {
+        $this->layout = false;
+        return $this->render('nav');
+    }
     /**
      * Logs in a user.
      *
