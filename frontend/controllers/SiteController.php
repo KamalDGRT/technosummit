@@ -1,4 +1,5 @@
 <?php
+
 namespace frontend\controllers;
 
 use frontend\models\ResendVerificationEmailForm;
@@ -74,6 +75,7 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
+        $this->layout = false;
         return $this->render('index');
     }
 
