@@ -28,7 +28,7 @@ $this->params['breadcrumbs'][] = $this->title;
                     return $this->render('_image_item', ['model' => $model]);
                 }
             ],
-            'image_id',
+
             'r_name',
             'r_email:email',
             'r_phone',
@@ -37,7 +37,12 @@ $this->params['breadcrumbs'][] = $this->title;
             //'r_city',
             //'r_state',
             //'r_event',
-            //'status',
+            [
+                'attribute' => 'status',
+                'content' => function($model){
+                    return $model->getStatusLabels()[$model->status];
+                }
+            ],
             //'has_image',
             //'image_name',
             //'r_transaction_id',

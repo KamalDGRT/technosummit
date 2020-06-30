@@ -48,7 +48,8 @@ return [
                 '/about' => '/site/about',
                 '/contact' => '/site/contact',
                 '/navigation' => '/site/nav',
-                '/registration' => '/site/registration'
+                '/registration' => '/site/registration',
+                '/events' => '/event/index'
             ],
         ],
 

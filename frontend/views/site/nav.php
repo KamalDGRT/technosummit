@@ -5,6 +5,7 @@
 
 use yii\helpers\Html;
 use frontend\assets\NavAsset;
+use yii\helpers\Url;
 
 NavAsset::register($this);
 ?>
@@ -28,7 +29,7 @@ NavAsset::register($this);
     <div id="particles-js"></div>
 
     <header>
-        <a href="<?php echo \yii\helpers\Url::to(['/site/index']) ?>" class="Home animated slideInDown" id="abc" onmouseover="display()">
+        <a href="<?php echo Url::to(['/site/index']) ?>" class="Home animated slideInDown" id="abc" onmouseover="display()">
             <span></span>
             <span></span>
             <span></span>
@@ -42,14 +43,14 @@ NavAsset::register($this);
             <span></span>
             ABOUT US
         </a>
-        <a href="about.html" class="animated zoomIn">
+        <a href="<?php echo Url::to(['/event/index']) ?>" class="animated zoomIn">
             <span></span>
             <span></span>
             <span></span>
             <span></span>
             EVENTS
         </a>
-        <a href="<?php echo \yii\helpers\Url::to(['/event-registration/create']) ?>" class="animated slideInUp">
+        <a href="<?php echo Url::to(['/site/registration']) ?>" class="animated slideInUp">
             <span></span>
             <span></span>
             <span></span>

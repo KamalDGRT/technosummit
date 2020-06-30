@@ -28,17 +28,15 @@ $this->title = 'Technosummit Registration';
 
     <h1 class="logo">Technosummit Registration</h1>
 
-    <center><a href="nav.html" class="home">Home</a></center>
+    <center><a href="<?php echo Url::to(['/event/index']) ?>" class="home">Events</a></center>
     <?php $form = ActiveForm::begin([
         'options' => ['enctype' => 'multipart/form-data'],
         'id' => 'msform'
     ]); ?>
         <fieldset>
-            <?php
-//            echo '<pre>';
-//            echo var_dump($model);
-//            echo '</pre>';
-            ?>
+
+            <?php echo $form->errorSummary($model) ?>
+
             <h2 class="fs-title">Contact Info</h2>
             <h3 class="fs-subtitle">This is to send certifcates. All the fields are required.</h3>
 

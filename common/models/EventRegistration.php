@@ -137,6 +137,15 @@ class EventRegistration extends \yii\db\ActiveRecord
             21 => 'DA VINCI CODE',
         ];
     }
+
+    public function getStatusLabels()
+    {
+        return [
+            self::STATUS_NOT_CONFIRMED => 'Not Confirmed',
+            self::STATUS_COMFIRMED => 'Confirmed',
+        ];
+    }
+
     /**
      * {@inheritdoc}
      * @return \common\models\query\EventRegistrationQuery the active query used by this AR class.
@@ -168,6 +177,10 @@ class EventRegistration extends \yii\db\ActiveRecord
                 FileHelper::createDirectory(dirname($imagePath));
             }
             $this->image->saveAs($imagePath);
+            Image::getImagine()
+                ->open($imagePath)
+                ->thumbnail(new Box(1280, 1280))
+                ->save();
         }
 
         return  true;

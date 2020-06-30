@@ -86,6 +86,12 @@ class SiteController extends Controller
         return $this->render('nav');
     }
 
+    public function actionEvents()
+    {
+        $this->layout = false;
+        return $this->render('events');
+    }
+
     public function actionRegistration()
     {
         $this->layout = false;
