@@ -50,6 +50,9 @@ return [
             ],
         ],
 
+        'assetManager' => [
+            'appendTimestamp' => true
+        ]
     ],
     'params' => $params,
 ];

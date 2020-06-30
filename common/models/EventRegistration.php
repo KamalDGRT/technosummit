@@ -70,7 +70,8 @@ class EventRegistration extends \yii\db\ActiveRecord
             ['status', 'default', 'value' => self::STATUS_NOT_CONFIRMED],
             [['image_id'], 'unique'],
             ['image', 'image', 'minWidth' => 100],
-            ['created_by', 'default', 'value' => null]
+            ['created_by', 'default', 'value' => null],
+            ['r_phone', 'match', 'pattern' => '/^[0-9]{10}$/', 'message' => 'Enter a valid 10 digit phone number.']
         ];
     }
 

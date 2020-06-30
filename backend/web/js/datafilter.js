@@ -9,6 +9,10 @@ $(document).ready(function() {
     }
 
     $('#example').DataTable({
+        dom: 'Bfrtip',
+        buttons: [
+            'copy', 'csv', 'excel', 'pdf', 'print'
+        ],
         initComplete: function() {
             this.api().columns().every(function() {
                 var column = this;

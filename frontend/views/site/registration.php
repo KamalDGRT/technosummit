@@ -39,9 +39,11 @@ $this->title = 'Technosummit Registration';
 
             <h2 class="fs-title">Contact Info</h2>
             <h3 class="fs-subtitle">This is to send certifcates. All the fields are required.</h3>
+            <h3 class="fs-subtitle">Note: Attach Payment Screenshot of each event separately.</h3>
 
             <?= $form->field($model, 'r_name')->textInput([
                     'maxlength' => true,
+                    'onkeypress' => 'return allowOnlyAlphabets(event)',
                     'placeholder' => "Name"])->label(false) ?><br>
 
             <?= $form->field($model, 'r_email')->textInput([
@@ -50,7 +52,8 @@ $this->title = 'Technosummit Registration';
                 'placeholder' => "Email Address"])->label(false) ?><br>
 
             <?= $form->field($model, 'r_phone')->textInput([
-                'maxlength' => true,
+                'maxlength' => 10,
+                'onkeypress' => 'return restrictAlphabets(event)',
                 'placeholder' => "Phone Number"])->label(false) ?><br>
             <br>
 
@@ -58,6 +61,7 @@ $this->title = 'Technosummit Registration';
 
             <?= $form->field($model, 'r_college')->textInput([
                 'maxlength' => true,
+                'onkeypress' => 'return allowAlphabets(event)',
                 'placeholder' => "College/Institution"])->label(false) ?><br>
 
             <?= $form->field($model, 'r_year')->dropDownList($model->getYearLabels())->label(false) ?>
@@ -66,10 +70,12 @@ $this->title = 'Technosummit Registration';
 
             <?= $form->field($model, 'r_city')->textInput([
                 'maxlength' => true,
+                'onkeypress' => 'return allowOnlyAlphabets(event)',
                 'placeholder' => "City"])->label(false) ?><br>
 
             <?= $form->field($model, 'r_state')->textInput([
                 'maxlength' => true,
+                'onkeypress' => 'return allowOnlyAlphabets(event)',
                 'placeholder' => "State"])->label(false) ?><br>
 
             <?= $form->field($model, 'r_event')->dropDownList($model->getEventLabels())->label(false) ?>

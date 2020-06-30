@@ -30,7 +30,6 @@ $this->params['breadcrumbs'][] = $this->title;
             'r_college',
             //'r_city',
             //'r_state',
-            'r_event',
             [
                 'attribute' => 'r_event',
                 'content' => function($model){
