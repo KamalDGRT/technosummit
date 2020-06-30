@@ -41,4 +41,8 @@ class EventController extends Controller
         return $this->render('index');
     }
 
+    public function actionRobokart() {
+        $this->layout = false;
+        return $this->render('robokart');
+    }
 }

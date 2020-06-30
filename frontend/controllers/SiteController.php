@@ -97,7 +97,9 @@ class SiteController extends Controller
         $this->layout = false;
 
         $model = new EventRegistration();
-
+//        echo '<pre>';
+//        echo  var_dump($model);
+//        echo '</pre>';
         $model->image = UploadedFile::getInstanceByName('r_screenshot');
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             return $this->render('nav');

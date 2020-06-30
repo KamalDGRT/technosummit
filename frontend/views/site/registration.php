@@ -28,7 +28,7 @@ $this->title = 'Technosummit Registration';
 
     <h1 class="logo">Technosummit Registration</h1>
 
-    <center><a href="<?php echo Url::to(['/event/index']) ?>" class="home">Events</a></center>
+    <center><a href="<?php echo \yii\helpers\Url::to(['/event/index']) ?>" class="home">Events</a></center>
     <?php $form = ActiveForm::begin([
         'options' => ['enctype' => 'multipart/form-data'],
         'id' => 'msform'

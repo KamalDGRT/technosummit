@@ -15,7 +15,12 @@
             [
                 'label' => 'Event Registrations',
                 'url' => ['/event-registration/index']
+            ],
+            [
+                'label' => 'Data Filter',
+                'url' => ['/event-registration/datafilter']
             ]
+
         ]
     ])  ?>
 </aside>

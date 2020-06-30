@@ -34,8 +34,8 @@ class EventRegistrationQuery extends \yii\db\ActiveQuery
         return parent::one($db);
     }
 
-    public function eventOpen()
+    public function eventConfirmed()
     {
-        return $this->andWhere(['status' => EventRegistration::STATUS_OPEN]);
+        return $this->andWhere(['status' => EventRegistration::STATUS_COMFIRMED]);
     }
 }

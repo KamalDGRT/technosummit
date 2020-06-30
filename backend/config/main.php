@@ -45,8 +45,8 @@ return [
             'rules' => [
                 '/' => '/site/index',
                 '/registrations' => 'event-registration/index',
-                '/registration/update/<id>' => 'event-registration/update/'
-
+                '/registration/update/<id>' => 'event-registration/update/',
+                '/datafilter' => 'event-registration/datafilter',
             ],
         ],
 

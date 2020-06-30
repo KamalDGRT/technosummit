@@ -2,8 +2,8 @@
 
 namespace backend\controllers;
 
-use Yii;
 use common\models\EventRegistration;
+use Yii;
 use yii\data\ActiveDataProvider;
 use yii\filters\AccessControl;
 use yii\web\Controller;
@@ -16,6 +16,7 @@ use yii\web\UploadedFile;
  */
 class EventRegistrationController extends Controller
 {
+
     /**
      * {@inheritdoc}
      */
@@ -51,6 +52,18 @@ class EventRegistrationController extends Controller
         ]);
 
         return $this->render('index', [
+            'dataProvider' => $dataProvider,
+        ]);
+    }
+
+    public function actionDatafilter()
+    {
+        $dataProvider = new ActiveDataProvider([
+            'query' => EventRegistration::find(),
+            'pagination' => false
+        ]);
+
+        return $this->render('datafilter', [
             'dataProvider' => $dataProvider,
         ]);
     }

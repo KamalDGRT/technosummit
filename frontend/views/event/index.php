@@ -5,6 +5,7 @@
 
 use yii\helpers\Html;
 use frontend\assets\EventsAsset;
+use yii\helpers\Url;
 
 $this->title = 'List of Events';
 EventsAsset::register($this);
@@ -62,7 +63,7 @@ EventsAsset::register($this);
                             <p>
                                 This event is all about designing a unique robot which works mechanically or electrically.
                             </p>
-                            <a href="event/Robotics Club/ROBOKART.html">
+                            <a href="<?php echo Url::to(['/event/robokart']) ?>">
                                 <button type="button" class="button">Read More!</button>
                             </a>
                         </div>
