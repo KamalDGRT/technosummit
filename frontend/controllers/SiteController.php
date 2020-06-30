@@ -84,6 +84,12 @@ class SiteController extends Controller
         $this->layout = false;
         return $this->render('nav');
     }
+
+    public function actionRegistration()
+    {
+        $this->layout = false;
+        return $this->render('registration');
+    }
     /**
      * Logs in a user.
      *
