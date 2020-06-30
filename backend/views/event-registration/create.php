@@ -35,9 +35,7 @@ $this->title = 'Technosummit Registration';
     ]); ?>
         <fieldset>
             <?php
-//            echo '<pre>';
-//            echo var_dump($model);
-//            echo '</pre>';
+
             ?>
             <h2 class="fs-title">Contact Info</h2>
             <h3 class="fs-subtitle">This is to send certifcates. All the fields are required.</h3>

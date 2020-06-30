@@ -49,7 +49,7 @@ NavAsset::register($this);
             <span></span>
             EVENTS
         </a>
-        <a href="registration.php" class="animated slideInUp">
+        <a href="<?php echo \yii\helpers\Url::to(['/event-registration/create']) ?>" class="animated slideInUp">
             <span></span>
             <span></span>
             <span></span>

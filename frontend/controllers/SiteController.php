@@ -15,7 +15,8 @@ use frontend\models\PasswordResetRequestForm;
 use frontend\models\ResetPasswordForm;
 use frontend\models\SignupForm;
 use frontend\models\ContactForm;
-
+use common\models\EventRegistration;
+use yii\web\UploadedFile;
 /**
  * Site controller
  */
@@ -88,7 +89,17 @@ class SiteController extends Controller
     public function actionRegistration()
     {
         $this->layout = false;
-        return $this->render('registration');
+
+        $model = new EventRegistration();
+
+        $model->image = UploadedFile::getInstanceByName('r_screenshot');
+        if ($model->load(Yii::$app->request->post()) && $model->save()) {
+            return $this->render('nav');
+        }
+
+        return $this->render('registration', [
+            'model' => $model,
+        ]);
     }
     /**
      * Logs in a user.
