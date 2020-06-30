@@ -58,6 +58,8 @@ class m200626_040533_create_event_table extends Migration
             'id',
             'CASCADE'
         );
+
+        $this->alterColumn('{{%event}}', 'id', $this->integer().' NOT NULL AUTO_INCREMENT');
     }
 
     /**
