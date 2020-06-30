@@ -2,6 +2,7 @@
 
 use yii\helpers\Html;
 use yii\bootstrap4\ActiveForm;
+use yii\imagine\Image;
 
 /* @var $this yii\web\View */
 /* @var $model common\models\EventRegistration */
@@ -12,35 +13,31 @@ use yii\bootstrap4\ActiveForm;
 
     <?php $form = ActiveForm::begin(); ?>
 
-    <?= $form->field($model, 'image_id')->textInput(['maxlength' => true]) ?>
+    <?= $form->field($model, 'image_id')->textInput(['maxlength' => true, 'readonly' =>'readonly']) ?>
 
-    <?= $form->field($model, 'r_name')->textInput(['maxlength' => true]) ?>
+    <?= $form->field($model, 'r_name')->textInput(['maxlength' => true, 'readonly' =>'readonly']) ?>
 
-    <?= $form->field($model, 'r_email')->textInput(['maxlength' => true]) ?>
+    <?= $form->field($model, 'r_email')->textInput(['maxlength' => true, 'readonly' =>'readonly']) ?>
 
-    <?= $form->field($model, 'r_phone')->textInput(['maxlength' => true]) ?>
+    <?= $form->field($model, 'r_phone')->textInput(['maxlength' => true, 'readonly' =>'readonly']) ?>
 
     <?= $form->field($model, 'r_college')->textInput(['maxlength' => true]) ?>
 
-    <?= $form->field($model, 'r_year')->textInput() ?>
+    <?= $form->field($model, 'r_year')->textInput([ 'readonly' =>'readonly']) ?>
 
-    <?= $form->field($model, 'r_city')->textInput(['maxlength' => true]) ?>
+    <?= $form->field($model, 'r_city')->textInput(['maxlength' => true, 'readonly' =>'readonly']) ?>
 
-    <?= $form->field($model, 'r_state')->textInput(['maxlength' => true]) ?>
+    <?= $form->field($model, 'r_state')->textInput(['maxlength' => true, 'readonly' =>'readonly']) ?>
 
-    <?= $form->field($model, 'r_event')->textInput() ?>
+    <?= $form->field($model, 'r_event')->textInput(['readonly' =>'readonly']) ?>
 
     <?= $form->field($model, 'status')->textInput() ?>
+    <div class="embed-responsive embed-responsive-16by9 mb-3">
+        <img class="embed-responsive-item"
+               src="<?php echo $model->getImageLink() ?>">
+    </div>
 
-    <?= $form->field($model, 'has_image')->textInput() ?>
-
-    <?= $form->field($model, 'image_name')->textInput(['maxlength' => true]) ?>
-
-    <?= $form->field($model, 'r_transaction_id')->textInput(['maxlength' => true]) ?>
-
-    <?= $form->field($model, 'created_at')->textInput() ?>
-
-    <?= $form->field($model, 'created_by')->textInput(['maxlength' => true]) ?>
+    <?= $form->field($model, 'r_transaction_id')->textInput(['maxlength' => true, 'readonly' =>'readonly']) ?>
 
     <div class="form-group">
         <?= Html::submitButton('Save', ['class' => 'btn btn-success']) ?>

@@ -152,7 +152,7 @@ class EventRegistration extends \yii\db\ActiveRecord
         if ($isInsert) {
             $this->image_id = Yii::$app->security->generateRandomString(8);
             $this->image_name = $this->image->name;
-              $_POST['fieldname'] = strtoupper($_POST['fieldname']);
+            $this->r_college = strtoupper($this->r_college);
         }
         if ($this->image) {
             $this->has_image = 1;
@@ -173,10 +173,17 @@ class EventRegistration extends \yii\db\ActiveRecord
         return  true;
     }
 
+    public function getImageLink()
+    {
+        return $this->has_image ?
+            Yii::$app->params['frontendUrl'] . 'storage/events/' . $this->image_id . '.jpg'
+            : '';
+    }
+
     public function afterDelete()
     {
         parent::afterDelete();
-        $imagePath = Yii::getAlias('@web/storage/events/' . $this->image_id . '.jpg');
+        $imagePath = Yii::getAlias('@frontend/web/storage/events/' . $this->image_id . '.jpg');
         unlink($imagePath);
     }
 

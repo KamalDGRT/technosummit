@@ -22,8 +22,12 @@ $this->params['breadcrumbs'][] = $this->title;
         'dataProvider' => $dataProvider,
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
-
-            'id',
+            [
+                'attribute' => 'id',
+                'content' => function ($model) {
+                    return $this->render('_image_item', ['model' => $model]);
+                }
+            ],
             'image_id',
             'r_name',
             'r_email:email',

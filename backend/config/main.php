@@ -8,6 +8,7 @@ $params = array_merge(
 
 return [
     'id' => 'app-backend',
+    'name' => 'TechnoSummit',
     'basePath' => dirname(__DIR__),
     'controllerNamespace' => 'backend\controllers',
     'bootstrap' => ['log'],
@@ -41,7 +42,12 @@ return [
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
-            'rules' => [],
+            'rules' => [
+                '/' => '/site/index',
+                '/registrations' => 'event-registration/index',
+                '/registration/update/<id>' => 'event-registration/update/'
+
+            ],
         ],
 
     ],
