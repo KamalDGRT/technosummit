@@ -92,6 +92,12 @@ class SiteController extends Controller
         return $this->render('events');
     }
 
+    public function actionContactus()
+    {
+        $this->layout = false;
+        return $this->render('contactus');
+    }
+
     public function actionRegistration()
     {
         $this->layout = false;

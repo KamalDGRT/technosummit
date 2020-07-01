@@ -25,7 +25,6 @@ EventAsset::register($this);
 
     <body>
     <?php $this->beginBody() ?>
-
     <!-- Start Header -->
     <header id="mu-hero" class="" role="banner">
         <!-- Start menu  -->
@@ -40,7 +39,7 @@ EventAsset::register($this);
                         <!-- Start center Logo -->
                         <div class="mu-logo-area">
                             <!-- text based logo -->
-                            <a class="mu-logo" href="#">TECHNOSUMMIT</a>
+                            <a class="mu-logo" href="<?php echo Url::to(['/site/index']) ?>">TECHNOSUMMIT</a>
                             <!-- image based logo -->
                             <!-- <a class="mu-logo" href="#"><img src="assets/images/logo.jpg" alt="logo img"></a> -->
                         </div>
@@ -49,10 +48,10 @@ EventAsset::register($this);
                         <div class="mu-hero-featured-content animated slideInDown">
 
                             <h1>ROBOKART</h1>
-                            <h2>ROBOTICS club</h2>
+                            <h2>ROBOTICS CLUB</h2>
                             <br><br>
                             <a href="<?php echo Url::to(['/event/index']) ?>" class="btn btn-first">BACK</a>
-                            <a href="<?php echo Url::to(['/site/registration']) ?>" class="btn btn-nav">REGISTER</a>
+                            <a href="<?php echo Url::to(['/event/registration']) ?>" class="btn btn-nav">REGISTER</a>
                             <br><br>
                             <!-- <p class="mu-event-date-line">7th August 2020 || Online Event</p> -->
                         </div>
@@ -77,21 +76,19 @@ EventAsset::register($this);
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="mu-about-left">
-                                        <img class="animated slideInLeft" src="<?php echo Yii::$app->params['frontendUrl'] . 'event/images/about.jpg';?>" alt="Men Speaker">
+                                        <img class="animated slideInLeft"
+                                             src="<?php echo Yii::$app->params['frontendUrl'] . 'event/images/about.jpg';?>"
+                                             alt="Men Speaker">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="mu-about-right animated slideInRight">
                                         <h2 style="text-decoration: underline;">Introduction</h2>
-                                        <p>Do you agree with the fact that: Each one of us made some toys in our childhood days. Some might have forgotten it as they grow, but there are a few exceptional people who still design toys and make them their passion. And as they grow, the toy also grows and is called Robots.
-                                            And this event is exclusively for those creators.  </p>
+                                        <p>
+                                            Do you agree with the fact that: Each one of us made some toys in our childhood days. Some might have forgotten it as they grow, but there are a few exceptional people who still design toys and make them their passion. And as they grow, the toy also grows and is called Robots. And this event is exclusively for those creators.<br><br>
+                                            As the name says, the event is all about designing a unique robot which works mechanically or electrically.  It should be related to robotics and mechatronics. Your design will be judged on the basis of its efficiency and Algorithm with reliability, cost efficiency. You can use any software to show the design of the machine. Participate and prove your ability with your creative MIND.
 
-
-
-                                        <p>As the name says, the event is all about designing a unique robot which works mechanically or electrically.
-                                            It should be related to robotics and mechatronics.
-                                            Your design will be judged on the basis of its efficiency and Algorithm with reliability, cost efficiency.
-                                            You can use any software to show the design of the machine. Participate and prove your ability with your creative MIND. </p>
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -119,24 +116,23 @@ EventAsset::register($this);
                                         <div class="mu-about-left">
                                             <div class="mu-about-right animated slideInRight" style="justify-content: left;">
                                                 <h2 style="text-decoration: underline;">ROUND 1</h2>
-                                                <ul >
-                                                    <li>The idea should be unique </li><br>
-                                                    <li>And it is practically possible.</li><br>
-                                                    <li>The idea should be framed in 3D design.</li><br>
-                                                    <li>With proper algorithm</li><br>
-                                                    <li>Other than Robotics Electronics, Electrical & Mechanical are welcome. <br\ >
-                                                        The time limit per participant is minimum two minutes, maximum four minutes</li>
-                                                </ul></div>
+                                                <li>The idea should be unique </li><br>
+                                                <li>And it is practically possible.</li><br>
+                                                <li>The idea should be framed in 3D design.</li><br>
+                                                <li>With proper algorithm</li><br>
+                                                <li>Other than Robotics Electronics, Electrical & Mechanical are welcome. <br\ >
+                                                    The time limit per participant is minimum two minutes, maximum four minutes</li>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="mu-about-right animated slideInRight">
                                             <h2 style="text-decoration: underline;">ROUND 2</h2>
-                                            <ul><li>The idea should be unique </li><br>
-                                                <li>And it is practically possible.</li><br>
-                                                <li>The idea should be framed in 3D design.</li><br>
-                                                <li>With proper algorithm</li>
-                                            </ul></div>
+                                            <li>The idea should be unique </li><br>
+                                            <li>And it is practically possible.</li><br>
+                                            <li>The idea should be framed in 3D design.</li><br>
+                                            <li>With proper algorithm</li>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -257,7 +253,6 @@ EventAsset::register($this);
     </main>
 
     <!-- End main content -->
-
 
 
     <?php $this->endBody() ?>

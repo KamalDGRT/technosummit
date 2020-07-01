@@ -50,6 +50,7 @@ NavAsset::register($this);
             <span></span>
             EVENTS
         </a>
+
         <a href="<?php echo Url::to(['/site/registration']) ?>" class="animated slideInUp">
             <span></span>
             <span></span>
@@ -57,7 +58,8 @@ NavAsset::register($this);
             <span></span>
             Register
         </a>
-        <a href="contactus.html" class="animated slideInUp">
+
+        <a href="<?php echo Url::to(['/site/contactus']) ?>" class="animated slideInUp">
             <span></span>
             <span></span>
             <span></span>

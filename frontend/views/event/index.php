@@ -28,21 +28,13 @@ EventsAsset::register($this);
     <body>
     <div class="row">
         <div class="column12">
-            <h1
-                    style="
-            font-size: 50px;
-            font-family:Slippery Slime;
-            color: aliceblue;
-            text-shadow: #FC0 5px 0 10px;
-          "
-            >
-                <center class="event animated bounceInLeft">EVENT'S NAME</center>
+            <h1  style="font-size: 50px; font-family:Slippery Slime; color: aliceblue; text-shadow: #FC0 5px 0 10px;">
+                <center class="event animated bounceInLeft">EVENTS</center>
             </h1>
         </div>
         <br>
         <br>
-        <a href="nav.html" class="btn btn-first">Click Here</a>
-    </div>
+        <a href="<?php echo Url::to(['/site/nav']) ?>" class="btn btn-first">Back</a>
     </div>
 
     <div class="text"></div>
@@ -52,7 +44,7 @@ EventsAsset::register($this);
             <div class="col" ontouchstart="this.classList.toggle('hover');">
                 <div class="container">
                     <div class="front"
-                         style="background-image: url(<?php echo Yii::$app->params['frontendUrl'] . 'img/4.jpg';?>)">
+                         style="background-image: url(<?php echo Yii::$app->params['frontendUrl'] . 'img/tile_robokart.png';?>)">
                         <div class="inner">
                             <p>ROBOKART</p>
                             <span>Robotics Club</span>
@@ -72,7 +64,7 @@ EventsAsset::register($this);
             </div>
             <div class="col" ontouchstart="this.classList.toggle('hover');">
                 <div class="container">
-                    <div class="front" style="background-image: url(img/4.jpg)">
+                    <div class="front" style="background-image: url(<?php echo Yii::$app->params['frontendUrl'] . 'img/tile_blindcoding.png';?>)">
                         <div class="inner">
                             <p>BLIND CODING</p>
                             <span>Microsoft Club</span>
@@ -93,10 +85,10 @@ EventsAsset::register($this);
                 <div class="container">
                     <div
                             class="front"
-                            style="background-image: url(img/4.jpg)";
+                            style="background-image: url(<?php echo Yii::$app->params['frontendUrl'] . 'img/tile_mathmania.png';?>)";
                     >
                         <div class="inner">
-                            <p>Math-Mania</p>
+                            <p>MATH-MANIA</p>
                             <span>Mathematics Club</span>
                         </div>
                     </div>
@@ -116,10 +108,10 @@ EventsAsset::register($this);
                 <div class="container">
                     <div
                             class="front"
-                            style="background-image: url(img/4.jpg);";
+                            style="background-image: url(<?php echo Yii::$app->params['frontendUrl'] . 'img/tile_ecotopia.png';?>);";
                     >
                         <div class="inner">
-                            <p>Eco-Topia</p>
+                            <p>ECO-TOPIA</p>
                             <span>ECO Club</span>
                         </div>
                     </div>
@@ -138,7 +130,7 @@ EventsAsset::register($this);
                 <div class="container">
                     <div
                             class="front"
-                            style="background-image: url(img/4.jpg);"
+                            style="background-image: url(<?php echo Yii::$app->params['frontendUrl'] . 'img/tile_circuitronics.png';?>);"
                     >
                         <div class="inner">
                             <p>CIRCUITRONICS</p>
@@ -161,7 +153,7 @@ EventsAsset::register($this);
                 <div class="container">
                     <div
                             class="front"
-                            style="background-image: url(img/4.jpg);"
+                            style="background-image: url(<?php echo Yii::$app->params['frontendUrl'] . 'img/tile_scientia.png';?>);"
                     >
                         <div class="inner">
                             <p>SCIENTIA</p>
@@ -184,7 +176,7 @@ EventsAsset::register($this);
                 <div class="container">
                     <div
                             class="front"
-                            style="background-image: url(img/4.jpg);"
+                            style="background-image: url(<?php echo Yii::$app->params['frontendUrl'] . 'img/tile_codevita.png';?>);"
                     >
                         <div class="inner">
                             <p>CodeVita</p>
@@ -207,7 +199,7 @@ EventsAsset::register($this);
                 <div class="container">
                     <div
                             class="front"
-                            style="background-image: url(img/4.jpg);"
+                            style="background-image: url(<?php echo Yii::$app->params['frontendUrl'] . 'img/tile_concept.png';?>);"
                     >
                         <div class="inner">
                             <p>CONCEPT</p>
@@ -235,10 +227,10 @@ EventsAsset::register($this);
         <div class="cols">
             <div class="col" ontouchstart="this.classList.toggle('hover');">
                 <div class="container">
-                    <div class="front" style="background-image: url(img/4.jpg);">
+                    <div class="front" style="background-image: url(<?php echo Yii::$app->params['frontendUrl'] . 'img/tile_startup.png';?>);">
                         <div class="inner">
                             <p>SEED YOUR STARTUP</p>
-                            <span>EDC Club </span>
+                            <span>EDC Club</span>
                         </div>
                     </div>
                     <div class="back">
@@ -256,7 +248,7 @@ EventsAsset::register($this);
             </div>
             <div class="col" ontouchstart="this.classList.toggle('hover');">
                 <div class="container">
-                    <div class="front" style="background-image: url(img/4.jpg);">
+                    <div class="front" style="background-image: url(<?php echo Yii::$app->params['frontendUrl'] . 'img/tile_covidathon.png';?>);">
                         <div class="inner">
                             <p>COVID-A-THON</p>
                             <span>CSE Club</span>
@@ -276,7 +268,7 @@ EventsAsset::register($this);
             </div>
             <div class="col" ontouchstart="this.classList.toggle('hover');">
                 <div class="container">
-                    <div class="front" style="background-image: url(img/4.jpg);">
+                    <div class="front" style="background-image: url(<?php echo Yii::$app->params['frontendUrl'] . 'img/tile_dnd.png';?>);">
                         <div class="inner">
                             <p>D & D</p>
                             <span>Dr.Kalam Club</span>
@@ -297,7 +289,7 @@ EventsAsset::register($this);
             </div>
             <div class="col" ontouchstart="this.classList.toggle('hover');">
                 <div class="container">
-                    <div class="front" style="background-image: url(img/4.jpg);">
+                    <div class="front" style="background-image: url(<?php echo Yii::$app->params['frontendUrl'] . 'img/tile_sketch.png';?>);">
                         <div class="inner">
                             <p>SKETCH</p>
                             <span> AUTO Club</span>
@@ -320,7 +312,7 @@ EventsAsset::register($this);
                 <div class="container">
                     <div
                             class="front"
-                            style="background-image: url(img/4.jpg);"
+                            style="background-image: url(<?php echo Yii::$app->params['frontendUrl'] . 'img/tile_webworld.png';?>);"
                     >
                         <div class="inner">
                             <p>WEB WORLD</p>
@@ -344,7 +336,7 @@ EventsAsset::register($this);
                 <div class="container">
                     <div
                             class="front"
-                            style="background-image: url(img/4.jpg);"
+                            style="background-image: url(<?php echo Yii::$app->params['frontendUrl'] . 'img/tile_comic.png';?>);"
                     >
                         <div class="inner">
                             <p>COMIC CRUSADERS</p>
@@ -367,11 +359,11 @@ EventsAsset::register($this);
                 <div class="container">
                     <div
                             class="front"
-                            style="background-image: url(img/4.jpg);"
+                            style="background-image: url(<?php echo Yii::$app->params['frontendUrl'] . 'img/tile_techiedeb.png';?>);"
                     >
                         <div class="inner">
                             <p>TECHIE DEB</p>
-                            <span>Debate and Anti Human trafficking Club</span>
+                            <span>Debate Club and Anti Human trafficking Club</span>
                         </div>
                     </div>
                     <div class="back">
@@ -389,10 +381,10 @@ EventsAsset::register($this);
                 <div class="container">
                     <div
                             class="front"
-                            style="background-image: url(img/4.jpg);"            >
+                            style="background-image: url(<?php echo Yii::$app->params['frontendUrl'] . 'img/tile_exquizme.png';?>);">
                         <div class="inner">
                             <p>EX-QUIZ ME</p>
-                            <span>CDC</span>
+                            <span>Community Development Club</span>
                         </div>
                     </div>
                     <div class="back">
@@ -414,10 +406,10 @@ EventsAsset::register($this);
             <div class="col" ontouchstart="this.classList.toggle('hover');">
                 <div class="container">
                     <div class="front"
-                         style="background-image: url(img/4.jpg);">
+                         style="background-image: url(<?php echo Yii::$app->params['frontendUrl'] . 'img/tile_rotaract.png';?>);">
                         <div class="inner">
                             <p>5 MT</p>
-                            <span> ROTARACT </span>
+                            <span> Rotaract Club</span>
                         </div>
                     </div>
                     <div class="back">
@@ -435,10 +427,10 @@ EventsAsset::register($this);
             </div>
             <div class="col" ontouchstart="this.classList.toggle('hover');">
                 <div class="container">
-                    <div class="front" style="background-image: url(img/4.jpg);">
+                    <div class="front" style="background-image: url(<?php echo Yii::$app->params['frontendUrl'] . 'img/tile_filmina.png';?>);">
                         <div class="inner">
                             <p>FILMINA</p>
-                            <span> Dance and Music Clubs </span>
+                            <span> Dance Club and Music Club</span>
                         </div>
                     </div>
                     <div class="back">
@@ -455,7 +447,7 @@ EventsAsset::register($this);
             </div>
             <div class="col" ontouchstart="this.classList.toggle('hover');">
                 <div class="container">
-                    <div class="front" style="background-image: url(img/4.jpg);">
+                    <div class="front" style="background-image: url(<?php echo Yii::$app->params['frontendUrl'] . 'img/tile_aerozone.png';?>);">
                         <div class="inner">
                             <p>AERO ZONE</p>
                             <span>Aero Club</span>
@@ -475,7 +467,7 @@ EventsAsset::register($this);
             </div>
             <div class="col" ontouchstart="this.classList.toggle('hover');">
                 <div class="container">
-                    <div class="front" style="background-image: url(img/4.jpg);">
+                    <div class="front" style="background-image: url(<?php echo Yii::$app->params['frontendUrl'] . 'img/tile_ai.png';?>);">
                         <div class="inner">
                             <p>AI workshop</p>
                             <span>Tamil Club and Microsoft Club</span>
@@ -495,7 +487,7 @@ EventsAsset::register($this);
             </div>
             <div class="col" ontouchstart="this.classList.toggle('hover');">
                 <div class="container">
-                    <div class="front" style="background-image: url(img/4.jpg);">
+                    <div class="front" style="background-image: url(<?php echo Yii::$app->params['frontendUrl'] . 'img/tile_davincicode.png';?>);">
                         <div class="inner">
                             <p>DAVINCI CODE</p>
                             <span>Design Club</span>
@@ -515,6 +507,7 @@ EventsAsset::register($this);
             </div>
         </div>
     </div>
+
 
     <?php $this->endBody() ?>
     </body>

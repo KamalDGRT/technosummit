@@ -46,7 +46,7 @@ return [
                 '/signup' => '/site/signup',
                 '/login' => '/site/login',
                 '/about' => '/site/about',
-                '/contact' => '/site/contact',
+                '/contactus' => '/site/contactus',
                 '/navigation' => '/site/nav',
                 '/registration' => '/site/registration',
                 '/events' => '/event/index'

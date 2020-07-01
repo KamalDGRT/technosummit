@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:black;
+    color:white;
+    height: 200px;
+}
+
+.btn {
+    /* color: #fff;
+    display: inline-block;
+    text-decoration: none; */
+    text-transform: uppercase;
+    /* font-size: 300%;
+    font-weight: 100px;
+    padding: 10px 30px;
+    border-radius: 200px; */
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+.btn-first {
+    background-color: transparent;
+    color: #bf55ec;
+    margin-right: 15px;
+    border: 4px solid #bf55ec;
+}
+.btn-first:hover {
+    background-color: #fff;
+    animation: wiggle 0.5s;
+}
+@keyframes wiggle{
+    25%{
+        transform: scale(0.8,1.3);
+    }
+}
+
+
+.btn {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 20px;
+    /* text-align: center; */
+    text-decoration: none;
+    display: inline-block;
+    font-size: 108px;
+    margin: 50px 2px;
+    cursor: pointer;
+    border-radius: 400px;
+    /* transition: background-color 0.2s, border 0.2s, color 0.2s; */
+}
+.btn-first1 {
+    /* background-color: transparent;
+    color: #5d0f8d;
+    margin-right: 15px; */
+    border: 4px solid #63486e;
+}
+.btn-first1:hover {
+    background-color: rgb(19, 228, 29);
+    animation: wiggle 0.5s;
+}
+@keyframes wiggle{
+    25%{
+        transform: scale(0.8,1.3);
+    }
+}
+.btn-nav {
+    background-color: transparent;
+    color: rgb(22, 19, 19);
+    margin-right: 15px;
+    border: 1px solid rgb(87, 15, 15);
+}
+.btn-nav:hover {
+    background-color: #bf55ec;
+}
+.button4 {border-radius: 400px;
+
+}
+h1{
+    font-size: 50px;
+}
+.button {
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 180%;
+    font-weight: 100px;
+    padding: 10px 30px;
+    border-radius: 200px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+.button-first {
+    background-color: transparent;
+    color: #bf55ec;
+    margin-right: 15px;
+    border: 1px solid #bf55ec;
+}
+.button-first:hover {
+    background-color: #fff;
+}
