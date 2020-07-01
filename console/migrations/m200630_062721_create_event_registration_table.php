@@ -26,7 +26,7 @@ class m200630_062721_create_event_registration_table extends Migration
             'status' => $this->integer(1),
             'has_image' => $this->boolean(),
             'image_name' => $this->string(512),
-            'r_transaction_id' => $this->string()->notNull(),
+            'r_transaction_id' => $this->string()->notNull()->unique(),
             'created_at' => $this->integer(11),
             'created_by' => $this->string()->notNull(),
             'updated_at' => $this->integer(11),

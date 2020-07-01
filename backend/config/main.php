@@ -46,6 +46,7 @@ return [
                 '/' => '/site/index',
                 '/registrations' => 'event-registration/index',
                 '/registration/update/<id>' => 'event-registration/update/',
+                '/registration/view/<id>' => 'event-registration/view/',
                 '/datafilter' => 'event-registration/datafilter',
             ],
         ],

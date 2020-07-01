@@ -102,9 +102,11 @@ class SiteController extends Controller
 //        echo '</pre>';
         $model->image = UploadedFile::getInstanceByName('r_screenshot');
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
+            echo '<script>alert("Your details have been submitted. Our team will contact you after verification.")</script>';
             return $this->render('nav');
         }
 
+        Yii::$app->session->setFlash('errorMsg');
         return $this->render('registration', [
             'model' => $model,
         ]);
