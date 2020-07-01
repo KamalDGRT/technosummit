@@ -36,7 +36,7 @@ NavAsset::register($this);
             <span></span>
             HOME
         </a>
-        <a href="about us.html" class="animated slideInDown">
+        <a href="<?php echo Url::to(['/site/aboutus']) ?>" class="animated slideInDown">
             <span></span>
             <span></span>
             <span></span>

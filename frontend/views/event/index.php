@@ -74,7 +74,7 @@ EventsAsset::register($this);
                         <div class="inner">
                             <p>
                                 Welcome to blind coding, yes, you heard that right! In this event, you'll be placed outside your comfort zone </p>
-                            <a href="event/Microsoft Club/BLIND CODING.html"
+                            <a href="<?php echo Url::to(['/event/blindcoding']) ?>"
                             ><button type="button" class="button">Read More!</button></a
                             >
                         </div>

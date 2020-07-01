@@ -98,6 +98,12 @@ class SiteController extends Controller
         return $this->render('contactus');
     }
 
+    public function actionAboutus()
+    {
+        $this->layout = false;
+        return $this->render('aboutus');
+    }
+
     public function actionRegistration()
     {
         $this->layout = false;
