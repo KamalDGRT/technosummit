@@ -183,7 +183,7 @@ EventsAsset::register($this);
                                     Innovation is crucial to the continuing success of an organisation.
                                     This event is all about UNBOXING YOUR IDEAS.
                                 </p>
-                                <a href="event/ENCORE CLUB/CONCEPT.html"><button type="button" class="button">Read More!</button></a>
+                                <a href="event/concept"><button type="button" class="button">Read More!</button></a>
                             </div>
                         </div>
                     </div>

@@ -69,9 +69,14 @@ class EventController extends Controller
         $this->layout = false;
         return $this->render('seedyourstartup');
     }
-    public function actionD&D()
+    public function actionDandd()
     {
         $this->layout = false;
-        return $this->render('d&d');
+        return $this->render('dandd');
+    }
+    public function actionConcept()
+    {
+        $this->layout = false;
+        return $this->render('concept');
     }
 }
