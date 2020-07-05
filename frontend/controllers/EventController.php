@@ -84,4 +84,9 @@ class EventController extends Controller
         $this->layout = false;
         return $this->render('scientia');
     }
+    public function actionCodevita()
+    {
+        $this->layout = false;
+        return $this->render('codevita');
+    }
 }

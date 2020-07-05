@@ -164,7 +164,7 @@ EventsAsset::register($this);
                                 <p>
                                     CodeVita is an energising event which involves solving an exciting problem allotted to the participants.
                                 </p>
-                                <a href="event/Innovation Club/CodeVita.html"><button type="button" class="button">Read More!</button></a>
+                                <a href="event/codeVita"><button type="button" class="button">Read More!</button></a>
                             </div>
                         </div>
                     </div>
