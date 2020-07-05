@@ -301,9 +301,9 @@ EventsAsset::register($this);
                                 Are you a person who sketches down everything you see?
                                 Or are you the one who masters sketching? .
                             </p>
-                            <a href="event/Auto Club/SKETCH.html"
-                            ><button type="button" class="button">Read More!</button></a
-                            >
+                            <a href="<?php echo Url::to(['/event/sketch']) ?>">
+                                <button type="button" class="button">Read More!</button>
+                            </a>
                         </div>
                     </div>
                 </div>
