@@ -325,9 +325,9 @@ EventsAsset::register($this);
                                 Since its inception, websites have been the foundation of companies and organizations galore.
 
                             </p>
-                            <a href="event/Mozilla Club/Web World.html"
-                            ><button type="button" class="button">Read More!</button></a
-                            >
+                            <a href="<?php echo Url::to(['/event/webworld']) ?>">
+                                <button type="button" class="button">Read More!</button>
+                            </a>
                         </div>
                     </div>
                 </div>

@@ -51,8 +51,13 @@ class EventController extends Controller
         return $this->render('blindcoding');
     }
 
-    public function actionSketch () {
+    public function actionSketch() {
         $this->layout = false;
         return $this->render('sketch');
+    }
+
+    public function actionWebworld() {
+        $this->layout = false;
+        return $this->render('webworld');
     }
 }
