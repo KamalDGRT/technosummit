@@ -245,7 +245,7 @@ EventsAsset::register($this);
                                     Do you have the next big idea that can make an impact on our society?
                                     Here is your ultimate chance to display.
                                 </p>
-                                <a href="event/Dr Kalams Club/DD.html"><button type="button" class="button">Read More!</button></a>
+                                <a href="event/d&d"><button type="button" class="button">Read More!</button></a>
                             </div>
                         </div>
                     </div>
