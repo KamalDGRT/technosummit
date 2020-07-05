@@ -64,4 +64,9 @@ class EventController extends Controller
         $this->layout = false;
         return $this->render('ecotopia');
     }
+    public function actionSeedyourstartup()
+    {
+        $this->layout = false;
+        return $this->render('seedyourstartup');
+    }
 }

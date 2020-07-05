@@ -208,7 +208,7 @@ EventsAsset::register($this);
                                     Everything begins with a simple seed.
                                     Start-ups are the seeds and that grow into the evolution we know and witness every day.
                                 </p>
-                                <a href="event/Entrepreneurship Development Club/Seed your Start-up.html"><button type="button" class="button">Read More!</button></a>
+                                <a href="event/SeedyourStartup"><button type="button" class="button">Read More!</button></a>
                             </div>
                         </div>
                     </div>
