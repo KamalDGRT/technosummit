@@ -64,29 +64,49 @@ class EventController extends Controller
         $this->layout = false;
         return $this->render('ecotopia');
     }
+    
     public function actionSeedyourstartup()
     {
         $this->layout = false;
         return $this->render('seedyourstartup');
     }
+    
     public function actionDandd()
     {
         $this->layout = false;
         return $this->render('dandd');
     }
+    
     public function actionConcept()
     {
         $this->layout = false;
         return $this->render('concept');
     }
+    
     public function actionScientia()
     {
         $this->layout = false;
         return $this->render('scientia');
     }
+    
     public function actionCodevita()
     {
         $this->layout = false;
         return $this->render('codevita');
+    }
+    
+    public function actionSketch() {
+        $this->layout = false;
+        return $this->render('sketch');
+    }
+
+    public function actionWebworld() {
+        $this->layout = false;
+        return $this->render('webworld');
+    }
+
+    public function actionComiccrusaders() {
+        $this->layout = false;
+        return $this->render('comiccrusaders');
     }
 }

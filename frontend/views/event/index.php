@@ -250,22 +250,24 @@ EventsAsset::register($this);
                         </div>
                     </div>
                 </div>
-                <div class="col" ontouchstart="this.classList.toggle('hover');">
-                    <div class="container">
-                        <div class="front" style="background-image: url(<?php echo Yii::$app->params['frontendUrl'] . 'img/tile_sketch.png'; ?>);">
-                            <div class="inner">
-                                <p>SKETCH</p>
-                                <span> AUTO Club</span>
-                            </div>
+            </div>
+            <div class="col" ontouchstart="this.classList.toggle('hover');">
+                <div class="container">
+                    <div class="front" style="background-image: url(<?php echo Yii::$app->params['frontendUrl'] . 'img/tile_sketch.png';?>);">
+                        <div class="inner">
+                            <p>SKETCH</p>
+                            <span> AUTO Club</span>
                         </div>
-                        <div class="back">
-                            <div class="inner">
-                                <p>
-                                    Are you a person who sketches down everything you see?
-                                    Or are you the one who masters sketching? .
-                                </p>
-                                <a href="event/Auto Club/SKETCH.html"><button type="button" class="button">Read More!</button></a>
-                            </div>
+                    </div>
+                    <div class="back">
+                        <div class="inner">
+                            <p>
+                                Are you a person who sketches down everything you see?
+                                Or are you the one who masters sketching? .
+                            </p>
+                            <a href="<?php echo Url::to(['/event/sketch']) ?>">
+                                <button type="button" class="button">Read More!</button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -281,28 +283,33 @@ EventsAsset::register($this);
                             <div class="inner">
                                 <p>
                                     Since its inception, websites have been the foundation of companies and organizations galore.
-
                                 </p>
-                                <a href="event/Mozilla Club/Web World.html"><button type="button" class="button">Read More!</button></a>
-                            </div>
+                            <a href="<?php echo Url::to(['/event/webworld']) ?>">
+                                <button type="button" class="button">Read More!</button>
+                            </a>
                         </div>
                     </div>
                 </div>
-                <div class="col" ontouchstart="this.classList.toggle('hover');">
-                    <div class="container">
-                        <div class="front" style="background-image: url(<?php echo Yii::$app->params['frontendUrl'] . 'img/tile_comic.png'; ?>);">
-                            <div class="inner">
-                                <p>COMIC CRUSADERS</p>
-                                <span>English Club </span>
-                            </div>
+            </div>
+            <div class="col" ontouchstart="this.classList.toggle('hover');">
+                <div class="container">
+                    <div
+                            class="front"
+                            style="background-image: url(<?php echo Yii::$app->params['frontendUrl'] . 'img/tile_comic.png';?>);"
+                    >
+                        <div class="inner">
+                            <p>COMIC CRUSADERS</p>
+                            <span>English Club </span>
                         </div>
-                        <div class="back">
-                            <div class="inner">
-                                <p>
-                                    A comic book is a special part of everyone's childhood, and it is pretty sure that they hold a special place in your life
-                                </p>
-                                <a href="event/English Literary Club/Comic Crusaders.html"><button type="button" class="button">Read More!</button></a>
-                            </div>
+                    </div>
+                    <div class="back">
+                        <div class="inner">
+                            <p>
+                                A comic book is a special part of everyone's childhood, and it is pretty sure that they hold a special place in your life
+                            </p>
+                            <a href="<?php echo Url::to(['/event/comiccrusaders']) ?>">
+                                <button type="button" class="button">Read More!</button>
+                            </a>
                         </div>
                     </div>
                 </div>
