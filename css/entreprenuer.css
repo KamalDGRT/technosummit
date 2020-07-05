@@ -1,0 +1,295 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+  color: #fff;
+  font-family: "Flamenco", cursive;
+  background: #010101;
+  background: -webkit-linear-gradient(bottom right, #010101, #017DD2);
+  background: -moz-linear-gradient(bottom right, #010101, #017DD2);
+  background: linear-gradient(to top left, #010101, #017DD2);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  height: 100%;
+}
+canvas {
+  position: absolute;
+  margin: 0 auto;
+  display: block;
+  border-left: 0;
+  border-right: 0;
+}
+.clearfix:after {
+  content: ".";
+  visibility: hidden;
+  display: block;
+  height: 0px;
+  clear: both;
+}
+.row {
+  max-width: 1180px;
+  margin: 0px auto;
+}
+.sist {
+  padding-bottom: 5px;
+}
+.national {
+  font-size: 50px;
+}
+.logo {
+  height: 180px;
+  width: auto;
+  float: left;
+  margin-top: 20px;
+}
+.log {
+  height: 180px;
+  width: auto;
+  float: right;
+  margin-top: 20px;
+}
+.main-nav {
+  float: right;
+  margin-top: 60px;
+}
+.main-nav li {
+  display: inline-block;
+  list-style: none;
+  margin-left: 40px;
+}
+.main-nav li a {
+  padding: 5px 0;
+  color: #fff;
+  text-decoration: none;
+  font-size: 120%;
+  padding-left: 10px;
+  font-weight: 100px;
+}
+/*.main-nav li a:hover{
+	border-bottom: 2px solid #bf55ec;
+}*/
+.main-header {
+  width: 1180px;
+  position: absolute;
+  top: 60%;
+  right: 50%;
+  transform: translate(+50%, +50%);
+}
+.main-head {
+  font-size: 700%;
+  position: absolute;
+  top: 35%;
+  right: 50%;
+  transform: translate(+50%, +10%);
+}
+a:hover {
+  background-color: #2fe2cc;
+  color: black;
+  box-shadow: 0 0 5px #2fe2cc, 0 0 25px #2fe2cc, 0 0 50px #2fe2cc,
+    0 0 100px #2fe2cc;
+}
+
+a:nth-child(1) {
+  filter: hue-rotate(4352deg);
+}
+a span {
+  display: block;
+  position: absolute;
+}
+a span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #03e9f4);
+  animation: animate1 1s linear infinite;
+}
+@keyframes animate1 {
+  0% {
+    left: -100%;
+  }
+
+  50%,
+  100% {
+    left: 100%;
+  }
+}
+a span:nth-child(2) {
+  top: 100%;
+  right: 2px;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #03e9f4);
+  animation: animate2 1s linear infinite;
+  animation-delay: 0.25s;
+}
+@keyframes animate2 {
+  0% {
+    top: -100%;
+  }
+
+  50%,
+  100% {
+    top: 100%;
+  }
+}
+a span:nth-child(3) {
+  bottom: 0%;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, #03e9f4);
+  animation: animate3 1s linear infinite;
+  animation-delay: 0.5s;
+}
+@keyframes animate3 {
+  0% {
+    right: -100%;
+  }
+
+  50%,
+  100% {
+    right: 100%;
+  }
+}
+a span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, #03e9f4);
+  animation: animate4 1s linear infinite;
+  animation-delay: 0.75s;
+}
+@keyframes animate4 {
+  0% {
+    bottom: -100%;
+  }
+
+  50%,
+  100% {
+    bottom: 100%;
+  }
+}
+
+h1 {
+  font-size: 240%;
+  color: #fff;
+  word-spacing: 5px;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+}
+.btn {
+  color: #fff;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 30px 80px;
+  border-radius: 200px;
+  transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+.btn-first {
+  background-color: purple;
+  color: white;
+  margin-right: 15px;
+  border: 1px solid #bf55ec;
+}
+.btn-first:hover {
+  background-color: #fff;
+}
+.btn-nav {
+  background-color: transparent;
+  color: #fff;
+  margin-right: 15px;
+  border: 1px solid #fff;
+}
+.btn-nav:hover {
+  background-color: #bf55ec;
+}
+.colorChange {
+  animation: colorChangeInnovation 1s infinite;
+}
+
+@keyframes colorChangeInnovation {
+  0% {
+    color: #fff;
+  }
+  25% {
+    color: #bf55ec;
+  }
+  50% {
+    color: red;
+  }
+  75% {
+    color: yellow;
+  }
+  100% {
+    color: #bf55ec;
+  }
+}
+
+/* for animation ANIMATE.COM is the one */
+
+/*/////////// RESPONSIVE QUERIES//////////*/
+
+@media only screen and (max-width: 1180px) {
+  .main-header {
+    width: 100%;
+    padding: 0 2%;
+  }
+}
+@media only screen and (max-width: 998px) {
+body {
+  height: 100%;
+} 
+  h1 {
+    font-size: 200%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  body {
+    height: 100%;
+  } 
+  h1 {
+    font-size: 180%;
+  }
+  .main-nav {
+    display: none;
+  }
+}
+
+.container {
+  width: 100%;
+  position: relative;
+  left: 50%;
+  top: 20%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+.count {
+  margin: 40px 0;
+}
+.countd {
+  display: inline-block;
+  width: 90px;
+  height: 90px;
+  border: 5px solid;
+  margin: 0 30px;
+  font-size: 12px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.countd span {
+  display: block;
+  font-size: 30px;
+  font-weight: bolder;
+  margin-top: 14px;
+}

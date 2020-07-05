@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans",sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(#1b2735 0%, #090a0f 100vh);
+    color: white;
+    overflow-x: hidden;
+}
+
+.click{
+ 
+  padding:0;
+  border-radius: 25px; 
+}
+
+.about-section{
+    background-size: 100%;
+    padding: 100px 40px;
+}
+.btn-first {
+    background-color: purple;
+    color: #bf55ec;
+    margin-right: 15px;
+    border: 1px solid #bf55ec;
+    border-radius: 25px;
+  }
+  .btn-first:hover {
+    background-color: transparent;
+  }
+  .animated{
+    animation-direction: 0.2s;
+  }
+
+.inner-container{
+    background-color: rgba(0,0,0,.5);
+    width: 100%;
+    float: right;
+    padding: 150px;
+    padding-bottom: 1%;
+    padding-top: 2%;
+}
+
+.inner-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.text{
+    font-size: 13px;
+    color: white;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+@media screen and (max-width:1200px){
+    .inner-container{
+        padding: 80px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .about-section{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-container{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .about-section{
+        padding: 0;
+        background-color: rgba(0,0,0,.1);
+    }
+    .inner-container{
+        padding: 60px;
+    }
+}
+#particles-js {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+  }
+  .btn {
+  color: #fff;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 90%;
+  font-weight: 100px;
+  padding: 10px 30px;
+  border-radius: 200px;
+  transition: background-color 0.2s, border 0.2s, color 0.2s;
+}

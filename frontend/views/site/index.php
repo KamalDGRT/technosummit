@@ -1,53 +1,99 @@
 <?php
 
-/* @var $this yii\web\View */
+/* @var $this \yii\web\View */
+/* @var $content string */
 
-$this->title = 'My Yii Application';
+use yii\helpers\Html;
+use frontend\assets\IndexAsset;
+
+IndexAsset::register($this);
 ?>
-<div class="site-index">
+<?php $this->beginPage() ?>
+<!DOCTYPE html>
+<html lang="<?= Yii::$app->language ?>">
 
-    <div class="jumbotron">
-        <h1>Congratulations!</h1>
+<head>
+    <meta charset="<?= Yii::$app->charset ?>">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <?php $this->registerCsrfMetaTags() ?>
+    <title><?= Html::encode($this->title) ?></title>
+    <?php $this->head() ?>
+</head>
 
-        <p class="lead">You have successfully created your Yii-powered application.</p>
+<body>
+    <?php $this->beginBody() ?>
 
-        <p><a class="btn btn-lg btn-success" href="http://www.yiiframework.com">Get started with Yii</a></p>
-    </div>
-
-    <div class="body-content">
-
-        <div class="row">
-            <div class="col-lg-4">
-                <h2>Heading</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/doc/">Yii Documentation &raquo;</a></p>
+    <header>
+        <canvas id="mainCanvas">
+        </canvas>
+        <nav>
+            <div class="row clearfix">
+                <img src="img\tsist.png" class="logo" />
+                <img src="img\ts.png" class="log" />
+                <!-- <ul class="main-nav animated slideInDown">
+            <li>
+              <a href="index.html">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Pages</a
+              >
+            </li>
+          </ul> -->
             </div>
-            <div class="col-lg-4">
-                <h2>Heading</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/forum/">Yii Forum &raquo;</a></p>
-            </div>
-            <div class="col-lg-4">
-                <h2>Heading</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/extensions/">Yii Extensions &raquo;</a></p>
+        </nav>
+        <div class="container">
+            <div id="clockdiv">
+                <div>
+                    <span class="days"></span>
+                    <div class="smalltext">Days</div>
+                </div>
+                <div>
+                    <span class="hours"></span>
+                    <div class="smalltext">Hours</div>
+                </div>
+                <div>
+                    <span class="minutes"></span>
+                    <div class="smalltext">Minutes</div>
+                </div>
+                <div>
+                    <span class="seconds"></span>
+                    <div class="smalltext">Seconds</div>
+                </div>
             </div>
         </div>
+        <center><img src="img\green.png" style="width: 740px;" /></center>
+        <br>
+        <br>
+        <center>
+            <h1 id="sist">
+                <!-- <span class="colorChange">TECHNOSUMMIT 2020</span><br /> -->
+                SATHYABAMA INSTITUTE OF SCIENCE AND TECHNOLOGY
+            </h1>
+        </center>
 
-    </div>
-</div>
+        <center>
+            <h1>(DEEMED TO BE UNIVERSITY)
+        </center>
+        </h1>
+        <br>
+        <center><img src="img\abc.png" style="width: 500px;" /></center>
+        <br>
+        <center>
+            <h2 class="national">
+                National Level Annual Technical Fest On Virtual Platform<br />
+                <h1>7<sup>th</sup> and 8<sup>th</sup> August 2020</h1>
+            </h2>
+            <center><a href="<?php echo \yii\helpers\Url::to(['/site/nav']) ?>" class="btn btn-first">Click Here</a></center>
+        </center>
+    </header>
+
+    <?php $this->endBody() ?>
+</body>
+<script src="js/index.js"></script>
+<script src="js/timer.js"></script>
+
+</html>
+<?php $this->endPage() ?>

@@ -1,4 +1,5 @@
 <?php
+
 namespace frontend\controllers;
 
 use frontend\models\ResendVerificationEmailForm;
@@ -14,7 +15,8 @@ use frontend\models\PasswordResetRequestForm;
 use frontend\models\ResetPasswordForm;
 use frontend\models\SignupForm;
 use frontend\models\ContactForm;
-
+use common\models\EventRegistration;
+use yii\web\UploadedFile;
 /**
  * Site controller
  */
@@ -74,9 +76,53 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
+        $this->layout = false;
         return $this->render('index');
     }
 
+    public function actionNav()
+    {
+        $this->layout = false;
+        return $this->render('nav');
+    }
+
+    public function actionEvents()
+    {
+        $this->layout = false;
+        return $this->render('events');
+    }
+
+    public function actionContactus()
+    {
+        $this->layout = false;
+        return $this->render('contactus');
+    }
+
+    public function actionAboutus()
+    {
+        $this->layout = false;
+        return $this->render('aboutus');
+    }
+
+    public function actionRegistration()
+    {
+        $this->layout = false;
+
+        $model = new EventRegistration();
+//        echo '<pre>';
+//        echo  var_dump($model);
+//        echo '</pre>';
+        $model->image = UploadedFile::getInstanceByName('r_screenshot');
+        if ($model->load(Yii::$app->request->post()) && $model->save()) {
+            echo '<script>alert("Your details have been submitted. Our team will contact you after verification.")</script>';
+            return $this->render('nav');
+        }
+
+        Yii::$app->session->setFlash('errorMsg');
+        return $this->render('registration', [
+            'model' => $model,
+        ]);
+    }
     /**
      * Logs in a user.
      *
