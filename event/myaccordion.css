@@ -1,0 +1,73 @@
+p.myAccordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin-bottom: 10px;
+}
+
+/* Add a background color to the accordion if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+p.myAccordion.active,
+p.myAccordion:hover {
+    background-color: #3a3a3a;
+    color: aliceblue;
+}
+
+/* Unicode character for "plus" sign (+) */
+p.myAccordion:after {
+    content: '\2795';
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+/* Unicode character for "minus" sign (-) */
+p.myAccordion.active:after {
+    content: "\2796";
+}
+
+/* Style the element that is used for the panel class */
+
+div.myPanel {
+    padding: 15px;
+    background:linear-gradient(#c79081, #dfa579);
+    max-height: 0;
+    overflow: hidden;
+    color: black;
+    transition: 0.4s ease-in-out;
+    opacity: 0;
+}
+
+div.myPanel.show {
+    opacity: 1;
+    max-height: fit-content;
+    /* Whatever you like, as long as its more than the height of the content (on all screen sizes) */
+}
+
+.list-group{
+    margin: 0;
+}
+
+
+.list-group-item {
+    border: none;
+    background: linear-gradient(to left, #13547a, #80d0c7);
+}
+
+.panel-group {
+    margin-bottom: 0px;
+}
+
+.mu-logo{
+    margin-bottom: 0px;
+}
+
+.panel{
+    margin-bottom: 0;
+}

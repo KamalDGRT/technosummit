@@ -19,7 +19,8 @@ class EventAsset extends AssetBundle
         'event/css/theme-color/default-theme.css',
         'event/style.css',
         'https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,800',
-        'https://fonts.googleapis.com/css?family=Montserrat'
+        'https://fonts.googleapis.com/css?family=Montserrat',
+        'event/myaccordion.css'
     ];
     public $js = [
         'https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js',
@@ -27,7 +28,8 @@ class EventAsset extends AssetBundle
         'event/js/slick.min.js',
         'event/js/jquery.countdown.min.js',
         'event/js/app.js',
-        'event/js/custom.js'
+        'event/js/custom.js',
+        'event/myaccordion.js'
     ];
     public $depends = [
         //'yii\web\YiiAsset',

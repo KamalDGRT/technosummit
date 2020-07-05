@@ -77,7 +77,7 @@ EventAsset::register($this);
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="mu-about-left">
-                                        <img class="animated slideInLeft" src="<?php echo Yii::$app->params['frontendUrl'] . 'web/event/images/event_blindcoding.png';?>" alt="Men Speaker">
+                                        <img class="animated slideInLeft" src="<?php echo Yii::$app->params['frontendUrl'] . 'event/images/event_blindcoding.png';?>" alt="Men Speaker">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
