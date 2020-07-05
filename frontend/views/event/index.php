@@ -348,9 +348,9 @@ EventsAsset::register($this);
                             <p>
                                 A comic book is a special part of everyone's childhood, and it is pretty sure that they hold a special place in your life
                             </p>
-                            <a href="event/English Literary Club/Comic Crusaders.html"
-                            ><button type="button" class="button">Read More!</button></a
-                            >
+                            <a href="<?php echo Url::to(['/event/comiccrusaders']) ?>">
+                                <button type="button" class="button">Read More!</button>
+                            </a>
                         </div>
                     </div>
                 </div>

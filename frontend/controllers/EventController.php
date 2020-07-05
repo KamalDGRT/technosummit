@@ -60,4 +60,9 @@ class EventController extends Controller
         $this->layout = false;
         return $this->render('webworld');
     }
+
+    public function actionComiccrusaders() {
+        $this->layout = false;
+        return $this->render('comiccrusaders');
+    }
 }
