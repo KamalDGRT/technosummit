@@ -146,7 +146,7 @@ EventsAsset::register($this);
                                 <p>
                                     Are you a science lover? Are you ready for a test of knowledge? If yes, then this is a platform to show-off .
                                 </p>
-                                <a href="event/SCIENCE CLUB/Scientia.html"><button type="button" class="button">Read More!</button></a>
+                                <a href="event/Scientia"><button type="button" class="button">Read More!</button></a>
                             </div>
                         </div>
                     </div>

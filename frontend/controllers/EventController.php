@@ -79,4 +79,9 @@ class EventController extends Controller
         $this->layout = false;
         return $this->render('concept');
     }
+    public function actionScientia()
+    {
+        $this->layout = false;
+        return $this->render('scientia');
+    }
 }
