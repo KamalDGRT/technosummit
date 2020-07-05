@@ -1,4 +1,4 @@
 <?php
 return [
-    'frontendUrl' => 'http://technosummit.net/'
+    'frontendUrl' => 'http://technosummit.saitejaswi/'
 ];
