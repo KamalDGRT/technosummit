@@ -41,13 +41,27 @@ class EventController extends Controller
         return $this->render('index');
     }
 
-    public function actionRobokart() {
+    public function actionRobokart()
+    {
         $this->layout = false;
         return $this->render('robokart');
     }
 
-    public function actionBlindcoding() {
+    public function actionBlindcoding()
+    {
         $this->layout = false;
         return $this->render('blindcoding');
+    }
+
+    public function actionMathmania()
+    {
+        $this->layout = false;
+        return $this->render('mathmania');
+    }
+
+    public function actionEcotopia()
+    {
+        $this->layout = false;
+        return $this->render('ecotopia');
     }
 }
