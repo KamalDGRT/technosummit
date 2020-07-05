@@ -10,7 +10,6 @@ return [
     'id' => 'app-frontend',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
-    'defaultRoute' => '/site/index',
     'controllerNamespace' => 'frontend\controllers',
     'components' => [
         'request' => [
@@ -37,25 +36,14 @@ return [
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
-
+        /*
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
-                '/' => '/site/index',
-                '/signup' => '/site/signup',
-                '/login' => '/site/login',
-                '/aboutus' => '/site/aboutus',
-                '/contactus' => '/site/contactus',
-                '/navigation' => '/site/nav',
-                '/registration' => '/site/registration',
-                '/events' => '/event/index'
             ],
         ],
-
-        'assetManager' => [
-            'appendTimestamp' => true
-        ]
+        */
     ],
     'params' => $params,
 ];

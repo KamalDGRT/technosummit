@@ -118,10 +118,3 @@ a.desc:after {
 .nav > li > form > button.logout:focus {
     outline: none;
 }
-
-
-.nav > li > form > button.logout:focus {
-    outline: none;
-}
-
-

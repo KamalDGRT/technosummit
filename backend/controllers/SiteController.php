@@ -1,7 +1,6 @@
 <?php
 namespace backend\controllers;
 
-use common\models\EventRegistration;
 use Yii;
 use yii\web\Controller;
 use yii\filters\VerbFilter;
@@ -61,14 +60,7 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-        $numberOfRegistrations = EventRegistration::find()->count();
-        $totalParticipants = EventRegistration::find()->count('DISTINCT(r_email)');
-        $totalColleges = EventRegistration::find()->count('DISTINCT(r_college)');
-        return $this->render('index',[
-            'numberOfRegistrations' => $numberOfRegistrations,
-            'totalParticipants' => $totalParticipants,
-            'totalColleges' => $totalColleges
-        ]);
+        return $this->render('index');
     }
 
     /**

@@ -8,7 +8,6 @@ $params = array_merge(
 
 return [
     'id' => 'app-backend',
-    'name' => 'TechnoSummit',
     'basePath' => dirname(__DIR__),
     'controllerNamespace' => 'backend\controllers',
     'bootstrap' => ['log'],
@@ -38,22 +37,14 @@ return [
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
-
+        /*
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
-                '/' => '/site/index',
-                '/registrations' => 'event-registration/index',
-                '/registration/update/<id>' => 'event-registration/update/',
-                '/registration/view/<id>' => 'event-registration/view/',
-                '/datafilter' => 'event-registration/datafilter',
             ],
         ],
-
-        'assetManager' => [
-            'appendTimestamp' => true
-        ]
+        */
     ],
     'params' => $params,
 ];
