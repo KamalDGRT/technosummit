@@ -64,49 +64,106 @@ class EventController extends Controller
         $this->layout = false;
         return $this->render('ecotopia');
     }
-    
-    public function actionSeedyourstartup()
+
+    public function actionCircuitronics()
     {
         $this->layout = false;
-        return $this->render('seedyourstartup');
+        return $this->render('circuitronics');
     }
-    
-    public function actionDandd()
-    {
-        $this->layout = false;
-        return $this->render('dandd');
-    }
-    
-    public function actionConcept()
-    {
-        $this->layout = false;
-        return $this->render('concept');
-    }
-    
+
     public function actionScientia()
     {
         $this->layout = false;
         return $this->render('scientia');
     }
-    
+
     public function actionCodevita()
     {
         $this->layout = false;
         return $this->render('codevita');
     }
-    
-    public function actionSketch() {
+
+    public function actionConcept()
+    {
+        $this->layout = false;
+        return $this->render('concept');
+    }
+
+    public function actionSeedyourstartup()
+    {
+        $this->layout = false;
+        return $this->render('seedyourstartup');
+    }
+
+    public function actionCovidathon()
+    {
+        $this->layout = false;
+        return $this->render('covidathon');
+    }
+
+    public function actionDandd()
+    {
+        $this->layout = false;
+        return $this->render('dandd');
+    }
+
+    public function actionSketch()
+    {
         $this->layout = false;
         return $this->render('sketch');
     }
 
-    public function actionWebworld() {
+    public function actionWebworld()
+    {
         $this->layout = false;
         return $this->render('webworld');
     }
 
-    public function actionComiccrusaders() {
+    public function actionComiccrusaders()
+    {
         $this->layout = false;
         return $this->render('comiccrusaders');
+    }
+
+    public function actionTechiedeb()
+    {
+        $this->layout = false;
+        return $this->render('techiedeb');
+    }
+
+    public function actionExquizme()
+    {
+        $this->layout = false;
+        return $this->render('exquizme');
+    }
+
+    public function actionFivemt()
+    {
+        $this->layout = false;
+        return $this->render('fivemt');
+    }
+
+    public function actionFilmina()
+    {
+        $this->layout = false;
+        return $this->render('filmina');
+    }
+
+    public function actionAerozone()
+    {
+        $this->layout = false;
+        return $this->render('aerozone');
+    }
+
+    public function actionAiworkshop()
+    {
+        $this->layout = false;
+        return $this->render('aiworkshop');
+    }
+
+    public function actionDavincicode()
+    {
+        $this->layout = false;
+        return $this->render('davincicode');
     }
 }

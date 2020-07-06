@@ -99,7 +99,7 @@ EventAsset::register($this);
                                                 <div class="myPanel">
                                                     <ul class="list-group">
                                                         <li class="list-group-item"><span>1. The event has only one round. </span></li>
-                                                        <li class="list-group-item"><span>2. There will be a zoom meeting for the first 10 minutes, in the meeting the introduction and the instructions will be discussed. Then you're allowed to work offline for one and half hours. And the last 20 minutes are allotted for the winner announcements.</span></li>
+                                                        <li class="list-group-item"><span>2. There will be a Zoom meeting for the first 10 minutes, in the meeting the introduction and the instructions will be discussed. Then you're allowed to work offline for one and half hours. And the last 20 minutes are allotted for the winner announcements.</span></li>
                                                         <li class="list-group-item"><span>3. Winners will be chosen based on the employment of the theme and creativity of the presentation.</span></li>
                                                         <li class="list-group-item"><span>4. Judges decision will be final.</span></li>
                                                     </ul>
