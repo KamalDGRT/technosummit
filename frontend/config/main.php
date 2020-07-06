@@ -49,7 +49,7 @@ return [
                 '/contactus' => '/site/contactus',
                 '/navigation' => '/site/nav',
                 '/registration' => '/site/registration',
-                '/events' => '/event/index'
+                '/events' => '/event/index',
             ],
         ],
 

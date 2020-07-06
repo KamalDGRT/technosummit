@@ -40,8 +40,12 @@ EventsAsset::register($this);
 
         <div class="text"></div>
         <div id="particles-js"></div>
+
+        <!-- Wrapper 1 starts -->
         <div class="wrapper">
             <div class="cols">
+
+                <!-- Robokart Starts -->
                 <div class="col" ontouchstart="this.classList.toggle('hover');">
                     <div class="container">
                         <div class="front" style="background-image: url(<?php echo Yii::$app->params['frontendUrl'] . 'img/tile_robokart.png'; ?>)">
@@ -62,6 +66,9 @@ EventsAsset::register($this);
                         </div>
                     </div>
                 </div>
+                <!-- Robokart Ends -->
+
+                <!-- Blind Coding Starts -->
                 <div class="col" ontouchstart="this.classList.toggle('hover');">
                     <div class="container">
                         <div class="front" style="background-image: url(<?php echo Yii::$app->params['frontendUrl'] . 'img/tile_blindcoding.png'; ?>)">
@@ -79,6 +86,9 @@ EventsAsset::register($this);
                         </div>
                     </div>
                 </div>
+                <!-- Blind Coding ends -->
+
+                <!-- Mathmania Starts -->
                 <div class="col" ontouchstart="this.classList.toggle('hover');">
                     <div class="container">
                         <div class="front" style="background-image: url(<?php echo Yii::$app->params['frontendUrl'] . 'img/tile_mathmania.png'; ?>)" ;>
@@ -92,12 +102,14 @@ EventsAsset::register($this);
                                 <p>
                                     Math Mania is a funtastic event for all Math Maniacs. The event involves exciting math based quizzes and puzzles.
                                 </p>
-                                <a href="<?php echo Url::to(['/event/mathmania']) ?>">
-                                    <button type="button" class="button">Read More!</button></a>
+                                <a href="<?php echo Url::to(['/event/mathmania']) ?>"><button type="button" class="button">Read More!</button></a>
                             </div>
                         </div>
                     </div>
                 </div>
+                <!-- MathMania Ends -->
+
+                <!-- Ecotopia Starts -->
                 <div class="col" ontouchstart="this.classList.toggle('hover');">
                     <div class="container">
                         <div class="front" style="background-image: url(<?php echo Yii::$app->params['frontendUrl'] . 'img/tile_ecotopia.png'; ?>);" ;>
@@ -115,6 +127,9 @@ EventsAsset::register($this);
                         </div>
                     </div>
                 </div>
+                <!-- Ecotopia Ends -->
+
+                <!-- Circuitronics Starts -->
                 <div class="col" ontouchstart="this.classList.toggle('hover');">
                     <div class="container">
                         <div class="front" style="background-image: url(<?php echo Yii::$app->params['frontendUrl'] . 'img/tile_circuitronics.png'; ?>);">
@@ -133,6 +148,9 @@ EventsAsset::register($this);
                         </div>
                     </div>
                 </div>
+                <!-- Circuitronics Ends -->
+
+                <!-- Scientia Starts -->
                 <div class="col" ontouchstart="this.classList.toggle('hover');">
                     <div class="container">
                         <div class="front" style="background-image: url(<?php echo Yii::$app->params['frontendUrl'] . 'img/tile_scientia.png'; ?>);">
@@ -151,6 +169,9 @@ EventsAsset::register($this);
                         </div>
                     </div>
                 </div>
+                <!-- Scientia Ends -->
+
+                <!-- CodeVita Starts -->
                 <div class="col" ontouchstart="this.classList.toggle('hover');">
                     <div class="container">
                         <div class="front" style="background-image: url(<?php echo Yii::$app->params['frontendUrl'] . 'img/tile_codevita.png'; ?>);">
@@ -169,6 +190,9 @@ EventsAsset::register($this);
                         </div>
                     </div>
                 </div>
+                <!-- CodeVita Ends -->
+
+                <!-- Concept Starts -->
                 <div class="col" ontouchstart="this.classList.toggle('hover');">
                     <div class="container">
                         <div class="front" style="background-image: url(<?php echo Yii::$app->params['frontendUrl'] . 'img/tile_concept.png'; ?>);">
@@ -188,12 +212,20 @@ EventsAsset::register($this);
                         </div>
                     </div>
                 </div>
+                <!-- Concept Ends -->
+
             </div>
         </div>
+        <!-- Wrapper 1 Ends -->
+
         <div class="text"></div>
         <div id="particles-js"></div>
+
+        <!-- Wrapper 2 Starts -->
         <div class="wrapper">
             <div class="cols">
+
+                <!-- Speed Your Startup Starts -->
                 <div class="col" ontouchstart="this.classList.toggle('hover');">
                     <div class="container">
                         <div class="front" style="background-image: url(<?php echo Yii::$app->params['frontendUrl'] . 'img/tile_startup.png'; ?>);">
@@ -213,6 +245,9 @@ EventsAsset::register($this);
                         </div>
                     </div>
                 </div>
+                <!-- Speed Your Startup Ends -->
+
+                <!-- Covidathon Starts -->
                 <div class="col" ontouchstart="this.classList.toggle('hover');">
                     <div class="container">
                         <div class="front" style="background-image: url(<?php echo Yii::$app->params['frontendUrl'] . 'img/tile_covidathon.png'; ?>);">
@@ -231,6 +266,9 @@ EventsAsset::register($this);
                         </div>
                     </div>
                 </div>
+                <!-- Covidathon Ends -->
+
+                <!-- D and D starts -->
                 <div class="col" ontouchstart="this.classList.toggle('hover');">
                     <div class="container">
                         <div class="front" style="background-image: url(<?php echo Yii::$app->params['frontendUrl'] . 'img/tile_dnd.png'; ?>);">
@@ -250,27 +288,31 @@ EventsAsset::register($this);
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col" ontouchstart="this.classList.toggle('hover');">
-                <div class="container">
-                    <div class="front" style="background-image: url(<?php echo Yii::$app->params['frontendUrl'] . 'img/tile_sketch.png'; ?>);">
-                        <div class="inner">
-                            <p>SKETCH</p>
-                            <span> AUTO Club</span>
+                <!-- D and D ends -->
+
+                <!-- Sketch Starts -->
+                <div class="col" ontouchstart="this.classList.toggle('hover');">
+                    <div class="container">
+                        <div class="front" style="background-image: url(<?php echo Yii::$app->params['frontendUrl'] . 'img/tile_sketch.png'; ?>);">
+                            <div class="inner">
+                                <p>SKETCH</p>
+                                <span> AUTO Club</span>
+                            </div>
                         </div>
-                    </div>
-                    <div class="back">
-                        <div class="inner">
-                            <p>
-                                Are you a person who sketches down everything you see?
-                                Or are you the one who masters sketching? .
-                            </p>
-                            <a href="<?php echo Url::to(['/event/sketch']) ?>">
-                                <button type="button" class="button">Read More!</button>
-                            </a>
+                        <div class="back">
+                            <div class="inner">
+                                <p>
+                                    Are you a person who sketches down everything you see?
+                                    Or are you the one who masters sketching? .
+                                </p>
+                                <a href="<?php echo Url::to(['/event/sketch']) ?>"><button type="button" class="button">Read More!</button></a>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <!-- Sketch Ends -->
+
+                <!-- Web World Starts -->
                 <div class="col" ontouchstart="this.classList.toggle('hover');">
                     <div class="container">
                         <div class="front" style="background-image: url(<?php echo Yii::$app->params['frontendUrl'] . 'img/tile_webworld.png'; ?>);">
@@ -283,14 +325,16 @@ EventsAsset::register($this);
                             <div class="inner">
                                 <p>
                                     Since its inception, websites have been the foundation of companies and organizations galore.
+
                                 </p>
-                                <a href="<?php echo Url::to(['/event/webworld']) ?>">
-                                    <button type="button" class="button">Read More!</button>
-                                </a>
+                                <a href="<?php echo Url::to(['/event/webworld']) ?>"><button type="button" class="button">Read More!</button></a>
                             </div>
                         </div>
                     </div>
                 </div>
+                <!-- Web World Ends -->
+
+                <!-- Comic Crusaders Starts -->
                 <div class="col" ontouchstart="this.classList.toggle('hover');">
                     <div class="container">
                         <div class="front" style="background-image: url(<?php echo Yii::$app->params['frontendUrl'] . 'img/tile_comic.png'; ?>);">
@@ -304,147 +348,173 @@ EventsAsset::register($this);
                                 <p>
                                     A comic book is a special part of everyone's childhood, and it is pretty sure that they hold a special place in your life
                                 </p>
-                                <a href="<?php echo Url::to(['/event/comiccrusaders']) ?>">
-                                    <button type="button" class="button">Read More!</button>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col" ontouchstart="this.classList.toggle('hover');">
-                        <div class="container">
-                            <div class="front" style="background-image: url(<?php echo Yii::$app->params['frontendUrl'] . 'img/tile_techiedeb.png'; ?>);">
-                                <div class="inner">
-                                    <p>TECHIE DEB</p>
-                                    <span>Debate Club and Anti Human trafficking Club</span>
-                                </div>
-                            </div>
-                            <div class="back">
-                                <div class="inner">
-                                    <p>
-                                        The debate is indispensable characteristics of an individual that makes them put forward their perspective in analyzing</p>
-                                    <a href="<?php echo Url::to(['/event/techiedeb']) ?>"><button type="button" class="button">Read More!</button></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col" ontouchstart="this.classList.toggle('hover');">
-                        <div class="container">
-                            <div class="front" style="background-image: url(<?php echo Yii::$app->params['frontendUrl'] . 'img/tile_exquizme.png'; ?>);">
-                                <div class="inner">
-                                    <p>EX-QUIZ ME</p>
-                                    <span>Community Development Club</span>
-                                </div>
-                            </div>
-                            <div class="back">
-                                <div class="inner">
-                                    <p>
-                                        The feast for your fastest finger tips. EX-Quiz ME is based on the main exploration of the Environmenttal Aspech and Technology.
-                                    </p>
-                                    <a href="<?php echo Url::to(['/event/exquizme']) ?>"><button type="button" class="button">Read More!</button></a>
-                                </div>
+                                <a href="<?php echo Url::to(['/event/comiccrusaders']) ?>"><button type="button" class="button">Read More!</button></a>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="wrapper">
-                <div class="cols">
-                    <div class="col" ontouchstart="this.classList.toggle('hover');">
-                        <div class="container">
-                            <div class="front" style="background-image: url(<?php echo Yii::$app->params['frontendUrl'] . 'img/tile_rotaract.png'; ?>);">
-                                <div class="inner">
-                                    <p>5 MT</p>
-                                    <span> Rotaract Club</span>
-                                </div>
-                            </div>
-                            <div class="back">
-                                <div class="inner">
-                                    <p>
-                                        Are you the kind of a person who opts for short, exciting and enlightening events.
-                                        Then here is your genre. .
-                                    </p>
-                                    <a href="<?php echo Url::to(['/event/fivemt']) ?>"><button type="button" class="button">Read More!</button></a>
-                                </div>
+                <!-- Comic Crusaders Ends -->
+
+                <!-- TechieDeb Starts -->
+                <div class="col" ontouchstart="this.classList.toggle('hover');">
+                    <div class="container">
+                        <div class="front" style="background-image: url(<?php echo Yii::$app->params['frontendUrl'] . 'img/tile_techiedeb.png'; ?>);">
+                            <div class="inner">
+                                <p>TECHIE DEB</p>
+                                <span>Debate Club and Anti Human trafficking Club</span>
                             </div>
                         </div>
-                    </div>
-                    <div class="col" ontouchstart="this.classList.toggle('hover');">
-                        <div class="container">
-                            <div class="front" style="background-image: url(<?php echo Yii::$app->params['frontendUrl'] . 'img/tile_filmina.png'; ?>);">
-                                <div class="inner">
-                                    <p>FILMINA</p>
-                                    <span> Dance Club and Music Club</span>
-                                </div>
-                            </div>
-                            <div class="back">
-                                <div class="inner">
-                                    <p>
-                                        Are you an aspiring film maker? Or Are you someone who is passionate about photography and wants to put his/her skills to test?
-                                    </p>
-                                    <a href="<?php echo Url::to(['/event/filmina']) ?>"><button type="button" class="button">Read More!</button></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col" ontouchstart="this.classList.toggle('hover');">
-                        <div class="container">
-                            <div class="front" style="background-image: url(<?php echo Yii::$app->params['frontendUrl'] . 'img/tile_aerozone.png'; ?>);">
-                                <div class="inner">
-                                    <p>AERO ZONE</p>
-                                    <span>Aero Club</span>
-                                </div>
-                            </div>
-                            <div class="back">
-                                <div class="inner">
-                                    <p>
-                                        Aerozone is an exciting event which involves modelling and designing.creativity and thinking skills of the participant.
-                                    </p>
-                                    <a href="<?php echo Url::to(['/event/aerozone']) ?>"><button type="button" class="button">Read More!</button></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col" ontouchstart="this.classList.toggle('hover');">
-                        <div class="container">
-                            <div class="front" style="background-image: url(<?php echo Yii::$app->params['frontendUrl'] . 'img/tile_ai.png'; ?>);">
-                                <div class="inner">
-                                    <p>AI workshop</p>
-                                    <span>Tamil Club and Microsoft Club</span>
-                                </div>
-                            </div>
-                            <div class="back">
-                                <div class="inner">
-                                    <p>
-                                        Artificial Intelligence (AI) is one of the potential bi-products of the innovation revolution that the world is experiencing.
-                                    </p>
-                                    <a href="<?php echo Url::to(['/event/aiworkshop']) ?>"><button type="button" class="button">Read More!</button></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col" ontouchstart="this.classList.toggle('hover');">
-                        <div class="container">
-                            <div class="front" style="background-image: url(<?php echo Yii::$app->params['frontendUrl'] . 'img/tile_davincicode.png'; ?>);">
-                                <div class="inner">
-                                    <p>DAVINCI CODE</p>
-                                    <span>Design Club</span>
-                                </div>
-                            </div>
-                            <div class="back">
-                                <div class="inner">
-                                    <p>
-                                        Are you a fan of mystery or are you someone who always looks for mysterious things to put your mind into it?
-                                    </p>
-                                    <a href="<?php echo Url::to(['/event/davincicode']) ?>"><button type="button" class="button">Read More!</button></a>
-                                </div>
+                        <div class="back">
+                            <div class="inner">
+                                <p>
+                                    The debate is indispensable characteristics of an individual that makes them put forward their perspective in analyzing</p>
+                                <a href="<?php echo Url::to(['/event/techiedeb']) ?>"><button type="button" class="button">Read More!</button></a>
                             </div>
                         </div>
                     </div>
                 </div>
+                <!-- Techie Deb Ends -->
+
+                <!-- Exquiz me starts -->
+                <div class="col" ontouchstart="this.classList.toggle('hover');">
+                    <div class="container">
+                        <div class="front" style="background-image: url(<?php echo Yii::$app->params['frontendUrl'] . 'img/tile_exquizme.png'; ?>);">
+                            <div class="inner">
+                                <p>EX-QUIZ ME</p>
+                                <span>Community Development Club</span>
+                            </div>
+                        </div>
+                        <div class="back">
+                            <div class="inner">
+                                <p>
+                                    The feast for your fastest finger tips. EX-Quiz ME is based on the main exploration of the Environmenttal Aspech and Technology.
+                                </p>
+                                <a href="<?php echo Url::to(['/event/exquizme']) ?>"><button type="button" class="button">Read More!</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Exquiz me ends -->
+
             </div>
+        </div>
+        <!-- Wrapper 2 Ends -->
 
+        <!-- Wrapper 3 Starts -->
+        <div class="wrapper">
+            <div class="cols">
 
-            <?php $this->endBody() ?>
+                <!-- 5MT starts -->
+                <div class="col" ontouchstart="this.classList.toggle('hover');">
+                    <div class="container">
+                        <div class="front" style="background-image: url(<?php echo Yii::$app->params['frontendUrl'] . 'img/tile_rotaract.png'; ?>);">
+                            <div class="inner">
+                                <p>5 MT</p>
+                                <span> Rotaract Club</span>
+                            </div>
+                        </div>
+                        <div class="back">
+                            <div class="inner">
+                                <p>
+                                    Are you the kind of a person who opts for short, exciting and enlightening events.
+                                    Then here is your genre. .
+                                </p>
+                                <a href="<?php echo Url::to(['/event/fivemt']) ?>"><button type="button" class="button">Read More!</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 5MT ends -->
+
+                <!-- Filmina Starts -->
+                <div class="col" ontouchstart="this.classList.toggle('hover');">
+                    <div class="container">
+                        <div class="front" style="background-image: url(<?php echo Yii::$app->params['frontendUrl'] . 'img/tile_filmina.png'; ?>);">
+                            <div class="inner">
+                                <p>FILMINA</p>
+                                <span> Dance Club and Music Club</span>
+                            </div>
+                        </div>
+                        <div class="back">
+                            <div class="inner">
+                                <p>
+                                    Are you an aspiring film maker? Or Are you someone who is passionate about photography and wants to put his/her skills to test?
+                                </p>
+                                <a href="<?php echo Url::to(['/event/filmina']) ?>"><button type="button" class="button">Read More!</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Filmina Ends -->
+
+                <!-- Aerozone Starts -->
+                <div class="col" ontouchstart="this.classList.toggle('hover');">
+                    <div class="container">
+                        <div class="front" style="background-image: url(<?php echo Yii::$app->params['frontendUrl'] . 'img/tile_aerozone.png'; ?>);">
+                            <div class="inner">
+                                <p>AERO ZONE</p>
+                                <span>Aero Club</span>
+                            </div>
+                        </div>
+                        <div class="back">
+                            <div class="inner">
+                                <p>
+                                    Aerozone is an exciting event which involves modelling and designing.creativity and thinking skills of the participant.
+                                </p>
+                                <a href="<?php echo Url::to(['/event/aerozone']) ?>"><button type="button" class="button">Read More!</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Aerozone Ends -->
+
+                <!-- AI Workshop Starts -->
+                <div class="col" ontouchstart="this.classList.toggle('hover');">
+                    <div class="container">
+                        <div class="front" style="background-image: url(<?php echo Yii::$app->params['frontendUrl'] . 'img/tile_ai.png'; ?>);">
+                            <div class="inner">
+                                <p>AI Workshop</p>
+                                <span>Tamil Club and Microsoft Club</span>
+                            </div>
+                        </div>
+                        <div class="back">
+                            <div class="inner">
+                                <p>
+                                    Artificial Intelligence (AI) is one of the potential bi-products of the innovation revolution that the world is experiencing.
+                                </p>
+                                <a href="<?php echo Url::to(['/event/aiworkshop']) ?>"><button type="button" class="button">Read More!</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- AI Workshp Ends -->
+
+                <!-- DaVinci Code Starts -->
+                <div class="col" ontouchstart="this.classList.toggle('hover');">
+                    <div class="container">
+                        <div class="front" style="background-image: url(<?php echo Yii::$app->params['frontendUrl'] . 'img/tile_davincicode.png'; ?>);">
+                            <div class="inner">
+                                <p>DAVINCI CODE</p>
+                                <span>Design Club</span>
+                            </div>
+                        </div>
+                        <div class="back">
+                            <div class="inner">
+                                <p>
+                                    Are you a fan of mystery or are you someone who always looks for mysterious things to put your mind into it?
+                                </p>
+                                <a href="<?php echo Url::to(['/event/davincicode']) ?>"><button type="button" class="button">Read More!</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Da Vinci Code Ends -->
+
+            </div>
+        </div>
+        <!-- Wrapper 3 Ends -->
+
+        <?php $this->endBody() ?>
     </body>
 
 </html>

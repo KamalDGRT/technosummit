@@ -7,7 +7,7 @@ use yii\helpers\Html;
 use frontend\assets\EventAsset;
 use yii\helpers\Url;
 
-$this->title = '';
+$this->title = 'Circutronics';
 EventAsset::register($this);
 ?>
 <?php $this->beginPage() ?>
@@ -47,8 +47,8 @@ EventAsset::register($this);
 
                         <div class="mu-hero-featured-content animated slideInDown">
 
-                            <h1>ROBOKART</h1>
-                            <h2>ROBOTICS CLUB</h2>
+                            <h1>CIRCUITRONICS</h1>
+                            <h2>HARDWARE CLUB</h2>
                             <br><br>
                             <a href="<?php echo Url::to(['/event/index']) ?>" class="btn btn-first">BACK</a>
                             <a href="<?php echo Url::to(['/site/registration']) ?>" class="btn btn-nav">REGISTER</a>
@@ -76,16 +76,26 @@ EventAsset::register($this);
                             <div class="row">
                                 <div class="col-md-6 col-sm-12">
                                     <div class="mu-about-left">
-                                        <img class="animated slideInLeft" src="<?php echo Yii::$app->params['frontendUrl'] . 'event/images/event_robokart.png'; ?>" alt="Men Speaker"> </div>
+                                        <img class="animated slideInLeft" src="<?php echo Yii::$app->params['frontendUrl'] . 'event/images/event_circuitronics.png'; ?>" alt="Circuitronics">
+                                    </div>
                                 </div>
                                 <div class="col-md-6 col-sm-12">
                                     <div class="row">
                                         <div class=" mu-about-right animated slideInRight">
                                             <h2 style="text-decoration: underline;">Description :-</h2>
 
-                                            <p>In the event Circuitronics, there will be 2 rounds in which the first round, the participants are asked to identify circuit components based on the image shown, whereas in the second round, the participants have to create a document and a presentation on the topic given on the spot.
+                                            <p>
+                                                In the event Circuitronics, there will be 2 rounds in which the first round, the participants
+                                                are asked to identify circuit components based on the image shown, whereas in the second round,
+                                                the participants have to create a document and a presentation on the topic given on the spot.
                                             </p><br>
-                                            <p>Theme of this event is <b>“Money from Machines”</b>.</p>
+                                            <p>
+                                                <b>Number of Rounds :</b> 02
+                                            </p><br>
+                                            <p>
+                                                <b>Total Time Required : </b>2 Hrs Max
+                                            </p>
+
                                         </div>
                                     </div>
 
@@ -97,9 +107,10 @@ EventAsset::register($this);
                                                 <div class="myPanel">
                                                     <ul class="list-group">
                                                         <li class="list-group-item"><span>1. The event will be conducted online on a video conferencing platform. </span></li>
-                                                        <li class="list-group-item"><span>2. In the first round, points will be given for the correct identification of the circuit. </span></li>
-                                                        <li class="list-group-item"><span>3. The highest 10 total points will be eligible for the second round.</span></li>
-                                                        <li class="list-group-item"><span>4. There will be 3 winners after the completion of the second round </span></li>
+                                                        <li class="list-group-item"><span>2. The first round will take place for Half an Hour, whereas the second round will be for one hour. </span></li>
+                                                        <li class="list-group-item"><span>3. In the first round, points will be given for the correct identification of the circuit. </span></li>
+                                                        <li class="list-group-item"><span>4. The highest 10 total points will be eligible for the second round.</span></li>
+                                                        <li class="list-group-item"><span>5. There will be 3 winners after the completion of the second round. </span></li>
                                                     </ul>
 
                                                 </div>
@@ -107,6 +118,7 @@ EventAsset::register($this);
                                         </div>
                                     </div> <!-- Row ends -->
 
+                                    <!-- FAQs
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="mu-sponsors-area animated zoomInRight">
@@ -198,7 +210,7 @@ EventAsset::register($this);
                                             </div>
                                         </div>
 
-                                    </div>
+                                    </div> -->
                                 </div>
                                 <!-- End Feature Content -->
 

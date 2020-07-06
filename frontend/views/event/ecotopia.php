@@ -7,7 +7,7 @@ use yii\helpers\Html;
 use frontend\assets\EventAsset;
 use yii\helpers\Url;
 
-$this->title = '';
+$this->title = 'Eco Topia';
 EventAsset::register($this);
 ?>
 <?php $this->beginPage() ?>
@@ -76,18 +76,20 @@ EventAsset::register($this);
                             <div class="row">
                                 <div class="col-md-6 col-sm-12">
                                     <div class="mu-about-left">
-                                        <img class="animated slideInLeft" src="<?php echo Yii::$app->params['frontendUrl'] . 'event/images/event_robokart.png'; ?>" alt="Men Speaker"> </div>
+                                        <img class="animated slideInLeft" src="<?php echo Yii::$app->params['frontendUrl'] . 'event/images/event_ecotopia.png'; ?>" alt="Eco Topia"> </div>
                                 </div>
                                 <div class="col-md-6 col-sm-12">
                                     <div class="row">
                                         <div class=" mu-about-right animated slideInRight">
                                             <h2 style="text-decoration: underline;">Description :-</h2>
 
-                                            <p>Do you love nature and the environment? Want to get colourful with nature related topics and make exquisite posters? We have an event just for you.
-                                                Get the most creative ideas and bring your imagination to life in the form of posters. This is a Bio related event.
-
+                                            <p>Do you love nature and the environment? Want to get colourful with nature related topics and make
+                                                exquisite posters? We have an event just for you.
                                             </p><br>
-                                            <p>Theme of this event is <b>“Money from Machines”</b>.</p>
+                                            <p>
+                                                Get the most creative ideas and bring your imagination to life in the form of posters.
+                                                This is a Bio related event.
+                                            </p>
                                         </div>
                                     </div>
 
@@ -109,6 +111,7 @@ EventAsset::register($this);
                                         </div>
                                     </div> <!-- Row ends -->
 
+                                    <!-- FAQS 
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="mu-sponsors-area animated zoomInRight">
@@ -200,7 +203,7 @@ EventAsset::register($this);
                                             </div>
                                         </div>
 
-                                    </div>
+                                    </div> -->
                                 </div>
                                 <!-- End Feature Content -->
 

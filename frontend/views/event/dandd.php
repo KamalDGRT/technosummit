@@ -86,7 +86,6 @@ EventAsset::register($this);
                                             <p>
 
                                             </p><br>
-                                            <p>Theme of this event is <b>“Money from Machines”</b>.</p>
                                         </div>
                                     </div>
 

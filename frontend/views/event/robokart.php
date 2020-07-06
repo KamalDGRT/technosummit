@@ -137,10 +137,11 @@ EventAsset::register($this);
                                                         <div id="collapseRoundTwo" class="panel-collapse collapse">
                                                             <div class="panel-body">
                                                                 <ul class="list-group">
-                                                                    <li class="list-group-item"><span>1. </span></li>
-                                                                    <li class="list-group-item"><span>2. </span></li>
-                                                                    <li class="list-group-item"><span>3. </span></li>
-                                                                    <li class="list-group-item"><span>4. </span></li>
+                                                                    <li class="list-group-item"><span>1. If your Design gets selected, then a presentation should be delivered for Minimum five minutes to Maximum seven minutes. </span></li>
+                                                                    <li class="list-group-item"><span>2. In this round, your design will be judged on the basis of market availability and also for the generation of its demand.</span></li>
+                                                                    <li class="list-group-item"><span>3. Time limit should not be exceeded.</span></li>
+                                                                    <li class="list-group-item"><span>4. For designing you can use AutoCad, KiCad, OnShape, AutoDesk Eagle, PCB web design. (Any Software)</span></li>
+                                                                    <li class="list-group-item"><span>5. Judges decision will be final.</span></li>
                                                                 </ul>
                                                             </div>
                                                         </div>
@@ -153,7 +154,8 @@ EventAsset::register($this);
                                         </div>
                                     </div> <!-- Row ends -->
 
-                                    <div class="row">
+                                    <!-- FAQ -->
+                                    <!-- <div class="row">
                                         <div class="col-md-12">
                                             <div class="mu-sponsors-area animated zoomInRight">
                                                 <p class="myAccordion">FAQs</p>
@@ -244,7 +246,9 @@ EventAsset::register($this);
                                             </div>
                                         </div>
 
-                                    </div>
+                                    </div>   -->
+
+
                                 </div>
                                 <!-- End Feature Content -->
 
