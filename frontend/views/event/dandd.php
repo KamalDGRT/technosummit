@@ -7,7 +7,7 @@ use yii\helpers\Html;
 use frontend\assets\EventAsset;
 use yii\helpers\Url;
 
-$this->title = '';
+$this->title = 'D and D';
 EventAsset::register($this);
 ?>
 <?php $this->beginPage() ?>
@@ -76,15 +76,15 @@ EventAsset::register($this);
                             <div class="row">
                                 <div class="col-md-6 col-sm-12">
                                     <div class="mu-about-left">
-                                        <img class="animated slideInLeft" src="<?php echo Yii::$app->params['frontendUrl'] . 'event/images/event_robokart.png'; ?>" alt="Men Speaker"> </div>
+                                        <img class="animated slideInLeft" src="<?php echo Yii::$app->params['frontendUrl'] . 'event/images/event_dandd.png'; ?>" alt="Men Speaker"> </div>
                                 </div>
                                 <div class="col-md-6 col-sm-12">
                                     <div class="row">
                                         <div class=" mu-about-right animated slideInRight">
-                                            <h2 style="text-decoration: underline;">Description :-</h2>
+                                            <h2 style="text-decoration: underline;"></h2>
 
                                             <p>
-
+                                                <b>Number of rounds: 2</b>
                                             </p><br>
                                         </div>
                                     </div>
@@ -93,7 +93,7 @@ EventAsset::register($this);
                                         <!-- Row starts -->
                                         <div class="col-md-12">
                                             <div class="mu-sponsors-area animated zoomInRight">
-                                                <p class="myAccordion">Rules and Regulations</p>
+                                                <p class="myAccordion">Rounds Description</p>
                                                 <div class="myPanel">
 
                                                     <!-- Round1 Starts -->
@@ -115,6 +115,8 @@ EventAsset::register($this);
                                                                     <li class="list-group-item"><span>3. The selection is based on technical content, the novelty of the idea, and how it is beneficial to the society.</span></li>
                                                                     <li class="list-group-item"><span>4. The selected candidates will be communicated via Email </span></li>
                                                                     <li class="list-group-item"><span>5. These selected teams should register for the event. </span></li>
+                                                                    <li class="list-group-item"><span>6. The abstracts should be submitted on or before 20th July. </span></li>
+
                                                                 </ul>
                                                             </div>
                                                         </div>
@@ -151,6 +153,27 @@ EventAsset::register($this);
                                         </div>
                                     </div> <!-- Row ends -->
 
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="mu-sponsors-area animated zoomInRight">
+                                                <p class="myAccordion">Rules and Regulations</p>
+                                                <div class="myPanel">
+                                                    <ul class="list-group">
+                                                        <li class="list-group-item"><span> Each team should not have more than 3 members. </span></li>
+                                                        <li class="list-group-item"><span> A team member can belong to one team only. </span></li>
+                                                        <li class="list-group-item"><span> Each member should register individually for the event. </span></li>
+                                                        <li class="list-group-item"><span> This is a project display event in which candidates should present a working or prototype model which is useful to the society. </span></li>
+                                                        <li class="list-group-item"><span> The presentation of the project will be online through a video conference. </span></li>
+                                                        <li class="list-group-item"><span> For any other queries, contact the event coordinators. </span></li>
+                                                        <li class="list-group-item"><span> It is preferred for the teams to have a laptop, if not, you can use mobile phones to present your project. </span></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> <!-- Row ends -->
+
+
+                                    <!-- FAQs 
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="mu-sponsors-area animated zoomInRight">
@@ -242,7 +265,7 @@ EventAsset::register($this);
                                             </div>
                                         </div>
 
-                                    </div>
+                                    </div> -->
                                 </div>
                                 <!-- End Feature Content -->
 

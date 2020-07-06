@@ -7,7 +7,7 @@ use yii\helpers\Html;
 use frontend\assets\EventAsset;
 use yii\helpers\Url;
 
-$this->title = '';
+$this->title = 'Scientia';
 EventAsset::register($this);
 ?>
 <?php $this->beginPage() ?>
@@ -76,7 +76,7 @@ EventAsset::register($this);
                             <div class="row">
                                 <div class="col-md-6 col-sm-12">
                                     <div class="mu-about-left">
-                                        <img class="animated slideInLeft" src="<?php echo Yii::$app->params['frontendUrl'] . 'event/images/event_scientia.png'; ?>" alt="Men Speaker"> </div>
+                                        <img class="animated slideInLeft" src="<?php echo Yii::$app->params['frontendUrl'] . 'event/images/event_scientia.png'; ?>" alt="Scientia"> </div>
                                 </div>
                                 <div class="col-md-6 col-sm-12">
                                     <div class="row">

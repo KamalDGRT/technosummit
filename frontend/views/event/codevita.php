@@ -7,7 +7,7 @@ use yii\helpers\Html;
 use frontend\assets\EventAsset;
 use yii\helpers\Url;
 
-$this->title = '';
+$this->title = 'Code Vita';
 EventAsset::register($this);
 ?>
 <?php $this->beginPage() ?>
@@ -76,16 +76,17 @@ EventAsset::register($this);
                             <div class="row">
                                 <div class="col-md-6 col-sm-12">
                                     <div class="mu-about-left">
-                                        <img class="animated slideInLeft" src="<?php echo Yii::$app->params['frontendUrl'] . 'event/images/event_robokart.png'; ?>" alt="Men Speaker"> </div>
+                                        <img class="animated slideInLeft" src="<?php echo Yii::$app->params['frontendUrl'] . 'event/images/event_codevita.jpg'; ?>" alt="Code Vita">
+                                    </div>
                                 </div>
                                 <div class="col-md-6 col-sm-12">
                                     <div class="row">
                                         <div class=" mu-about-right animated slideInRight">
                                             <h2 style="text-decoration: underline;">Description :-</h2>
-
-                                            <p>CodeVita is an energising event which involves solving an exciting problem allotted to the participant. It tests the creativity, communication and thinking capability of the participant.
-                                            </p><br>
-                                            <p>Theme of this event is <b>“Money from Machines”</b>.</p>
+                                            <p>
+                                                CodeVita is an energising event which involves solving an exciting problem allotted to the
+                                                participant. It tests the creativity, communication and thinking capability of the participant.
+                                            </p>
                                         </div>
                                     </div>
 
@@ -109,10 +110,9 @@ EventAsset::register($this);
 
                                                         <div id="collapseRoundOne" class="panel-collapse collapse">
                                                             <div class="panel-body">
-                                                                <ul class="list-group">
-                                                                    <li class="list-group-item"><span>1. The participants are asked to solve the given problem using any platform and document it. </span></li>
-                                                                    <li class="list-group-item"><span>2. Maximum of 25 participants who get qualified will proceed to the next round. </span></li>
-                                                                </ul>
+                                                                The participants are asked to solve the given problem using any platform and document it.&nbsp;
+                                                                Maximum of 25 participants who get qualified will proceed to the next round.
+
                                                             </div>
                                                         </div>
                                                     </div><br>
@@ -131,15 +131,34 @@ EventAsset::register($this);
 
                                                         <div id="collapseRoundTwo" class="panel-collapse collapse">
                                                             <div class="panel-body">
-                                                                <ul class="list-group">
-                                                                    <li class="list-group-item"><span>1.The participants have to elaborate their previously compiled document and present it to the jury members. </span></li>
-                                                                    <li class="list-group-item"><span>2. The top 10 participants will proceed to the final round.</span></li>
-
-                                                                </ul>
+                                                                The participants have to elaborate their previously compiled document and present it to the jury members.&nbsp;
+                                                                The top 10 participants will proceed to the final round.
                                                             </div>
                                                         </div>
-                                                    </div>
+                                                    </div><br>
                                                     <!-- Round2 Ends -->
+
+                                                    <!-- Round3 Starts -->
+                                                    <div class="panel panel-default animated zoomInLeft">
+                                                        <div class="panel-heading">
+                                                            <h4 class="panel-title">
+                                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseRoundThree">
+                                                                    <span class="fa fa-angle-up"></span>
+                                                                    Round 3
+                                                                </a>
+                                                            </h4>
+                                                        </div>
+
+                                                        <div id="collapseRoundThree" class="panel-collapse collapse">
+                                                            <div class="panel-body">
+                                                                This round is a brainstorming session.&nbsp;Each participant is given three minutes to communicate
+                                                                with the jury. The top 3 of this round will be the winners.
+                                                            </div>
+                                                        </div>
+                                                    </div><br>
+
+                                                    Judges decision will be final.
+                                                    <!-- Round3 Ends -->
 
                                                 </div><br>
 
@@ -147,6 +166,7 @@ EventAsset::register($this);
                                         </div>
                                     </div> <!-- Row ends -->
 
+                                    <!-- FAQs
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="mu-sponsors-area animated zoomInRight">
@@ -238,7 +258,7 @@ EventAsset::register($this);
                                             </div>
                                         </div>
 
-                                    </div>
+                                    </div>  -->
                                 </div>
                                 <!-- End Feature Content -->
 

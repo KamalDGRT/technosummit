@@ -76,7 +76,7 @@ EventAsset::register($this);
                             <div class="row">
                                 <div class="col-md-6 col-sm-12">
                                     <div class="mu-about-left">
-                                        <img class="animated slideInLeft" src="<?php echo Yii::$app->params['frontendUrl'] . 'event/images/event_robokart.png'; ?>" alt="Men Speaker">
+                                        <img class="animated slideInLeft" src="<?php echo Yii::$app->params['frontendUrl'] . 'event/images/event_techiedeb.jpg'; ?>" alt="Techie Deb">
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-sm-12">
@@ -181,10 +181,24 @@ EventAsset::register($this);
                                                 <div class="myPanel">
 
                                                     <ul class="list-group">
-                                                        <li class="list-group-item"><span>1. The idea should be unique </span></li>
-                                                        <li class="list-group-item"><span>2. It should be practically possible.</span></li>
-                                                        <li class="list-group-item"><span>3. The idea should be framed as a 3D design with proper algorithms.</span></li>
-                                                        <li class="list-group-item"><span>4. Other than Robotics — Electronics, Electrical & Mechanical are welcome. The time limit per participant is minimum — two minutes to maximum — four minutes </span></li>
+                                                        <li class="list-group-item"><span> </span></li>
+                                                        <li class="list-group-item"><span> </span></li>
+                                                        <li class="list-group-item"><span> </span></li>
+                                                        <li class="list-group-item"><span> </span></li>
+                                                        <li class="list-group-item"><span> </span></li>
+                                                        <li class="list-group-item"><span> </span></li>
+                                                        <li class="list-group-item"><span> </span></li>
+                                                        <li class="list-group-item"><span> </span></li>
+                                                        <li class="list-group-item"><span> </span></li>
+                                                        <li class="list-group-item"><span> </span></li>
+                                                        <li class="list-group-item"><span> </span></li>
+                                                        <li class="list-group-item"><span> </span></li>
+                                                        <li class="list-group-item"><span> </span></li>
+                                                        <li class="list-group-item"><span> </span></li>
+                                                        <li class="list-group-item"><span> </span></li>
+                                                        <li class="list-group-item"><span> </span></li>
+                                                        <li class="list-group-item"><span> </span></li>
+                                                        <li class="list-group-item"><span> </span></li>
                                                     </ul>
 
                                                 </div><br>

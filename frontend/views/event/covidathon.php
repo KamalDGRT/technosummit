@@ -7,7 +7,7 @@ use yii\helpers\Html;
 use frontend\assets\EventAsset;
 use yii\helpers\Url;
 
-$this->title = '';
+$this->title = 'Covid-A-Thon';
 EventAsset::register($this);
 ?>
 <?php $this->beginPage() ?>
@@ -47,8 +47,8 @@ EventAsset::register($this);
 
                         <div class="mu-hero-featured-content animated slideInDown">
 
-                            <h1>ROBOKART</h1>
-                            <h2>ROBOTICS CLUB</h2>
+                            <h1>COVID-A-THON</h1>
+                            <h2>CSE CLUB</h2>
                             <br><br>
                             <a href="<?php echo Url::to(['/event/index']) ?>" class="btn btn-first">BACK</a>
                             <a href="<?php echo Url::to(['/site/registration']) ?>" class="btn btn-nav">REGISTER</a>
@@ -76,7 +76,7 @@ EventAsset::register($this);
                             <div class="row">
                                 <div class="col-md-6 col-sm-12">
                                     <div class="mu-about-left">
-                                        <img class="animated slideInLeft" src="<?php echo Yii::$app->params['frontendUrl'] . 'event/images/event_robokart.png'; ?>" alt="Men Speaker"> </div>
+                                        <img class="animated slideInLeft" src="<?php echo Yii::$app->params['frontendUrl'] . 'event/images/event_covidathon.png'; ?>" alt="Men Speaker"> </div>
                                 </div>
                                 <div class="col-md-6 col-sm-12">
                                     <div class="row">
@@ -85,7 +85,7 @@ EventAsset::register($this);
 
                                             <p>Do you have any technological innovation design to save the world from the ongoing pandemic? Are you looking for an opportunity to showcase your talent? Then COVID-A-THON is a perfect platform to exhibit your innovative ideas.
                                             </p><br>
-                                            <p>Theme of this event is <b>“Money from Machines”</b>.</p>
+                                            <p><b>COVID-A-Thon is a Technical event that has 2 rounds.</b></p>
                                         </div>
                                     </div>
 
@@ -93,7 +93,7 @@ EventAsset::register($this);
                                         <!-- Row starts -->
                                         <div class="col-md-12">
                                             <div class="mu-sponsors-area animated zoomInRight">
-                                                <p class="myAccordion">Rules and Regulations</p>
+                                                <p class="myAccordion">Rounds Description</p>
                                                 <div class="myPanel">
 
                                                     <!-- Round1 Starts -->
@@ -109,13 +109,7 @@ EventAsset::register($this);
 
                                                         <div id="collapseRoundOne" class="panel-collapse collapse">
                                                             <div class="panel-body">
-                                                                <ul class="list-group">
-                                                                    <li class="list-group-item"><span>1.The first round will be an introduction of an idea about how technology can help people during COVID19 for preventing, surgery, predictions and testing. </span></li>
-                                                                    <!-- <li class="list-group-item"><span>2. </span></li>
-                                                                    <li class="list-group-item"><span>3. </span></li>
-                                                                    <li class="list-group-item"><span>4.  </span></li>
-                                                                    <li class="list-group-item"><span>5.  </span></li> -->
-                                                                </ul>
+                                                                The first round will be an introduction of an idea about how technology can help people during COVID19 for preventing, surgery, predictions and testing.
                                                             </div>
                                                         </div>
                                                     </div><br>
@@ -134,12 +128,7 @@ EventAsset::register($this);
 
                                                         <div id="collapseRoundTwo" class="panel-collapse collapse">
                                                             <div class="panel-body">
-                                                                <ul class="list-group">
-                                                                    <li class="list-group-item"><span>1.The Second Round will be Documentation and Presentation of the Idea. </span></li>
-                                                                    <!-- <li class="list-group-item"><span>2. </span></li>
-                                                                    <li class="list-group-item"><span>3. </span></li>
-                                                                    <li class="list-group-item"><span>4. </span></li> -->
-                                                                </ul>
+                                                                The Second Round will be Documentation and Presentation of the Idea.
                                                             </div>
                                                         </div>
                                                     </div>
@@ -151,6 +140,31 @@ EventAsset::register($this);
                                         </div>
                                     </div> <!-- Row ends -->
 
+
+                                    <!-- Row starts -->
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="mu-sponsors-area animated zoomInRight">
+                                                <p class="myAccordion">Rules and Regulations</p>
+                                                <div class="myPanel">
+                                                    Participants will be judged on the basis of:
+                                                    <ul class="list-group">
+                                                        <li class="list-group-item"><span> Innovative Thinking </span></li>
+                                                        <li class="list-group-item"><span> Cost factor </span></li>
+                                                        <li class="list-group-item"><span> Confidence of presentation </span></li>
+                                                        <li class="list-group-item"><span> Documentation plagiarism </span></li>
+                                                        <li class="list-group-item"><span> Accuracies and Success Rate </span></li>
+                                                        <li class="list-group-item"><span> Judges decision will be final. </span></li>
+                                                    </ul>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> <!-- Row ends -->
+
+                                    <b>Time: </b> 4 hours in total
+
+                                    <!-- FAQs
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="mu-sponsors-area animated zoomInRight">
@@ -242,7 +256,7 @@ EventAsset::register($this);
                                             </div>
                                         </div>
 
-                                    </div>
+                                    </div>  -->
                                 </div>
                                 <!-- End Feature Content -->
 

@@ -11,19 +11,19 @@ $this->title = 'Sketch';
 EventAsset::register($this);
 ?>
 <?php $this->beginPage() ?>
-    <!DOCTYPE html>
-    <html lang="<?= Yii::$app->language ?>">
+<!DOCTYPE html>
+<html lang="<?= Yii::$app->language ?>">
 
-    <head>
-        <meta charset="<?= Yii::$app->charset ?>">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <?php $this->registerCsrfMetaTags() ?>
-        <title><?= Html::encode($this->title) ?></title>
-        <?php $this->head() ?>
-    </head>
+<head>
+    <meta charset="<?= Yii::$app->charset ?>">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <?php $this->registerCsrfMetaTags() ?>
+    <title><?= Html::encode($this->title) ?></title>
+    <?php $this->head() ?>
+</head>
 
-    <body>
+<body>
     <?php $this->beginBody() ?>
     <!-- Start Header -->
     <header id="mu-hero" class="" role="banner">
@@ -76,7 +76,7 @@ EventAsset::register($this);
                             <div class="row">
                                 <div class="col-md-6 col-sm-12">
                                     <div class="mu-about-left">
-                                    <img class="animated slideInLeft" src="<?php echo Yii::$app->params['frontendUrl'] . 'event/images/event_robokart.png';?>" alt="Men Speaker">                                    </div>
+                                        <img class="animated slideInLeft" src="<?php echo Yii::$app->params['frontendUrl'] . 'event/images/event_sketch.png'; ?>" alt="Sketch"> </div>
                                 </div>
                                 <div class="col-md-6 col-sm-12">
                                     <div class="row">
@@ -84,19 +84,20 @@ EventAsset::register($this);
                                             <h2 style="text-decoration: underline;">Description :-</h2>
 
                                             <p>
-                                                Are you a person who sketches down everything you see? Or are you the one who masters sketching? 
-                                                This event is conducted especially for you. Here you’re going to sketch out the topics we give. 
+                                                Are you a person who sketches down everything you see? Or are you the one who masters sketching?
+                                                This event is conducted especially for you. Here you’re going to sketch out the topics we give.
                                             </p>
                                             <br>
                                             <p>
-                                                You’re asked to sketch down the entire car and the engine components, the details will be shared 
-                                                through a Google Classroom on the day of the event. Once you complete, you’re asked to submit the 
+                                                You’re asked to sketch down the entire car and the engine components, the details will be shared
+                                                through a Google Classroom on the day of the event. Once you complete, you’re asked to submit the
                                                 sketch by scanning and uploading it in the Google Classroom.
                                             </p>
                                         </div>
                                     </div>
 
-                                    <div class="row"> <!-- Row starts -->
+                                    <div class="row">
+                                        <!-- Row starts -->
                                         <div class="col-md-12">
                                             <div class="mu-sponsors-area animated zoomInRight">
                                                 <p class="myAccordion">Rules and Regulations</p>
@@ -108,12 +109,15 @@ EventAsset::register($this);
                                                         <li class="list-group-item"><span>4. Participants whose sketch satisfies all the details provided by us will be qualified as the winner. </span></li>
                                                         <li class="list-group-item"><span>5. Judges decision will be final. </span></li>
                                                     </ul><br>
-                                                    <b>Time : </b>&nbsp;2 hours
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>     <!-- Row ends -->
+                                    </div>
+                                    <!-- Row ends -->
 
+                                    <b>Time : </b>&nbsp;2 hours
+
+                                    <!-- FAQs
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="mu-sponsors-area animated zoomInRight">
@@ -124,8 +128,7 @@ EventAsset::register($this);
                                                         <div class="panel panel-default animated zoomInLeft">
                                                             <div class="panel-heading">
                                                                 <h4 class="panel-title">
-                                                                    <a data-toggle="collapse" data-parent="#accordion"
-                                                                        href="#collapseOne" aria-expanded="true">
+                                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true">
                                                                         <span class="fa fa-angle-up"></span>
                                                                         Question 1
                                                                     </a>
@@ -141,8 +144,7 @@ EventAsset::register($this);
                                                         <div class="panel panel-default animated slideInLeft">
                                                             <div class="panel-heading">
                                                                 <h4 class="panel-title">
-                                                                    <a data-toggle="collapse" data-parent="#accordion"
-                                                                        href="#collapseTwo">
+                                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
                                                                         <span class="fa fa-angle-up"></span>
                                                                         Question 2
                                                                     </a>
@@ -158,8 +160,7 @@ EventAsset::register($this);
                                                         <div class="panel panel-default animated slideInRight">
                                                             <div class="panel-heading">
                                                                 <h4 class="panel-title">
-                                                                    <a data-toggle="collapse" data-parent="#accordion"
-                                                                        href="#collapseThree">
+                                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
                                                                         <span class="fa fa-angle-up"></span>
                                                                         Question 3
                                                                     </a>
@@ -175,8 +176,7 @@ EventAsset::register($this);
                                                         <div class="panel panel-default animated slideInLeft">
                                                             <div class="panel-heading">
                                                                 <h4 class="panel-title">
-                                                                    <a data-toggle="collapse" data-parent="#accordion"
-                                                                        href="#collapseFour">
+                                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
                                                                         <span class="fa fa-angle-up"></span>
                                                                         Question 4
                                                                     </a>
@@ -192,8 +192,7 @@ EventAsset::register($this);
                                                         <div class="panel panel-default animated slideInRight">
                                                             <div class="panel-heading">
                                                                 <h4 class="panel-title">
-                                                                    <a data-toggle="collapse" data-parent="#accordion"
-                                                                        href="#collapseFive">
+                                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
                                                                         <span class="fa fa-angle-up"></span>
                                                                         Question 5
                                                                     </a>
@@ -210,7 +209,7 @@ EventAsset::register($this);
                                             </div>
                                         </div>
 
-                                    </div>
+                                    </div> -->
                                 </div>
                                 <!-- End Feature Content -->
 
@@ -226,7 +225,7 @@ EventAsset::register($this);
 
 
     <?php $this->endBody() ?>
-    </body>
+</body>
 
-    </html>
+</html>
 <?php $this->endPage() ?>

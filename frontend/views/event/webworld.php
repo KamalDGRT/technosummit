@@ -11,19 +11,19 @@ $this->title = 'Web World';
 EventAsset::register($this);
 ?>
 <?php $this->beginPage() ?>
-    <!DOCTYPE html>
-    <html lang="<?= Yii::$app->language ?>">
+<!DOCTYPE html>
+<html lang="<?= Yii::$app->language ?>">
 
-    <head>
-        <meta charset="<?= Yii::$app->charset ?>">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <?php $this->registerCsrfMetaTags() ?>
-        <title><?= Html::encode($this->title) ?></title>
-        <?php $this->head() ?>
-    </head>
+<head>
+    <meta charset="<?= Yii::$app->charset ?>">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <?php $this->registerCsrfMetaTags() ?>
+    <title><?= Html::encode($this->title) ?></title>
+    <?php $this->head() ?>
+</head>
 
-    <body>
+<body>
     <?php $this->beginBody() ?>
     <!-- Start Header -->
     <header id="mu-hero" class="" role="banner">
@@ -76,7 +76,7 @@ EventAsset::register($this);
                             <div class="row">
                                 <div class="col-md-6 col-sm-12">
                                     <div class="mu-about-left">
-                                        <img class="animated slideInLeft" src="<?php echo Yii::$app->params['frontendUrl'] . 'event/images/event_robokart.png';?>" alt="Men Speaker">
+                                        <img class="animated slideInLeft" src="<?php echo Yii::$app->params['frontendUrl'] . 'event/images/event_webworld.jpg'; ?>" alt="Web World">
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-sm-12">
@@ -85,18 +85,19 @@ EventAsset::register($this);
                                             <h2 style="text-decoration: underline;">Description :-</h2>
 
                                             <p>
-                                                Since its inception, websites have been the foundation of companies and organizations galore. 
+                                                Since its inception, websites have been the foundation of companies and organizations galore.
                                                 Today it's your turn to bring about that difference!
                                             </p><br>
                                             <p>
-                                                In mere 6 hours, you'll be given a chance to showcase your ideas and talents through your website. 
-                                                Bring your finest code to the room and create your own website from scratch to win the glory of the 
+                                                In mere 6 hours, you'll be given a chance to showcase your ideas and talents through your website.
+                                                Bring your finest code to the room and create your own website from scratch to win the glory of the
                                                 Web World!
                                             </p>
                                         </div>
                                     </div>
 
-                                    <div class="row"> <!-- Row starts -->
+                                    <div class="row">
+                                        <!-- Row starts -->
                                         <div class="col-md-12">
                                             <div class="mu-sponsors-area animated zoomInRight">
                                                 <p class="myAccordion">Rules and Regulations</p>
@@ -114,8 +115,9 @@ EventAsset::register($this);
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>     <!-- Row ends -->
+                                    </div> <!-- Row ends -->
 
+                                    <!-- FAQs
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="mu-sponsors-area animated zoomInRight">
@@ -126,8 +128,7 @@ EventAsset::register($this);
                                                         <div class="panel panel-default animated zoomInLeft">
                                                             <div class="panel-heading">
                                                                 <h4 class="panel-title">
-                                                                    <a data-toggle="collapse" data-parent="#accordion"
-                                                                        href="#collapseOne" aria-expanded="true">
+                                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true">
                                                                         <span class="fa fa-angle-up"></span>
                                                                         Question 1
                                                                     </a>
@@ -143,8 +144,7 @@ EventAsset::register($this);
                                                         <div class="panel panel-default animated slideInLeft">
                                                             <div class="panel-heading">
                                                                 <h4 class="panel-title">
-                                                                    <a data-toggle="collapse" data-parent="#accordion"
-                                                                        href="#collapseTwo">
+                                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
                                                                         <span class="fa fa-angle-up"></span>
                                                                         Question 2
                                                                     </a>
@@ -160,8 +160,7 @@ EventAsset::register($this);
                                                         <div class="panel panel-default animated slideInRight">
                                                             <div class="panel-heading">
                                                                 <h4 class="panel-title">
-                                                                    <a data-toggle="collapse" data-parent="#accordion"
-                                                                        href="#collapseThree">
+                                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
                                                                         <span class="fa fa-angle-up"></span>
                                                                         Question 3
                                                                     </a>
@@ -177,8 +176,7 @@ EventAsset::register($this);
                                                         <div class="panel panel-default animated slideInLeft">
                                                             <div class="panel-heading">
                                                                 <h4 class="panel-title">
-                                                                    <a data-toggle="collapse" data-parent="#accordion"
-                                                                        href="#collapseFour">
+                                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
                                                                         <span class="fa fa-angle-up"></span>
                                                                         Question 4
                                                                     </a>
@@ -194,8 +192,7 @@ EventAsset::register($this);
                                                         <div class="panel panel-default animated slideInRight">
                                                             <div class="panel-heading">
                                                                 <h4 class="panel-title">
-                                                                    <a data-toggle="collapse" data-parent="#accordion"
-                                                                        href="#collapseFive">
+                                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
                                                                         <span class="fa fa-angle-up"></span>
                                                                         Question 5
                                                                     </a>
@@ -212,7 +209,7 @@ EventAsset::register($this);
                                             </div>
                                         </div>
 
-                                    </div>
+                                    </div> -->
                                 </div>
                                 <!-- End Feature Content -->
 
@@ -228,7 +225,7 @@ EventAsset::register($this);
 
 
     <?php $this->endBody() ?>
-    </body>
+</body>
 
-    </html>
+</html>
 <?php $this->endPage() ?>
