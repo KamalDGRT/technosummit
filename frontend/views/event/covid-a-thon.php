@@ -47,8 +47,8 @@ EventAsset::register($this);
 
                         <div class="mu-hero-featured-content animated slideInDown">
 
-                            <h1>Math mania </h1>
-                            <h2>Mathematics club</h2>
+                            <h1>ROBOKART</h1>
+                            <h2>ROBOTICS CLUB</h2>
                             <br><br>
                             <a href="<?php echo Url::to(['/event/index']) ?>" class="btn btn-first">BACK</a>
                             <a href="<?php echo Url::to(['/site/registration']) ?>" class="btn btn-nav">REGISTER</a>
@@ -83,7 +83,8 @@ EventAsset::register($this);
                                         <div class=" mu-about-right animated slideInRight">
                                             <h2 style="text-decoration: underline;">Description :-</h2>
 
-                                            <p>Math Mania is a funtastic event for all Math Maniacs. The event involves exciting math based quizzes and puzzles. </p><br>
+                                            <p>Do you have any technological innovation design to save the world from the ongoing pandemic? Are you looking for an opportunity to showcase your talent? Then COVID-A-THON is a perfect platform to exhibit your innovative ideas.
+                                            </p><br>
                                             <p>Theme of this event is <b>“Money from Machines”</b>.</p>
                                         </div>
                                     </div>
@@ -94,17 +95,58 @@ EventAsset::register($this);
                                             <div class="mu-sponsors-area animated zoomInRight">
                                                 <p class="myAccordion">Rules and Regulations</p>
                                                 <div class="myPanel">
-                                                    <ul class="list-group">
-                                                        <li class="list-group-item"><span>1. Level 1
-                                                                The participants are provided with a set of questions which should be answered within the allotted time, based on which they will proceed to the next level.
-                                                            </span></li>
-                                                        <li class="list-group-item"><span>2. The participants should go through 25 slides, correlate and state the connection between them.</span></li>
-                                                        <li class="list-group-item"><span>3. The participants are asked to solve a set of puzzles.
-                                                                Judges decision will be final
-                                                            </span></li>
-                                                    </ul>
 
-                                                </div>
+                                                    <!-- Round1 Starts -->
+                                                    <div class="panel panel-default animated zoomInLeft">
+                                                        <div class="panel-heading">
+                                                            <h4 class="panel-title">
+                                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseRoundOne">
+                                                                    <span class="fa fa-angle-up"></span>
+                                                                    Round 1
+                                                                </a>
+                                                            </h4>
+                                                        </div>
+
+                                                        <div id="collapseRoundOne" class="panel-collapse collapse">
+                                                            <div class="panel-body">
+                                                                <ul class="list-group">
+                                                                    <li class="list-group-item"><span>1.The first round will be an introduction of an idea about how technology can help people during COVID19 for preventing, surgery, predictions and testing. </span></li>
+                                                                    <!-- <li class="list-group-item"><span>2. </span></li>
+                                                                    <li class="list-group-item"><span>3. </span></li>
+                                                                    <li class="list-group-item"><span>4.  </span></li>
+                                                                    <li class="list-group-item"><span>5.  </span></li> -->
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div><br>
+                                                    <!-- Round1 Ends -->
+
+                                                    <!-- Round2 Starts -->
+                                                    <div class="panel panel-default animated zoomInLeft">
+                                                        <div class="panel-heading">
+                                                            <h4 class="panel-title">
+                                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseRoundTwo">
+                                                                    <span class="fa fa-angle-up"></span>
+                                                                    Round 2
+                                                                </a>
+                                                            </h4>
+                                                        </div>
+
+                                                        <div id="collapseRoundTwo" class="panel-collapse collapse">
+                                                            <div class="panel-body">
+                                                                <ul class="list-group">
+                                                                    <li class="list-group-item"><span>1.The Second Round will be Documentation and Presentation of the Idea. </span></li>
+                                                                    <!-- <li class="list-group-item"><span>2. </span></li>
+                                                                    <li class="list-group-item"><span>3. </span></li>
+                                                                    <li class="list-group-item"><span>4. </span></li> -->
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Round2 Ends -->
+
+                                                </div><br>
+
                                             </div>
                                         </div>
                                     </div> <!-- Row ends -->
