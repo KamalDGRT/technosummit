@@ -47,8 +47,8 @@ EventAsset::register($this);
 
                         <div class="mu-hero-featured-content animated slideInDown">
 
-                            <h1>ROBOKART</h1>
-                            <h2>ROBOTICS CLUB</h2>
+                            <h1>Math mania </h1>
+                            <h2>Mathematics club</h2>
                             <br><br>
                             <a href="<?php echo Url::to(['/event/index']) ?>" class="btn btn-first">BACK</a>
                             <a href="<?php echo Url::to(['/site/registration']) ?>" class="btn btn-nav">REGISTER</a>
@@ -83,11 +83,7 @@ EventAsset::register($this);
                                         <div class=" mu-about-right animated slideInRight">
                                             <h2 style="text-decoration: underline;">Description :-</h2>
 
-                                            <p>The event is all about designing a unique and useful design of a robot which works either mechanically
-                                                or electrically. The module should have a wide and useful vision, and it should be a problem solving device.
-                                                It should be related to robotics and mechatronics. Your design will be judged on the basis of its efficiency
-                                                and Algorithm with reliability and cost efficiency. You can use any software to show the design of the machine.
-                                            </p><br>
+                                            <p>Math Mania is a funtastic event for all Math Maniacs. The event involves exciting math based quizzes and puzzles. </p><br>
                                             <p>Theme of this event is <b>“Money from Machines”</b>.</p>
                                         </div>
                                     </div>
@@ -99,11 +95,13 @@ EventAsset::register($this);
                                                 <p class="myAccordion">Rules and Regulations</p>
                                                 <div class="myPanel">
                                                     <ul class="list-group">
-                                                        <li class="list-group-item"><span>1. The idea should be unique </span></li>
-                                                        <li class="list-group-item"><span>2. It should be practically possible.</span></li>
-                                                        <li class="list-group-item"><span>3. The idea should be framed as a 3D design with proper algorithms.</span></li>
-                                                        <li class="list-group-item"><span>4. Other than Robotics — Electronics, Electrical & Mechanical are welcome. The time limit per participant is minimum — two minutes to maximum — four minutes </span></li>
-                                                        <li class="list-group-item"><span>5. Other than Robotics — Electronics, Electrical & Mechanical are welcome. The time limit per participant is minimum — two minutes to maximum — four minutes </span></li>
+                                                        <li class="list-group-item"><span>1. Level 1
+                                                                The participants are provided with a set of questions which should be answered within the allotted time, based on which they will proceed to the next level.
+                                                            </span></li>
+                                                        <li class="list-group-item"><span>2. The participants should go through 25 slides, correlate and state the connection between them.</span></li>
+                                                        <li class="list-group-item"><span>3. The participants are asked to solve a set of puzzles.
+                                                                Judges decision will be final
+                                                            </span></li>
                                                     </ul>
 
                                                 </div>
