@@ -7,7 +7,7 @@ use yii\helpers\Html;
 use frontend\assets\EventAsset;
 use yii\helpers\Url;
 
-$this->title = 'TechieDeb';
+$this->title = '5MT';
 EventAsset::register($this);
 ?>
 <?php $this->beginPage() ?>
@@ -47,8 +47,8 @@ EventAsset::register($this);
 
                         <div class="mu-hero-featured-content animated slideInDown">
 
-                            <h1>TECHIE DEB</h1>
-                            <h2>DEBATE CLUB &amp; ANTI HUMAN TRAFFICKING CLUB</h2>
+                            <h1>5 MT</h1>
+                            <h2>ROTORACT CLUB</h2>
                             <br><br>
                             <a href="<?php echo Url::to(['/event/index']) ?>" class="btn btn-first">BACK</a>
                             <a href="<?php echo Url::to(['/site/registration']) ?>" class="btn btn-nav">REGISTER</a>
@@ -76,7 +76,7 @@ EventAsset::register($this);
                             <div class="row">
                                 <div class="col-md-6 col-sm-12">
                                     <div class="mu-about-left">
-                                        <img class="animated slideInLeft" src="<?php echo Yii::$app->params['frontendUrl'] . 'event/images/event_techiedeb.jpg'; ?>" alt="Techie Deb">
+                                        <img class="animated slideInLeft" src="<?php echo Yii::$app->params['frontendUrl'] . 'event/images/event_fivemt.png'; ?>" alt="5 MT">
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-sm-12">
@@ -84,87 +84,80 @@ EventAsset::register($this);
                                         <div class=" mu-about-right animated slideInRight">
                                             <h2 style="text-decoration: underline;">Description :-</h2>
                                             <p>
-                                                The debate is an indispensable characteristic of an individual that makes them put forward their
-                                                perspective in analyzing a situation of social cause linked with technology, whether it is in favor
-                                                or against it.
-                                            </p><br>
-                                            <p>Techie Deb is a debating event.</p>
+                                                Are you the kind of person who opts for short, exciting and enlightening events? Then here is your genre.
+                                                Rotaract Club of Sathyabama organises an event called “5MT”. Present a paper, within 5 minutes, on any topic you wish.
+                                                Presenting paper is not so easy. And not everyone can do it, you need to research about the topic and have the skill to
+                                                present it effectively with the right body language and mind-set.
+                                            </p>
                                         </div>
                                     </div>
 
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="mu-sponsors-area animated zoomInRight">
-                                                <p class="myAccordion">Description of the Rounds</p>
+                                                <p class="myAccordion">Rules</p>
                                                 <div class="myPanel">
                                                     <div class="panel-group" id="accordion">
+                                                        <ul class="list-group">
+                                                            <li class="list-group-item"><span>There will be 3 rounds totally. </span></li>
+                                                            <li class="list-group-item">
+                                                                <span>
+                                                                    <div class="panel panel-default animated zoomInLeft">
+                                                                        <div class="panel-heading">
+                                                                            <h4 class="panel-title">
+                                                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseRoundOne">
+                                                                                    <span class="fa fa-angle-up"></span>
+                                                                                    Round 1
+                                                                                </a>
+                                                                            </h4>
+                                                                        </div>
+                                                                        <div id="collapseRoundOne" class="panel-collapse collapse in">
+                                                                            <div class="panel-body">
+                                                                                The document is analysed and further checked for plagiarism.
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
 
-                                                        <div class="panel panel-default animated zoomInLeft">
-                                                            <div class="panel-heading">
-                                                                <h4 class="panel-title">
-                                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseDayOne">
-                                                                        <span class="fa fa-angle-up"></span>
-                                                                        Day 1 - Prelims
-                                                                    </a>
-                                                                </h4>
-                                                            </div>
-                                                            <div id="collapseDayOne" class="panel-collapse collapse in">
-                                                                <div class="panel-body">
-                                                                    Each speaker will be given 3 minutes to speak and 2 minutes for the rebuttal.
-                                                                </div>
-                                                            </div>
-                                                        </div>
+                                                                    <div class="panel panel-default animated slideInLeft">
+                                                                        <div class="panel-heading">
+                                                                            <h4 class="panel-title">
+                                                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseRoundTwo">
+                                                                                    <span class="fa fa-angle-up"></span>
+                                                                                    Round 2
+                                                                                </a>
+                                                                            </h4>
+                                                                        </div>
+                                                                        <div id="collapseRoundTwo" class="panel-collapse collapse">
+                                                                            <div class="panel-body">
+                                                                                The participant will be presenting their paper.
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
 
-                                                        <div class="panel panel-default animated slideInLeft">
-                                                            <div class="panel-heading">
-                                                                <h4 class="panel-title">
-                                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseDayTwo">
-                                                                        <span class="fa fa-angle-up"></span>
-                                                                        Day 2 - Semi-finals
-                                                                    </a>
-                                                                </h4>
-                                                            </div>
-                                                            <div id="collapseDayTwo" class="panel-collapse collapse">
-                                                                <div class="panel-body">
-                                                                    Semi-final Round: Eight students will be qualified for this round, and each
-                                                                    speaker will be given 5 minutes to speak and 3 minutes for the rebuttal.
-                                                                </div>
-                                                            </div>
-                                                        </div>
+                                                                    <div class="panel panel-default animated slideInRight">
+                                                                        <div class="panel-heading">
+                                                                            <h4 class="panel-title">
+                                                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseRoundThree">
+                                                                                    <span class="fa fa-angle-up"></span>
+                                                                                    Round 3
+                                                                                </a>
+                                                                            </h4>
+                                                                        </div>
+                                                                        <div id="collapseRoundThree" class="panel-collapse collapse">
+                                                                            <div class="panel-body">
+                                                                                The topic or idea of the paper will be judged based on the implementation of the idea.
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
 
-                                                        <div class="panel panel-default animated slideInRight">
-                                                            <div class="panel-heading">
-                                                                <h4 class="panel-title">
-                                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFinals">
-                                                                        <span class="fa fa-angle-up"></span>
-                                                                        FINALS (Day2):
-                                                                    </a>
-                                                                </h4>
-                                                            </div>
-                                                            <div id="collapseFinals" class="panel-collapse collapse">
-                                                                <div class="panel-body">
-                                                                    Two students will be qualified for this round, and each speaker will be given
-                                                                    6 minutes to speak and 4 minutes for the rebuttal.
-                                                                </div>
-                                                            </div>
-                                                        </div>
+                                                                </span>
+                                                            </li>
+                                                            <li class="list-group-item"><span> The winning criteria for this event is based on the percentage acquired from all the 3 rounds together. </span></li>
+                                                            <li class="list-group-item"><span> Top 3 people with higher percentages will be considered to be winners. </span></li>
+                                                            <li class="list-group-item"><span> Judges decision will be final. </span></li>
+                                                        </ul>
 
-                                                        <div class="panel panel-default animated slideInLeft">
-                                                            <div class="panel-heading">
-                                                                <h4 class="panel-title">
-                                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseWinner">
-                                                                        <span class="fa fa-angle-up"></span>
-                                                                        Selection of Winner
-                                                                    </a>
-                                                                </h4>
-                                                            </div>
-                                                            <div id="collapseWinner" class="panel-collapse collapse">
-                                                                <div class="panel-body">
-                                                                    Based upon the discretion of Judges in each round, the top 4 participants will be
-                                                                    qualified for the Semi-finals and the top 2 for the Finals.
-                                                                </div>
-                                                            </div>
-                                                        </div>
+
 
                                                     </div>
                                                 </div>
@@ -172,38 +165,6 @@ EventAsset::register($this);
                                         </div>
 
                                     </div>
-
-                                    <div class="row">
-                                        <!-- Row starts -->
-                                        <div class="col-md-12">
-                                            <div class="mu-sponsors-area animated zoomInRight">
-                                                <p class="myAccordion">Rules and Regulations</p>
-                                                <div class="myPanel">
-
-                                                    <ul class="list-group">
-                                                        <li class="list-group-item"><span> 1. The debate is based on the amended version of Lincoln- Douglas format, i.e., one to one. </span></li>
-                                                        <li class="list-group-item"><span> 2. Debating ~ Only individual registrations is considered and hence no restriction on the number of registrations from a college.</span></li>
-                                                        <li class="list-group-item"><span> 3. The mode of competition is online. </span></li>
-                                                        <li class="list-group-item"><span> 4. Each zoom classroom would consist of 1 Judge, 2 Participants, 2 students, and Coordinators. </span></li>
-                                                        <li class="list-group-item"><span> 5. As it is one to one debate, one team will speak FOR the motion, another one will speak AGAINST the motion. </span></li>
-                                                        <li class="list-group-item"><span> 6. All the participants are requested to prepare for both the proposition as well as the opposition where the motion to be presented by the participant will be announced by the judge in the Zoom meeting.</span></li>
-                                                        <li class="list-group-item"><span> 7. Each participant will be allotted a student coordinator from the host institution to attend the issues and doubts of the participants. </span></li>
-                                                        <li class="list-group-item"><span> 8. The organizing committee would provide the participants with the Zoom ID and Password, 1 hour prior to the respective rounds, through registered mail id and registered WhatsApp numbers. </span></li>
-                                                        <li class="list-group-item"><span> 9. Proper internet connection is required for participation in this competition, and in case of a blackout or improper connection, the participant may be disqualified by the organizing committee. </span></li>
-                                                        <li class="list-group-item"><span> 10. The official ID card of the participant must be sent to the student coordinator allotted. </span></li>
-                                                        <li class="list-group-item"><span> 11. All Participants must be in Proper formal attire during the competition. </span></li>
-                                                        <li class="list-group-item"><span> 12. Participants are not allowed to interrupt the fellow participant when he or she is presenting. </span></li>
-                                                        <li class="list-group-item"><span> 13. Participants are requested to be mindful of the time limit. Exceeding the time limit would result in negative marking. </span></li>
-                                                        <li class="list-group-item"><span> 14. No participant will be allowed to argue with the judge, and the judge’s decision will be conclusive. </span></li>
-                                                        <li class="list-group-item"><span> 15. Participants must refrain from using obscene words and are requested to maintain the dignity and decorum of the competition.</span></li>
-                                                        <li class="list-group-item"><span> 16. Organizers reserve the right to alter/change the rules/ or procedure of the competition if the need so arises.</span></li>
-                                                        <li class="list-group-item"><span> <b>ELIGIBILITY</b> : All Undergraduate Programmes students are eligible to register. </span></li>
-                                                    </ul>
-
-                                                </div><br>
-                                            </div>
-                                        </div>
-                                    </div> <!-- Row ends -->
 
                                     <!-- FAQs
                                     <div class="row">

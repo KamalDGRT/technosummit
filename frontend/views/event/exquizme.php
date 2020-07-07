@@ -7,7 +7,7 @@ use yii\helpers\Html;
 use frontend\assets\EventAsset;
 use yii\helpers\Url;
 
-$this->title = 'TechieDeb';
+$this->title = 'Ex-Quiz-Me';
 EventAsset::register($this);
 ?>
 <?php $this->beginPage() ?>
@@ -47,8 +47,8 @@ EventAsset::register($this);
 
                         <div class="mu-hero-featured-content animated slideInDown">
 
-                            <h1>TECHIE DEB</h1>
-                            <h2>DEBATE CLUB &amp; ANTI HUMAN TRAFFICKING CLUB</h2>
+                            <h1>EX-QUIZ-ME</h1>
+                            <h2>COMMUNITY DEVELOPMENT CLUB</h2>
                             <br><br>
                             <a href="<?php echo Url::to(['/event/index']) ?>" class="btn btn-first">BACK</a>
                             <a href="<?php echo Url::to(['/site/registration']) ?>" class="btn btn-nav">REGISTER</a>
@@ -76,101 +76,21 @@ EventAsset::register($this);
                             <div class="row">
                                 <div class="col-md-6 col-sm-12">
                                     <div class="mu-about-left">
-                                        <img class="animated slideInLeft" src="<?php echo Yii::$app->params['frontendUrl'] . 'event/images/event_techiedeb.jpg'; ?>" alt="Techie Deb">
+                                        <img class="animated slideInLeft" src="<?php echo Yii::$app->params['frontendUrl'] . 'event/images/event_exquizme.png'; ?>" alt="Ex-Quiz-Me">
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-sm-12">
                                     <div class="row">
                                         <div class=" mu-about-right animated slideInRight">
                                             <h2 style="text-decoration: underline;">Description :-</h2>
+
                                             <p>
-                                                The debate is an indispensable characteristic of an individual that makes them put forward their
-                                                perspective in analyzing a situation of social cause linked with technology, whether it is in favor
-                                                or against it.
-                                            </p><br>
-                                            <p>Techie Deb is a debating event.</p>
+                                                The feast for your fastest finger tips. EX-Quiz ME is based on the main exploration of the “Environmental Aspects and Technology”.
+                                                This event also allows the candidates to know more about the on-going pandemic happenings, and also the things which we do without
+                                                the actual knowledge. The Environment should be protected by advanced technologies rather than deploying. The questions make us think
+                                                and also help us in technological implementations against the odds.
+                                            </p>
                                         </div>
-                                    </div>
-
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <div class="mu-sponsors-area animated zoomInRight">
-                                                <p class="myAccordion">Description of the Rounds</p>
-                                                <div class="myPanel">
-                                                    <div class="panel-group" id="accordion">
-
-                                                        <div class="panel panel-default animated zoomInLeft">
-                                                            <div class="panel-heading">
-                                                                <h4 class="panel-title">
-                                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseDayOne">
-                                                                        <span class="fa fa-angle-up"></span>
-                                                                        Day 1 - Prelims
-                                                                    </a>
-                                                                </h4>
-                                                            </div>
-                                                            <div id="collapseDayOne" class="panel-collapse collapse in">
-                                                                <div class="panel-body">
-                                                                    Each speaker will be given 3 minutes to speak and 2 minutes for the rebuttal.
-                                                                </div>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="panel panel-default animated slideInLeft">
-                                                            <div class="panel-heading">
-                                                                <h4 class="panel-title">
-                                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseDayTwo">
-                                                                        <span class="fa fa-angle-up"></span>
-                                                                        Day 2 - Semi-finals
-                                                                    </a>
-                                                                </h4>
-                                                            </div>
-                                                            <div id="collapseDayTwo" class="panel-collapse collapse">
-                                                                <div class="panel-body">
-                                                                    Semi-final Round: Eight students will be qualified for this round, and each
-                                                                    speaker will be given 5 minutes to speak and 3 minutes for the rebuttal.
-                                                                </div>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="panel panel-default animated slideInRight">
-                                                            <div class="panel-heading">
-                                                                <h4 class="panel-title">
-                                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFinals">
-                                                                        <span class="fa fa-angle-up"></span>
-                                                                        FINALS (Day2):
-                                                                    </a>
-                                                                </h4>
-                                                            </div>
-                                                            <div id="collapseFinals" class="panel-collapse collapse">
-                                                                <div class="panel-body">
-                                                                    Two students will be qualified for this round, and each speaker will be given
-                                                                    6 minutes to speak and 4 minutes for the rebuttal.
-                                                                </div>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="panel panel-default animated slideInLeft">
-                                                            <div class="panel-heading">
-                                                                <h4 class="panel-title">
-                                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseWinner">
-                                                                        <span class="fa fa-angle-up"></span>
-                                                                        Selection of Winner
-                                                                    </a>
-                                                                </h4>
-                                                            </div>
-                                                            <div id="collapseWinner" class="panel-collapse collapse">
-                                                                <div class="panel-body">
-                                                                    Based upon the discretion of Judges in each round, the top 4 participants will be
-                                                                    qualified for the Semi-finals and the top 2 for the Finals.
-                                                                </div>
-                                                            </div>
-                                                        </div>
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
                                     </div>
 
                                     <div class="row">
@@ -179,28 +99,17 @@ EventAsset::register($this);
                                             <div class="mu-sponsors-area animated zoomInRight">
                                                 <p class="myAccordion">Rules and Regulations</p>
                                                 <div class="myPanel">
-
                                                     <ul class="list-group">
-                                                        <li class="list-group-item"><span> 1. The debate is based on the amended version of Lincoln- Douglas format, i.e., one to one. </span></li>
-                                                        <li class="list-group-item"><span> 2. Debating ~ Only individual registrations is considered and hence no restriction on the number of registrations from a college.</span></li>
-                                                        <li class="list-group-item"><span> 3. The mode of competition is online. </span></li>
-                                                        <li class="list-group-item"><span> 4. Each zoom classroom would consist of 1 Judge, 2 Participants, 2 students, and Coordinators. </span></li>
-                                                        <li class="list-group-item"><span> 5. As it is one to one debate, one team will speak FOR the motion, another one will speak AGAINST the motion. </span></li>
-                                                        <li class="list-group-item"><span> 6. All the participants are requested to prepare for both the proposition as well as the opposition where the motion to be presented by the participant will be announced by the judge in the Zoom meeting.</span></li>
-                                                        <li class="list-group-item"><span> 7. Each participant will be allotted a student coordinator from the host institution to attend the issues and doubts of the participants. </span></li>
-                                                        <li class="list-group-item"><span> 8. The organizing committee would provide the participants with the Zoom ID and Password, 1 hour prior to the respective rounds, through registered mail id and registered WhatsApp numbers. </span></li>
-                                                        <li class="list-group-item"><span> 9. Proper internet connection is required for participation in this competition, and in case of a blackout or improper connection, the participant may be disqualified by the organizing committee. </span></li>
-                                                        <li class="list-group-item"><span> 10. The official ID card of the participant must be sent to the student coordinator allotted. </span></li>
-                                                        <li class="list-group-item"><span> 11. All Participants must be in Proper formal attire during the competition. </span></li>
-                                                        <li class="list-group-item"><span> 12. Participants are not allowed to interrupt the fellow participant when he or she is presenting. </span></li>
-                                                        <li class="list-group-item"><span> 13. Participants are requested to be mindful of the time limit. Exceeding the time limit would result in negative marking. </span></li>
-                                                        <li class="list-group-item"><span> 14. No participant will be allowed to argue with the judge, and the judge’s decision will be conclusive. </span></li>
-                                                        <li class="list-group-item"><span> 15. Participants must refrain from using obscene words and are requested to maintain the dignity and decorum of the competition.</span></li>
-                                                        <li class="list-group-item"><span> 16. Organizers reserve the right to alter/change the rules/ or procedure of the competition if the need so arises.</span></li>
-                                                        <li class="list-group-item"><span> <b>ELIGIBILITY</b> : All Undergraduate Programmes students are eligible to register. </span></li>
+                                                        <li class="list-group-item"><span> Two sets of quizzes on the respective days. </span></li>
+                                                        <li class="list-group-item"><span> The quiz will be set for about 15-20 minutes. </span></li>
+                                                        <li class="list-group-item"><span> Only the scores will be displayed at the end of the Quiz, and the answers will not be displayed. </span></li>
+                                                        <li class="list-group-item"><span> Certain mandatory login credentials are required before joining the quiz such as Name, e-mail of the candidate, University /College they study etc for the purpose of generation of the certificate. </span></li>
+                                                        <li class="list-group-item"><span> The participant should attain a minimum of 80% to acquire the certificate. </span></li>
+                                                        <li class="list-group-item"><span> One should take the Quiz using a single login ID. </span></li>
+                                                        <li class="list-group-item"><span> The Awarded members will receive their E-Certificates through their login ID. </span></li>
+                                                        <li class="list-group-item"><span> Judges decision will be final. </span></li>
                                                     </ul>
-
-                                                </div><br>
+                                                </div>
                                             </div>
                                         </div>
                                     </div> <!-- Row ends -->
@@ -298,7 +207,6 @@ EventAsset::register($this);
                                         </div>
 
                                     </div> -->
-
                                 </div>
                                 <!-- End Feature Content -->
 
