@@ -56,7 +56,7 @@ $this->title = 'Technosummit Registration';
             </tr>
         </table>
         <br>
-        While making the payment via UPI, mention your name, college and event name.
+        While making the payment mention your name, college and event name.
     </div><br>
 
     <center><a href="<?php echo \yii\helpers\Url::to(['/event/index']) ?>" class="home">Events</a></center>
