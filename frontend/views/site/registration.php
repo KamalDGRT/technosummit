@@ -30,8 +30,8 @@ $this->title = 'Technosummit Registration';
     <h1 class="logo">Registration</h1>
 
     <div class="account">
-        <h2 class="fs-title">Account Details for Payment</h2>
-        <table style="border: black 1px solid;">
+        <h2 class="fs-title" style="text-align:center;">Account Details for Payment</h2>
+        <table style="border: black 1px solid; margin: 0 auto;">
             <tr style="border: black 1px solid; padding:5px;">
                 <th style="border-right: black 1px solid;  padding:5px;">Name</th>
                 <td style="padding:5px;">DEAN STUDENT - SATHYABAMA</td>
@@ -52,7 +52,13 @@ $this->title = 'Technosummit Registration';
                 <th style="border-right: black 1px solid;  padding:5px;"> Branch Code </th>
                 <td style="padding:5px;"> 02189 </td>
             </tr>
+            <tr style="border: black 1px solid; padding:5px;">
+                <th style="border-right: black 1px solid;  padding:5px;"> UPI ID </th>
+                <td style="padding:5px;"> jayakrishna.adc5@okicici </td>
+            </tr>
         </table>
+        <br>
+        While making the payment via UPI, mention your name, college and event name.
     </div><br>
 
     <center><a href="<?php echo \yii\helpers\Url::to(['/event/index']) ?>" class="home">Events</a></center>
