@@ -8,6 +8,7 @@ use frontend\assets\NavAsset;
 use yii\helpers\Url;
 
 NavAsset::register($this);
+$this->title = 'Navigation';
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>

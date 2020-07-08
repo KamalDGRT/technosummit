@@ -7,6 +7,7 @@ use yii\helpers\Html;
 use frontend\assets\IndexAsset;
 
 IndexAsset::register($this);
+$this->title = 'TechnoSummit 2020';
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>

@@ -8,6 +8,7 @@ use frontend\assets\AboutusAsset;
 use yii\helpers\Url;
 
 AboutusAsset::register($this);
+$this->title = 'About Us';
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
