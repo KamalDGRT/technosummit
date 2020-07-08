@@ -110,6 +110,12 @@ class SiteController extends Controller
         return $this->render('aboutus');
     }
 
+    public function actionThanks()
+    {
+        $this->layout = false;
+        return $this->render('thanks');
+    }
+
     public function actionRegistration()
     {
         $this->layout = false;
@@ -119,7 +125,7 @@ class SiteController extends Controller
         $model->image = UploadedFile::getInstanceByName('r_screenshot');
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             echo '<script>alert("Your details have been submitted. Our team will contact you after verification."); </script>';
-            return $this->redirect(Url::to(['/site/nav']));
+            return $this->redirect(Url::to(['/site/thanks']));
         }
         
         return $this->render('registration', [

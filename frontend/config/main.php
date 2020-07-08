@@ -51,6 +51,7 @@ return [
                 '/navigation' => '/site/nav',
                 '/registration' => '/site/registration',
                 '/events' => '/event/index',
+                '/thankyou' => '/site/thanks',
             ],
         ],
 
