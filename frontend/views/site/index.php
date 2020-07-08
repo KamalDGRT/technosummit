@@ -75,7 +75,7 @@ $this->title = 'TechnoSummit 2020';
                 National Level Annual Technical Fest On Virtual Platform<br />
                 <h1>7<sup>th</sup> and 8<sup>th</sup> August <span style="font-size: 240%;">2020</span></h1>
             </h2>
-            <center><a href="nav.html" class="btn btn-first">Click Here</a></center>
+            <center><a href="<?php echo \yii\helpers\Url::to(['/site/nav']) ?>" class="btn btn-first">Click Here</a></center>
         </center>
     </header>
 
