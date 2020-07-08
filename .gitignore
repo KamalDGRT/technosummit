@@ -43,3 +43,4 @@ phpunit.phar
 /backend/web/robots.txt
 /frontend/views/event/1round.php
 /frontend/views/event/2rounds.php
+/storage
