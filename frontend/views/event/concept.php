@@ -47,8 +47,8 @@ EventAsset::register($this);
 
                         <div class="mu-hero-featured-content animated slideInDown">
 
-                            <h1>Concept</h1>
-                            <h2>ROBOTICS CLUB</h2>
+                            <h1>CONCEPT IDEA BOX</h1>
+                            <h2>ENCORE CLUB</h2>
                             <br><br>
                             <a href="<?php echo Url::to(['/event/index']) ?>" class="btn btn-first">BACK</a>
                             <a href="<?php echo Url::to(['/site/registration']) ?>" class="btn btn-nav">REGISTER</a>

@@ -16,8 +16,6 @@ EventsAsset::register($this);
 
 <head>
     <meta charset="<?= Yii::$app->charset ?>">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <?php $this->registerCsrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
@@ -197,7 +195,7 @@ EventsAsset::register($this);
                     <div class="container">
                         <div class="front" style="background-image: url(<?php echo Yii::$app->params['frontendUrl'] . 'img/tile_concept.png'; ?>);">
                             <div class="inner">
-                                <p>CONCEPT</p>
+                                <p>CONCEPT IDEA BOX</p>
                                 <span>Encore Club</span>
                             </div>
                         </div>

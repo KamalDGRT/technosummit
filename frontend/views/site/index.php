@@ -14,9 +14,6 @@ $this->title = 'TechnoSummit 2020';
 <html lang="<?= Yii::$app->language ?>">
 
 <head>
-    <meta charset="<?= Yii::$app->charset ?>">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <?php $this->registerCsrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
@@ -32,17 +29,6 @@ $this->title = 'TechnoSummit 2020';
             <div class="row clearfix">
                 <img src="img\tsist.png" class="logo" />
                 <img src="img\ts.png" class="log" />
-                <!-- <ul class="main-nav animated slideInDown">
-            <li>
-              <a href="index.html">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                Pages</a
-              >
-            </li>
-          </ul> -->
             </div>
         </nav>
         <div class="container">
@@ -82,12 +68,14 @@ $this->title = 'TechnoSummit 2020';
         <br>
         <center><img src="img\abc.png" style="width: 500px;" /></center>
         <br>
+        <center><a href="http://www.sathyabama.ac.in/" style="font-size: 240%;color: white;">www.sathyabama.ac.in</a></center>
+        <br>
         <center>
             <h2 class="national">
                 National Level Annual Technical Fest On Virtual Platform<br />
-                <h1>7<sup>th</sup> and 8<sup>th</sup> August 2020</h1>
+                <h1>7<sup>th</sup> and 8<sup>th</sup> August <span style="font-size: 240%;">2020</span></h1>
             </h2>
-            <center><a href="<?php echo \yii\helpers\Url::to(['/site/nav']) ?>" class="btn btn-first">Click Here</a></center>
+            <center><a href="nav.html" class="btn btn-first">Click Here</a></center>
         </center>
     </header>
 
