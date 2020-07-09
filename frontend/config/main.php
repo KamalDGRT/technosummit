@@ -42,6 +42,7 @@ return [
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
+            'enableStrictParsing' => false,
             'rules' => [
                 '/' => '/site/index',
                 '/signup' => '/site/signup',
