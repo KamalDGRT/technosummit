@@ -111,7 +111,7 @@ EventAsset::register($this);
                                         </div>
                                     </div> <!-- Row ends -->
 
-                                    <!-- FAQS 
+                                    <!-- FAQ -->
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="mu-sponsors-area animated zoomInRight">
@@ -203,7 +203,8 @@ EventAsset::register($this);
                                             </div>
                                         </div>
 
-                                    </div> -->
+                                    </div>
+
                                 </div>
                                 <!-- End Feature Content -->
 

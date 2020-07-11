@@ -72,6 +72,7 @@ EventAsset::register($this);
                 <div class="row">
                     <div class="col-md-12">
                         <div class="mu-about-area">
+
                             <!-- Start Feature Content -->
                             <div class="row">
                                 <div class="col-md-6 col-sm-12">
@@ -164,7 +165,7 @@ EventAsset::register($this);
 
                                     <b>Time: </b> 4 hours in total
 
-                                    <!-- FAQs
+                                    <!-- FAQ -->
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="mu-sponsors-area animated zoomInRight">
@@ -256,7 +257,8 @@ EventAsset::register($this);
                                             </div>
                                         </div>
 
-                                    </div>  -->
+                                    </div>
+
                                 </div>
                                 <!-- End Feature Content -->
 

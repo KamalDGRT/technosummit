@@ -155,7 +155,8 @@ EventAsset::register($this);
                                     </div> <!-- Row ends -->
 
                                     After evaluating the videos, the best ten concepts of the participants will be present on the day of TECHNO SUMMIT 2020 on 07-08-2020.
-                                    <!--  FAQs
+
+                                    <!-- FAQ -->
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="mu-sponsors-area animated zoomInRight">
@@ -247,7 +248,8 @@ EventAsset::register($this);
                                             </div>
                                         </div>
 
-                                    </div>  -->
+                                    </div>
+
                                 </div>
                                 <!-- End Feature Content -->
 

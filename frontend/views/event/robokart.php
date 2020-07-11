@@ -155,7 +155,7 @@ EventAsset::register($this);
                                     </div> <!-- Row ends -->
 
                                     <!-- FAQ -->
-                                    <!-- <div class="row">
+                                    <div class="row">
                                         <div class="col-md-12">
                                             <div class="mu-sponsors-area animated zoomInRight">
                                                 <p class="myAccordion">FAQs</p>
@@ -246,7 +246,7 @@ EventAsset::register($this);
                                             </div>
                                         </div>
 
-                                    </div>   -->
+                                    </div>
 
 
                                 </div>
