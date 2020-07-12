@@ -110,8 +110,8 @@ EventAsset::register($this);
                                                         <li class="list-group-item"><span>5. Your code shouldn’t be copy-pasted from any other source. </span></li>
                                                         <li class="list-group-item"><span>6. Final Winner will be announced based on the originality of the code. </span></li>
                                                         <li class="list-group-item"><span>7. Judges decision will be final. </span></li>
-                                                    </ul><br>
-                                                    <b>Time : </b>&nbsp;6 hours
+                                                        <li class="list-group-item"><span><b>Time : </b>&nbsp;6 hours</span></li>
+                                                    </ul>
                                                 </div>
                                             </div>
                                         </div>
@@ -130,13 +130,13 @@ EventAsset::register($this);
                                                                 <h4 class="panel-title">
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true">
                                                                         <span class="fa fa-angle-up"></span>
-                                                                        Question 1
+                                                                        1. How should I design the website?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseOne" class="panel-collapse collapse in">
                                                                 <div class="panel-body">
-                                                                    Answer 1
+                                                                    Every participant will receive a template to their registered mail id.
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -146,13 +146,13 @@ EventAsset::register($this);
                                                                 <h4 class="panel-title">
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
                                                                         <span class="fa fa-angle-up"></span>
-                                                                        Question 2
+                                                                        2. How can I submit my final code?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseTwo" class="panel-collapse collapse">
                                                                 <div class="panel-body">
-                                                                    Answer 2
+                                                                    Completed code should be submitted in the Google Classroom, which will be provided after registration.
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -162,13 +162,13 @@ EventAsset::register($this);
                                                                 <h4 class="panel-title">
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
                                                                         <span class="fa fa-angle-up"></span>
-                                                                        Question 3
+                                                                        3. How will I receive my certificate?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseThree" class="panel-collapse collapse">
                                                                 <div class="panel-body">
-                                                                    Answer 3
+                                                                    E-certificates will be sent after the successful completion of the event via mail. All winners and participants will be awarded with certificates.
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -178,13 +178,13 @@ EventAsset::register($this);
                                                                 <h4 class="panel-title">
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
                                                                         <span class="fa fa-angle-up"></span>
-                                                                        Question 4
+                                                                        4. What will be the total duration of the competition?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseFour" class="panel-collapse collapse">
                                                                 <div class="panel-body">
-                                                                    Answer 4
+                                                                    6 hours.
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -194,13 +194,13 @@ EventAsset::register($this);
                                                                 <h4 class="panel-title">
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
                                                                         <span class="fa fa-angle-up"></span>
-                                                                        Question 5
+                                                                        5. What if my Internet connection is unstable?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseFive" class="panel-collapse collapse ">
                                                                 <div class="panel-body">
-                                                                    Answer 5
+                                                                    Uninterrupted Internet connectivity will be required during the submission of the source code.
                                                                 </div>
                                                             </div>
                                                         </div>
