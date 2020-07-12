@@ -182,14 +182,12 @@ EventAsset::register($this);
                                                                 <h4 class="panel-title">
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true">
                                                                         <span class="fa fa-angle-up"></span>
-                                                                        Question 1
-                                                                        What should be the theme of the short film?
+                                                                        1. What should be the theme of the short film?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseOne" class="panel-collapse collapse in">
                                                                 <div class="panel-body">
-                                                                    Answer 1
                                                                     Any theme without lewd content is accepted.
                                                                 </div>
                                                             </div>
@@ -200,15 +198,13 @@ EventAsset::register($this);
                                                                 <h4 class="panel-title">
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
                                                                         <span class="fa fa-angle-up"></span>
-                                                                        Question 2
-                                                                        When is the last date of submission?
+                                                                        2. When is the last date of submission?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseTwo" class="panel-collapse collapse">
                                                                 <div class="panel-body">
-                                                                    Answer 2
-                                                                    On or before 4th August2020.
+                                                                    On or before 4<sup>th</sup> August 2020.
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -218,14 +214,12 @@ EventAsset::register($this);
                                                                 <h4 class="panel-title">
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
                                                                         <span class="fa fa-angle-up"></span>
-                                                                        Question 3
-                                                                        What should be the length of the film?
+                                                                        3. What should be the length of the film?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseThree" class="panel-collapse collapse">
                                                                 <div class="panel-body">
-                                                                    Answer 3
                                                                     Strictly, it lasts less than 20 minutes.
                                                                 </div>
                                                             </div>
@@ -236,14 +230,12 @@ EventAsset::register($this);
                                                                 <h4 class="panel-title">
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
                                                                         <span class="fa fa-angle-up"></span>
-                                                                        Question 4
-                                                                        Are there any prizes?
+                                                                        4. Are there any prizes?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseFour" class="panel-collapse collapse">
                                                                 <div class="panel-body">
-                                                                    Answer 4
                                                                     Prize money for winners and e-certificates for all the participants will be provided.
                                                                 </div>
                                                             </div>
@@ -254,18 +246,99 @@ EventAsset::register($this);
                                                                 <h4 class="panel-title">
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
                                                                         <span class="fa fa-angle-up"></span>
-                                                                        Question 5
-                                                                        In which language should the video be made?
+                                                                        5. In which language should the video be made?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseFive" class="panel-collapse collapse ">
                                                                 <div class="panel-body">
-                                                                    Answer 5
                                                                     All Indian languages are accepted but should contain English subtitles.
                                                                 </div>
                                                             </div>
                                                         </div>
+
+                                                        <div class="panel panel-default animated slideInRight">
+                                                            <div class="panel-heading">
+                                                                <h4 class="panel-title">
+                                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
+                                                                        <span class="fa fa-angle-up"></span>
+                                                                        6. What is the topic for the photography contest?
+                                                                    </a>
+                                                                </h4>
+                                                            </div>
+                                                            <div id="collapseSix" class="panel-collapse collapse ">
+                                                                <div class="panel-body">
+                                                                    The topic is “minimalism”. Anything under that concept is acceptable unless the photo contains lewd content.
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="panel panel-default animated slideInRight">
+                                                            <div class="panel-heading">
+                                                                <h4 class="panel-title">
+                                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseSeven">
+                                                                        <span class="fa fa-angle-up"></span>
+                                                                        7. What should be the format of the submission?
+                                                                    </a>
+                                                                </h4>
+                                                            </div>
+                                                            <div id="collapseSeven" class="panel-collapse collapse ">
+                                                                <div class="panel-body">
+                                                                    Only .jpg format must be used.
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="panel panel-default animated slideInRight">
+                                                            <div class="panel-heading">
+                                                                <h4 class="panel-title">
+                                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+                                                                        <span class="fa fa-angle-up"></span>
+                                                                        8. Should the photo be raw?
+                                                                    </a>
+                                                                </h4>
+                                                            </div>
+                                                            <div id="collapseFive" class="panel-collapse collapse ">
+                                                                <div class="panel-body">
+                                                                    Yes, the picture should be raw and no editing should be done. If any amount of editing is done, the contestant will be disqualified.
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="panel panel-default animated slideInRight">
+                                                            <div class="panel-heading">
+                                                                <h4 class="panel-title">
+                                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+                                                                        <span class="fa fa-angle-up"></span>
+                                                                        9. How many pictures can be sent?
+                                                                    </a>
+                                                                </h4>
+                                                            </div>
+                                                            <div id="collapseFive" class="panel-collapse collapse ">
+                                                                <div class="panel-body">
+                                                                    Not more than one picture can be sent.
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="panel panel-default animated slideInRight">
+                                                            <div class="panel-heading">
+                                                                <h4 class="panel-title">
+                                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+                                                                        <span class="fa fa-angle-up"></span>
+                                                                        10. What is the time of submission?
+                                                                    </a>
+                                                                </h4>
+                                                            </div>
+                                                            <div id="collapseFive" class="panel-collapse collapse ">
+                                                                <div class="panel-body">
+                                                                    The submission should be made on or before 4th August. Any submission after that will not be accepted.
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+
+
                                                     </div>
                                                 </div>
                                             </div>
