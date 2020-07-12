@@ -18,10 +18,12 @@ nbproject
 Thumbs.db
 
 # composer vendor dir
-/vendor
+
 
 # composer itself is not needed
 composer.phar
+composer.json
+composer.lock
 
 # Mac DS_Store Files
 .DS_Store
@@ -35,11 +37,6 @@ phpunit.phar
 /.vagrant
 
 # ignore generated files
-/frontend/web/index.php
-/frontend/web/index-test.php
-/frontend/web/robots.txt
-/backend/web/index.php
-/backend/web/index-test.php
-/backend/web/robots.txt
 /frontend/views/event/1round.php
 /frontend/views/event/2rounds.php
+/storage
