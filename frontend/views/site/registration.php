@@ -11,17 +11,17 @@ RegistrationAsset::register($this);
 $this->title = 'Technosummit Registration';
 ?>
 <?php $this->beginPage() ?>
-    <!DOCTYPE html>
-    <html lang="<?= Yii::$app->language ?>">
+<!DOCTYPE html>
+<html lang="<?= Yii::$app->language ?>">
 
-    <head>
-        <meta charset="<?= Yii::$app->charset ?>">
-        <?php $this->registerCsrfMetaTags() ?>
-        <title><?= Html::encode($this->title) ?></title>
-        <?php $this->head() ?>
-    </head>
+<head>
+    <meta charset="<?= Yii::$app->charset ?>">
+    <?php $this->registerCsrfMetaTags() ?>
+    <title><?= Html::encode($this->title) ?></title>
+    <?php $this->head() ?>
+</head>
 
-    <body>
+<body>
     <?php $this->beginBody() ?>
 
     <h1 class="logo">Technosummit</h1>
@@ -32,7 +32,7 @@ $this->title = 'Technosummit Registration';
         <table style="border: black 1px solid; margin: 0 auto;">
             <tr style="border: black 1px solid; padding:5px;">
                 <th style="border-right: black 1px solid;  padding:5px;">Name</th>
-                <td style="padding:5px;">DEAN STUDENT - SATHYABAMA</td>
+                <td style="padding:5px;">DEAN&nbsp;STUDENT&nbsp;-&nbsp;SATHYABAMA</td>
             </tr>
             <tr style="border: black 1px solid; padding:5px;">
                 <th style="border-right: black 1px solid;  padding:5px;">Account Number</th>
@@ -64,73 +64,123 @@ $this->title = 'Technosummit Registration';
         'options' => ['enctype' => 'multipart/form-data'],
         'id' => 'msform'
     ]); ?>
-        <fieldset>
 
-            <div style="background:pink;color:blue;">
-                <?php echo $form->errorSummary($model) ?>
+    <p class="myAccordion">List of events day-wise</p>
+    <div class="myPanel">
+        <div class="row">
+            <div class="column" style="background-color:#fff;">
+                <ul>
+                    <li style="text-align: center; font-weight:bold; background:none;">Day 1 : 7<sup>th</sup> August 2020</li>
+                    <li>1. MATH - MANIA </li>
+                    <li>2. SCIENTIA</li>
+                    <li>3. COMIC CRUSADERS</li>
+                    <li>4. BLIND CODING</li>
+                    <li>5. WEB WORLD</li>
+                    <li>6. CIRCUITRONICS</li>
+                    <li>7. ROBOKART</li>
+                    <li>8. SEED YOU START UP</li>
+                    <li>9. AERO ZONE</li>
+                    <li>10. CODE-VITA</li>
+                </ul>
             </div>
-
-            <h2 class="fs-title">Contact Info</h2>
-            <h3 class="fs-subtitle">This is to send certifcates. All the fields are required.</h3>
-            <h3 class="fs-subtitle">Note: Attach Payment Screenshot of each event separately.</h3>
-
-            <?= $form->field($model, 'r_salutation')->dropDownList($model->getSalutationLabels())->label(false) ?>
-
-            <?= $form->field($model, 'r_name')->textInput([
-                    'maxlength' => true,
-                    'onkeypress' => 'return allowOnlyAlphabets(event)',
-                    'placeholder' => "Name"])->label(false) ?><br>
-
-            <?= $form->field($model, 'r_email')->textInput([
-                'maxlength' => true,
-                'type' => 'email',
-                'placeholder' => "Email Address"])->label(false) ?><br>
-
-            <?= $form->field($model, 'r_phone')->textInput([
-                'maxlength' => 10,
-                'onkeypress' => 'return restrictAlphabets(event)',
-                'placeholder' => "Phone Number"])->label(false) ?><br>
-            <br>
-
-            <h2 class="fs-title">College Details</h2><br>
-
-            <?= $form->field($model, 'r_college')->textInput([
-                'maxlength' => true,
-                'onkeypress' => 'return allowAlphabets(event)',
-                'placeholder' => "College/Institution"])->label(false) ?><br>
-
-            <?= $form->field($model, 'r_year')->dropDownList($model->getYearLabels())->label(false) ?>
-            <br>
-            <h2 class="fs-title">Location Details</h2><br>
-
-            <?= $form->field($model, 'r_city')->textInput([
-                'maxlength' => true,
-                'onkeypress' => 'return allowOnlyAlphabets(event)',
-                'placeholder' => "City"])->label(false) ?><br>
-
-            <?= $form->field($model, 'r_state')->textInput([
-                'maxlength' => true,
-                'onkeypress' => 'return allowOnlyAlphabets(event)',
-                'placeholder' => "State"])->label(false) ?><br>
-
-            <?= $form->field($model, 'r_event')->dropDownList($model->getEventLabels())->label(false) ?>
-            <br>
-            <h2 class="fs-title">Payment Details</h2>
-            <h3 class="fs-subtitle">Attach the Screenshot of the Payment and Enter the Transaction ID</h3>
-            <div class="custom-file">
-                <input type="file" class="custom-file-input" id="r_screenshot" name="r_screenshot" required>
+            <div class="column" style="background-color:#fff;">
+                <ul>
+                    <li style="text-align: center; font-weight:bold; background:none;">Day 2 : 8<sup>th</sup> August 2020</li>
+                    <li>1. ECO-TOPIA</li>
+                    <li>2. 5-MT</li>
+                    <li>3. COVIDATHON</li>
+                    <li>4. CONCEPT IDEA BOX</li>
+                    <li>5. DAVINCI CODE</li>
+                    <li>6. D &amp; D</li>
+                    <li>7. EX QUIZ ME</li>
+                    <li>8. FILMINA</li>
+                    <li>9. TECHIE-DEB</li>
+                    <li>10. AI WORKSHOP</li>
+                    <li>11. SKETCH</li>
+                </ul>
             </div>
+        </div>
 
-            <?= $form->field($model, 'r_transaction_id')->textInput([
-                'maxlength' => true,
-                'placeholder' => "Transaction ID"])->label(false) ?><br>
-            <?= Html::submitButton('Submit', ['class' => 'submit action-button']) ?>
-        </fieldset>
+    </div>
+
+    <fieldset>
+
+        <div style="background:pink;color:blue;">
+            <?php echo $form->errorSummary($model) ?>
+        </div>
+
+        <h2 class="fs-title">Contact Info</h2>
+        <h3 class="fs-subtitle">This is to send certifcates. All the fields are required.</h3>
+        <h4 class="fs-subtitle bold"><b>Note: Attach Payment Screenshot of each event separately.</b></h4>
+
+        <?= $form->field($model, 'r_salutation')->dropDownList($model->getSalutationLabels())->label(false) ?>
+
+        <?= $form->field($model, 'r_name')->textInput([
+            'maxlength' => true,
+            'onkeypress' => 'return allowOnlyAlphabets(event)',
+            'placeholder' => "Name"
+        ])->label(false) ?><br>
+
+        <?= $form->field($model, 'r_email')->textInput([
+            'maxlength' => true,
+            'type' => 'email',
+            'placeholder' => "Email Address"
+        ])->label(false) ?><br>
+
+        <?= $form->field($model, 'r_phone')->textInput([
+            'maxlength' => 10,
+            'onkeypress' => 'return restrictAlphabets(event)',
+            'placeholder' => "Phone Number"
+        ])->label(false) ?><br>
+        <br>
+
+        <h2 class="fs-title">College Details</h2><br>
+
+        <?= $form->field($model, 'r_college')->textInput([
+            'maxlength' => true,
+            'onkeypress' => 'return allowAlphabets(event)',
+            'placeholder' => "College/Institution"
+        ])->label(false) ?><br>
+
+        <?= $form->field($model, 'r_year')->dropDownList($model->getYearLabels())->label(false) ?>
+        <br>
+        <h2 class="fs-title">Location Details</h2><br>
+
+        <?= $form->field($model, 'r_city')->textInput([
+            'maxlength' => true,
+            'onkeypress' => 'return allowOnlyAlphabets(event)',
+            'placeholder' => "City"
+        ])->label(false) ?><br>
+
+        <?= $form->field($model, 'r_state')->textInput([
+            'maxlength' => true,
+            'onkeypress' => 'return allowOnlyAlphabets(event)',
+            'placeholder' => "State"
+        ])->label(false) ?><br>
+
+        <?= $form->field($model, 'r_event')->dropDownList($model->getEventLabels())->label(false) ?>
+        <br>
+        <h2 class="fs-title">Payment Details</h2>
+        <h3 class="fs-subtitle">Attach the Screenshot of the Payment and Enter the Transaction ID</h3>
+
+
+        <?= $form->field($model, 'r_payment')->dropDownList($model->getPaymentLabels())->label(false) ?>
+
+        <div class="custom-file">
+            <input type="file" class="custom-file-input" id="r_screenshot" name="r_screenshot" required>
+        </div>
+
+        <?= $form->field($model, 'r_transaction_id')->textInput([
+            'maxlength' => true,
+            'placeholder' => "Transaction ID"
+        ])->label(false) ?><br>
+        <?= Html::submitButton('Submit', ['class' => 'submit action-button']) ?>
+    </fieldset>
 
     <?php ActiveForm::end(); ?>
 
     <?php $this->endBody() ?>
-    </body>
+</body>
 
-    </html>
+</html>
 <?php $this->endPage() ?>

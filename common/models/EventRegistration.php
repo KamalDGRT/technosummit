@@ -70,9 +70,9 @@ class EventRegistration extends \yii\db\ActiveRecord
             ['status', 'default', 'value' => self::STATUS_NOT_CONFIRMED],
             [['image_id'], 'unique'],
             ['image', 'image', 'minWidth' => 100],
-            [['r_salutation','created_by'], 'default', 'value' => null],
+            [['r_salutation', 'created_by'], 'default', 'value' => null],
             ['r_phone', 'match', 'pattern' => '/^[0-9]{10}$/', 'message' => 'Enter a valid 10 digit phone number.'],
-            ['r_transaction_id', 'unique','message'=> 'Enter a valid Transaction ID!']
+            ['r_transaction_id', 'unique', 'message' => 'Enter a valid Transaction ID!'],
         ];
     }
 
@@ -155,6 +155,15 @@ class EventRegistration extends \yii\db\ActiveRecord
         return [
             self::STATUS_NOT_CONFIRMED => 'Not Confirmed',
             self::STATUS_COMFIRMED => 'Confirmed',
+        ];
+    }
+
+    public function getPaymentLabels()
+    {
+        return [
+            0 => 'Select Payment Method',
+            1 => 'Account Transfer',
+            2 => 'UPI',
         ];
     }
 

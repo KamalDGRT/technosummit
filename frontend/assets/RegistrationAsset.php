@@ -20,7 +20,5 @@ class RegistrationAsset extends AssetBundle
         'https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js',
         'js/registration.js'
     ];
-    public $depends = [
-        //'yii\web\YiiAsset',
-    ];
+    public $depends = [];
 }

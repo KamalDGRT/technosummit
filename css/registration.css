@@ -112,9 +112,11 @@ body {
     padding: 10px 5px;
     margin: 10px 5px;
 }
+
 #msform .action-button:hover, #msform .action-button:focus {
     box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
 }
+
 /*headings*/
 .fs-title {
     font-size: 20px;
@@ -123,12 +125,18 @@ body {
     color: #2C3E50;
     margin-bottom: 10px;
 }
+
 .fs-subtitle {
     font-weight: normal;
     font-size: 15px;
     color: #666;
     margin-bottom: 20px;
 }
+
+.bold{
+    font-weight: bolder;
+}
+
 /*progressbar*/
 #progressbar {
     margin-bottom: 30px;
@@ -136,6 +144,7 @@ body {
     /*CSS counters to number the steps*/
     counter-reset: step;
 }
+
 #progressbar li {
     list-style-type: none;
     color: white;
@@ -146,6 +155,7 @@ body {
     float: left;
     position: relative;
 }
+
 #progressbar li:before {
     content: counter(step);
     counter-increment: step;
@@ -158,6 +168,7 @@ body {
     border-radius: 3px;
     margin: 0 auto 5px auto;
 }
+
 /*progressbar connectors*/
 #progressbar li:after {
     content: '';
@@ -169,10 +180,12 @@ body {
     top: 9px;
     z-index: -1; /*put it behind the numbers*/
 }
+
 #progressbar li:first-child:after {
     /*connector not needed before the first step*/
     content: none; 
 }
+
 /*marking active/completed steps green*/
 /*The number of the step and the connector before it = green*/
 #progressbar li.active:before,  #progressbar li.active:after{
@@ -182,4 +195,101 @@ body {
 
 .mytable{
     border: #010101 solid black;
+}
+
+
+p.myAccordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 90%;
+    text-align: center;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin-bottom: 10px;
+    margin: 0 auto;
+}
+
+/* Add a background color to the accordion if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+p.myAccordion.active,
+p.myAccordion:hover {
+    background-color: #3a3a3a;
+    color: aliceblue;
+}
+
+/* Unicode character for "plus" sign (+) */
+p.myAccordion:after {
+    content: '\2795';
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+/* Unicode character for "minus" sign (-) */
+p.myAccordion.active:after {
+    content: "\2796";
+}
+
+/* Style the element that is used for the panel class */
+
+div.myPanel {
+    padding: 15px;
+    background: #fff;
+    max-height: 0;
+    overflow: hidden;
+    color: black;
+    transition: 0.4s ease-in-out;
+    opacity: 0;
+    width: 90%;
+    margin: 20px auto;
+}
+
+div.myPanel.show {
+    opacity: 1;
+    max-height: fit-content;
+    /* Whatever you like, as long as its more than the height of the content (on all screen sizes) */
+}
+
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    
+    box-sizing: border-box;
+}
+
+.row{
+    box-sizing: border-box;
+}
+
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+    text-align: left;
+}
+
+ul li {
+    border: 1px solid #ddd; /* Add a thin border to each list item */
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #f6f6f6; /* Add a grey background color */
+    padding: 12px; /* Add some padding */
 }
