@@ -128,12 +128,14 @@ EventAsset::register($this);
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true">
                                                                         <span class="fa fa-angle-up"></span>
                                                                         Question 1
+                                                                        What are the required percentage/eligibility criteria for clearing the quiz?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseOne" class="panel-collapse collapse in">
                                                                 <div class="panel-body">
                                                                     Answer 1
+                                                                    The candidate requires 80% for clearing the quiz session.
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -144,12 +146,14 @@ EventAsset::register($this);
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
                                                                         <span class="fa fa-angle-up"></span>
                                                                         Question 2
+                                                                        Is there any time limit?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseTwo" class="panel-collapse collapse">
                                                                 <div class="panel-body">
                                                                     Answer 2
+                                                                    the
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -160,12 +164,14 @@ EventAsset::register($this);
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
                                                                         <span class="fa fa-angle-up"></span>
                                                                         Question 3
+                                                                        When does the timer start?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseThree" class="panel-collapse collapse">
                                                                 <div class="panel-body">
                                                                     Answer 3
+                                                                    The timer starts once the form in the quiz page is opened.
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -176,12 +182,14 @@ EventAsset::register($this);
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
                                                                         <span class="fa fa-angle-up"></span>
                                                                         Question 4
+                                                                        How are the members selected?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseFour" class="panel-collapse collapse">
                                                                 <div class="panel-body">
                                                                     Answer 4
+                                                                    The members are chosen on the eligibility criteria of the quiz.
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -192,15 +200,37 @@ EventAsset::register($this);
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
                                                                         <span class="fa fa-angle-up"></span>
                                                                         Question 5
+                                                                        This quiz session based on what?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseFive" class="panel-collapse collapse ">
                                                                 <div class="panel-body">
                                                                     Answer 5
+                                                                    The quiz is based on Environmental aspects and Technology.
                                                                 </div>
                                                             </div>
                                                         </div>
+
+
+                                                        <div class="panel panel-default animated slideInRight">
+                                                            <div class="panel-heading">
+                                                                <h4 class="panel-title">
+                                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+                                                                        <span class="fa fa-angle-up"></span>
+                                                                        Question 6
+                                                                        When will we get the Google form link?
+                                                                    </a>
+                                                                </h4>
+                                                            </div>
+                                                            <div id="collapseFive" class="panel-collapse collapse ">
+                                                                <div class="panel-body">
+                                                                    Answer 6
+                                                                    The form will be available in your registered mail ID before the beginning of the session.
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
                                                     </div>
                                                 </div>
                                             </div>
