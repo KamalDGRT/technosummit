@@ -231,6 +231,181 @@ EventAsset::register($this);
                                                             </div>
                                                         </div>
 
+                                                        <div class="panel panel-default animated slideInRight">
+                                                            <div class="panel-heading">
+                                                                <h4 class="panel-title">
+                                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+                                                                        <span class="fa fa-angle-up"></span>
+                                                                        Question 7
+                                                                        What is the procedure for registrations?
+                                                                    </a>
+                                                                </h4>
+                                                            </div>
+                                                            <div id="collapseFive" class="panel-collapse collapse ">
+                                                                <div class="panel-body">
+                                                                    Answer 7
+                                                                    The candidate will be provided a registration link
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="panel panel-default animated slideInRight">
+                                                            <div class="panel-heading">
+                                                                <h4 class="panel-title">
+                                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+                                                                        <span class="fa fa-angle-up"></span>
+                                                                        Question 8
+                                                                        Can we attend the quiz with a team or an individual login is needed?
+                                                                    </a>
+                                                                </h4>
+                                                            </div>
+                                                            <div id="collapseFive" class="panel-collapse collapse ">
+                                                                <div class="panel-body">
+                                                                    Answer 8
+                                                                    Mostly, individual login is preferred.
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="panel panel-default animated slideInRight">
+                                                            <div class="panel-heading">
+                                                                <h4 class="panel-title">
+                                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+                                                                        <span class="fa fa-angle-up"></span>
+                                                                        Question 9
+                                                                        How will we be notified about the results?
+                                                                    </a>
+                                                                </h4>
+                                                            </div>
+                                                            <div id="collapseFive" class="panel-collapse collapse ">
+                                                                <div class="panel-body">
+                                                                    Answer 9
+                                                                    You will be notified with your respective scores at the end of the session.
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="panel panel-default animated slideInRight">
+                                                            <div class="panel-heading">
+                                                                <h4 class="panel-title">
+                                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+                                                                        <span class="fa fa-angle-up"></span>
+                                                                        Question 10
+                                                                        Can the quiz be used for the entire day?
+                                                                    </a>
+                                                                </h4>
+                                                            </div>
+                                                            <div id="collapseFive" class="panel-collapse collapse ">
+                                                                <div class="panel-body">
+                                                                    Answer 10
+                                                                    Based on this session, the timing is scheduled and will be sent along with a link to your registered mail ID.
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="panel panel-default animated slideInRight">
+                                                            <div class="panel-heading">
+                                                                <h4 class="panel-title">
+                                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+                                                                        <span class="fa fa-angle-up"></span>
+                                                                        Question 11
+                                                                        Is this quiz only for students?
+                                                                    </a>
+                                                                </h4>
+                                                            </div>
+                                                            <div id="collapseFive" class="panel-collapse collapse ">
+                                                                <div class="panel-body">
+                                                                    Answer 11
+                                                                    The quiz session is set on the target for everyone to know much about our environment.
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+
+                                                        <div class="panel panel-default animated slideInRight">
+                                                            <div class="panel-heading">
+                                                                <h4 class="panel-title">
+                                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+                                                                        <span class="fa fa-angle-up"></span>
+                                                                        Question 12
+                                                                        What are the login details needed?
+
+                                                                    </a>
+                                                                </h4>
+                                                            </div>
+                                                            <div id="collapseFive" class="panel-collapse collapse ">
+                                                                <div class="panel-body">
+                                                                    Answer 12
+                                                                    The candidate is required to enter the correct E-mail and the necessary info for registering.
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+
+
+                                                        <div class="panel panel-default animated slideInRight">
+                                                            <div class="panel-heading">
+                                                                <h4 class="panel-title">
+                                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+                                                                        <span class="fa fa-angle-up"></span>
+                                                                        Question 13
+                                                                        What if the link does not work?
+
+                                                                    </a>
+                                                                </h4>
+                                                            </div>
+                                                            <div id="collapseFive" class="panel-collapse collapse ">
+                                                                <div class="panel-body">
+                                                                    Answer 13
+                                                                    The link is designed for every individual on the specific time limits. Beyond the scheduled timing, the committee is not responsible for that.
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+
+
+                                                        <div class="panel panel-default animated slideInRight">
+                                                            <div class="panel-heading">
+                                                                <h4 class="panel-title">
+                                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+                                                                        <span class="fa fa-angle-up"></span>
+                                                                        Question 14
+                                                                        Will the quiz get auto-submitted?
+
+                                                                    </a>
+                                                                </h4>
+                                                            </div>
+                                                            <div id="collapseFive" class="panel-collapse collapse ">
+                                                                <div class="panel-body">
+                                                                    Answer 14
+                                                                    The quiz gets submitted once the timer ends.
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+
+
+                                                        <div class="panel panel-default animated slideInRight">
+                                                            <div class="panel-heading">
+                                                                <h4 class="panel-title">
+                                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+                                                                        <span class="fa fa-angle-up"></span>
+                                                                        Question 15
+                                                                        What is the procedure to end the quiz?
+
+                                                                    </a>
+                                                                </h4>
+                                                            </div>
+                                                            <div id="collapseFive" class="panel-collapse collapse ">
+                                                                <div class="panel-body">
+                                                                    Answer 15
+                                                                    The candidate is requested to click the submit option which is provided at the bottom of the page to end the quiz.
+                                                                </div>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
