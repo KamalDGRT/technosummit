@@ -120,12 +120,14 @@ EventAsset::register($this);
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true">
                                                                         <span class="fa fa-angle-up"></span>
                                                                         Question 1
+                                                                        What should be the size of the video file?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseOne" class="panel-collapse collapse in">
                                                                 <div class="panel-body">
                                                                     Answer 1
+                                                                    Anything but nothing above HD since file size gets too large otherwise.
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -136,12 +138,14 @@ EventAsset::register($this);
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
                                                                         <span class="fa fa-angle-up"></span>
                                                                         Question 2
+                                                                        What should be the video format?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseTwo" class="panel-collapse collapse">
                                                                 <div class="panel-body">
                                                                     Answer 2
+                                                                    Anything but nothing above HD since file size gets too large otherwise.
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -152,12 +156,14 @@ EventAsset::register($this);
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
                                                                         <span class="fa fa-angle-up"></span>
                                                                         Question 3
+                                                                        How long should the description of the product be?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseThree" class="panel-collapse collapse">
                                                                 <div class="panel-body">
                                                                     Answer 3
+                                                                    Not more than 100 words.
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -168,12 +174,14 @@ EventAsset::register($this);
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
                                                                         <span class="fa fa-angle-up"></span>
                                                                         Question 4
+                                                                        Does the concepts apart from developing the community be applied?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseFour" class="panel-collapse collapse">
                                                                 <div class="panel-body">
                                                                     Answer 4
+                                                                    Yes, definitely.
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -184,12 +192,14 @@ EventAsset::register($this);
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
                                                                         <span class="fa fa-angle-up"></span>
                                                                         Question 5
+                                                                        Can there be more than one participant in the video?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseFive" class="panel-collapse collapse ">
                                                                 <div class="panel-body">
                                                                     Answer 5
+                                                                    Yes, sure. Participation can be done as an individual or in a pair.
                                                                 </div>
                                                             </div>
                                                         </div>
