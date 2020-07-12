@@ -183,12 +183,14 @@ EventAsset::register($this);
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true">
                                                                         <span class="fa fa-angle-up"></span>
                                                                         Question 1
+                                                                        What should be the theme of the short film?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseOne" class="panel-collapse collapse in">
                                                                 <div class="panel-body">
                                                                     Answer 1
+                                                                    Any theme without lewd content is accepted.
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -199,12 +201,14 @@ EventAsset::register($this);
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
                                                                         <span class="fa fa-angle-up"></span>
                                                                         Question 2
+                                                                        When is the last date of submission?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseTwo" class="panel-collapse collapse">
                                                                 <div class="panel-body">
                                                                     Answer 2
+                                                                    On or before 4th August2020.
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -215,12 +219,14 @@ EventAsset::register($this);
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
                                                                         <span class="fa fa-angle-up"></span>
                                                                         Question 3
+                                                                        What should be the length of the film?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseThree" class="panel-collapse collapse">
                                                                 <div class="panel-body">
                                                                     Answer 3
+                                                                    Strictly, it lasts less than 20 minutes.
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -231,12 +237,14 @@ EventAsset::register($this);
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
                                                                         <span class="fa fa-angle-up"></span>
                                                                         Question 4
+                                                                        Are there any prizes?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseFour" class="panel-collapse collapse">
                                                                 <div class="panel-body">
                                                                     Answer 4
+                                                                    Prize money for winners and e-certificates for all the participants will be provided.
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -247,12 +255,14 @@ EventAsset::register($this);
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
                                                                         <span class="fa fa-angle-up"></span>
                                                                         Question 5
+                                                                        In which language should the video be made?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseFive" class="panel-collapse collapse ">
                                                                 <div class="panel-body">
                                                                     Answer 5
+                                                                    All Indian languages are accepted but should contain English subtitles.
                                                                 </div>
                                                             </div>
                                                         </div>
