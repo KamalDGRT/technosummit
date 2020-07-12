@@ -7,7 +7,7 @@ use yii\helpers\Html;
 use frontend\assets\EventAsset;
 use yii\helpers\Url;
 
-$this->title = 'D and D';
+$this->title = '';
 EventAsset::register($this);
 ?>
 <?php $this->beginPage() ?>
@@ -76,16 +76,17 @@ EventAsset::register($this);
                             <div class="row">
                                 <div class="col-md-6 col-sm-12">
                                     <div class="mu-about-left">
-                                        <img class="animated slideInLeft" src="<?php echo Yii::$app->params['frontendUrl'] . 'event/images/event_dandd.png'; ?>" alt="Men Speaker"> </div>
+                                        <img class="animated slideInLeft" src="<?php echo Yii::$app->params['frontendUrl'] . 'event/images/event_robokart.png'; ?>" alt="Men Speaker"> </div>
                                 </div>
                                 <div class="col-md-6 col-sm-12">
                                     <div class="row">
                                         <div class=" mu-about-right animated slideInRight">
-                                            <h2 style="text-decoration: underline;"></h2>
+                                            <h2 style="text-decoration: underline;">Description :-</h2>
 
                                             <p>
-                                                <b>Number of rounds: 2</b>
+
                                             </p><br>
+                                            <p>Theme of this event is <b>“Money from Machines”</b>.</p>
                                         </div>
                                     </div>
 
@@ -93,7 +94,7 @@ EventAsset::register($this);
                                         <!-- Row starts -->
                                         <div class="col-md-12">
                                             <div class="mu-sponsors-area animated zoomInRight">
-                                                <p class="myAccordion">Rounds Description</p>
+                                                <p class="myAccordion">Rules and Regulations</p>
                                                 <div class="myPanel">
 
                                                     <!-- Round1 Starts -->
@@ -115,8 +116,6 @@ EventAsset::register($this);
                                                                     <li class="list-group-item"><span>3. The selection is based on technical content, the novelty of the idea, and how it is beneficial to the society.</span></li>
                                                                     <li class="list-group-item"><span>4. The selected candidates will be communicated via Email </span></li>
                                                                     <li class="list-group-item"><span>5. These selected teams should register for the event. </span></li>
-                                                                    <li class="list-group-item"><span>6. The abstracts should be submitted on or before 20th July. </span></li>
-
                                                                 </ul>
                                                             </div>
                                                         </div>
@@ -156,26 +155,6 @@ EventAsset::register($this);
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="mu-sponsors-area animated zoomInRight">
-                                                <p class="myAccordion">Rules and Regulations</p>
-                                                <div class="myPanel">
-                                                    <ul class="list-group">
-                                                        <li class="list-group-item"><span> Each team should not have more than 3 members. </span></li>
-                                                        <li class="list-group-item"><span> A team member can belong to one team only. </span></li>
-                                                        <li class="list-group-item"><span> Each member should register individually for the event. </span></li>
-                                                        <li class="list-group-item"><span> This is a project display event in which candidates should present a working or prototype model which is useful to the society. </span></li>
-                                                        <li class="list-group-item"><span> The presentation of the project will be online through a video conference. </span></li>
-                                                        <li class="list-group-item"><span> For any other queries, contact the event coordinators. </span></li>
-                                                        <li class="list-group-item"><span> It is preferred for the teams to have a laptop, if not, you can use mobile phones to present your project. </span></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div> <!-- Row ends -->
-
-                                    <!-- FAQ -->
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <div class="mu-sponsors-area animated zoomInRight">
                                                 <p class="myAccordion">FAQs</p>
                                                 <div class="myPanel">
                                                     <div class="panel-group" id="accordion">
@@ -185,13 +164,13 @@ EventAsset::register($this);
                                                                 <h4 class="panel-title">
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true">
                                                                         <span class="fa fa-angle-up"></span>
-                                                                        Question 1
+                                                                        Should each team member register individually? Or a single team member can register for the entire team to participate?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseOne" class="panel-collapse collapse in">
                                                                 <div class="panel-body">
-                                                                    Answer 1
+                                                                    Each team member should register individually for the event but can represent a single prototype together as a team.
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -201,13 +180,13 @@ EventAsset::register($this);
                                                                 <h4 class="panel-title">
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
                                                                         <span class="fa fa-angle-up"></span>
-                                                                        Question 2
+                                                                        What is an abstract?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseTwo" class="panel-collapse collapse">
                                                                 <div class="panel-body">
-                                                                    Answer 2
+                                                                    The abstract is an overview of the prototype that should consist of objective, method, result & conclusion. The abstract should also contain all the team-mates' details.
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -217,13 +196,13 @@ EventAsset::register($this);
                                                                 <h4 class="panel-title">
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
                                                                         <span class="fa fa-angle-up"></span>
-                                                                        Question 3
+                                                                        How to submit the abstract?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseThree" class="panel-collapse collapse">
                                                                 <div class="panel-body">
-                                                                    Answer 3
+                                                                    The abstract should be e-mailed to the mail id which will be provided to the participants after registration
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -233,13 +212,13 @@ EventAsset::register($this);
                                                                 <h4 class="panel-title">
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
                                                                         <span class="fa fa-angle-up"></span>
-                                                                        Question 4
+                                                                        When to submit the abstract?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseFour" class="panel-collapse collapse">
                                                                 <div class="panel-body">
-                                                                    Answer 4
+                                                                    The Abstract should be submitted asap after registration. Selected candidates will then be notified via email so that they can start working on their prototype. The prototype should be ready before the final date of the event.
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -249,30 +228,75 @@ EventAsset::register($this);
                                                                 <h4 class="panel-title">
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
                                                                         <span class="fa fa-angle-up"></span>
-                                                                        Question 5
+                                                                        On what basis will the abstract be selected?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseFive" class="panel-collapse collapse ">
                                                                 <div class="panel-body">
-                                                                    Answer 5
+                                                                    Selection is purely based on technical content, the novelty of the idea, and how it will be beneficial to society.
                                                                 </div>
                                                             </div>
                                                         </div>
+
+
+                                                        <div class="panel panel-default animated slideInRight">
+                                                            <div class="panel-heading">
+                                                                <h4 class="panel-title">
+                                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
+                                                                        <span class="fa fa-angle-up"></span>
+                                                                        Can we use a mobile phone for the presentation (video conference)?
+                                                                    </a>
+                                                                </h4>
+                                                            </div>
+                                                            <div id="collapseSix" class="panel-collapse collapse ">
+                                                                <div class="panel-body">
+                                                                    It is preferred to have a laptop, but if not, then you can use a mobile. </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="panel panel-default animated slideInRight">
+                                                            <div class="panel-heading">
+                                                                <h4 class="panel-title">
+                                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseSeven">
+                                                                        <span class="fa fa-angle-up"></span>
+                                                                        On which platform will the event be held?
+                                                                    </a>
+                                                                </h4>
+                                                            </div>
+                                                            <div id="collapseSeven" class="panel-collapse collapse ">
+                                                                <div class="panel-body">
+                                                                    Most probably, Zoom platform. The final meeting details will be shared with all teams prior to the event via their registered mail ids. </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="panel panel-default animated slideInRight">
+                                                            <div class="panel-heading">
+                                                                <h4 class="panel-title">
+                                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseEight">
+                                                                        <span class="fa fa-angle-up"></span>
+                                                                        What if I need more time to finish the prototype?
+                                                                    </a>
+                                                                </h4>
+                                                            </div>
+                                                            <div id="collapseEight" class="panel-collapse collapse ">
+                                                                <div class="panel-body">
+                                                                    No delay will be appreciated. If the prototype is incomplete, it will be graded accordingly.</div>
+                                                            </div>
+                                                        </div>
+
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
 
+                                        </div>
                                     </div>
+                                    <!-- End Feature Content -->
 
                                 </div>
-                                <!-- End Feature Content -->
-
                             </div>
                         </div>
                     </div>
-                </div>
         </section>
         <!-- End About -->
 

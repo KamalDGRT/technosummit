@@ -7,7 +7,7 @@ use yii\helpers\Html;
 use frontend\assets\EventAsset;
 use yii\helpers\Url;
 
-$this->title = 'Blind Coding';
+$this->title = '';
 EventAsset::register($this);
 ?>
 <?php $this->beginPage() ?>
@@ -76,24 +76,18 @@ EventAsset::register($this);
                             <div class="row">
                                 <div class="col-md-6 col-sm-12">
                                     <div class="mu-about-left">
-                                        <img class="animated slideInLeft" src="<?php echo Yii::$app->params['frontendUrl'] . 'event/images/event_blindcoding.png'; ?>" alt="Blind Coding">
-                                    </div>
+                                        <img class="animated slideInLeft" src="<?php echo Yii::$app->params['frontendUrl'] . 'event/images/event_robokart.png'; ?>" alt="Men Speaker"> </div>
                                 </div>
                                 <div class="col-md-6 col-sm-12">
                                     <div class="row">
                                         <div class=" mu-about-right animated slideInRight">
                                             <h2 style="text-decoration: underline;">Description :-</h2>
 
-                                            <p>
-                                                So, what is blind coding? Is it for blind people? Or you have to code by closing the monitor off?
-                                                The answer is no. The event is for those who have just stepped into the field of coding.
+                                            <p>So, what is blind coding? Is it for blind people? Or you have to code by closing the monitor off? The answer is no. The event is for those who have just stepped into the field of coding.
+                                                The main motive of blind coding is to promote coding culture among students and to give confidence to the beginners or the starters in this area
+
                                             </p><br>
-
-                                            <p>
-                                                The main motive of blind coding is to promote coding culture among students and to give confidence
-                                                to the beginners or the starters in this area.
-                                            </p>
-
+                                            <p>Theme of this event is <b>“Money from Machines”</b>.</p>
                                         </div>
                                     </div>
 
@@ -104,13 +98,9 @@ EventAsset::register($this);
                                                 <p class="myAccordion">Rules and Regulations</p>
                                                 <div class="myPanel">
                                                     <ul class="list-group">
-                                                        <li class="list-group-item"><span> 1. The event consists of 4 rounds, and each round lasts for 30 minutes.</span></li>
-                                                        <li class="list-group-item"><span> 2. First Two rounds consist of MCQs.</span></li>
-                                                        <li class="list-group-item"><span> 3. Last Two rounds consist of Coding questions.</span></li>
-                                                        <li class="list-group-item"><span> 4. Scores will be given by the judges. </span></li>
-                                                        <li class="list-group-item"><span> 5. Winners will be declared based on marks scored. </span></li>
-                                                        <li class="list-group-item"><span> 6. Judges decision will be final. </span></li>
-                                                        <li class="list-group-item"><span> <b>Time : </b> 2 hours</span></li>
+                                                        <li class="list-group-item"><span>1. The event consists of 4 rounds, and each round lasts for 30 minutes.</span></li>
+                                                        <li class="list-group-item"><span>2. First Two rounds consist of MCQs.</span></li>
+                                                        <li class="list-group-item"><span>3. Last Two rounds consist of Coding questions.</span></li>
                                                     </ul>
 
                                                 </div>
@@ -118,7 +108,6 @@ EventAsset::register($this);
                                         </div>
                                     </div> <!-- Row ends -->
 
-                                    <!-- FAQ -->
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="mu-sponsors-area animated zoomInRight">
@@ -131,13 +120,13 @@ EventAsset::register($this);
                                                                 <h4 class="panel-title">
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true">
                                                                         <span class="fa fa-angle-up"></span>
-                                                                        Question 1
+                                                                        1. The event comprises how many rounds?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseOne" class="panel-collapse collapse in">
                                                                 <div class="panel-body">
-                                                                    Answer 1
+                                                                    3 rounds
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -147,13 +136,13 @@ EventAsset::register($this);
                                                                 <h4 class="panel-title">
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
                                                                         <span class="fa fa-angle-up"></span>
-                                                                        Question 2
+                                                                        2. What will be the level of difficulty?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseTwo" class="panel-collapse collapse">
                                                                 <div class="panel-body">
-                                                                    Answer 2
+                                                                    The questions will be framed on an average level to test your fundamentals.
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -163,13 +152,13 @@ EventAsset::register($this);
                                                                 <h4 class="panel-title">
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
                                                                         <span class="fa fa-angle-up"></span>
-                                                                        Question 3
+                                                                        3. Is there any elimination process?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseThree" class="panel-collapse collapse">
                                                                 <div class="panel-body">
-                                                                    Answer 3
+                                                                    There will be no elimination round. The winners will be decided based on the marks scored by him/her at the end of the event.
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -179,40 +168,24 @@ EventAsset::register($this);
                                                                 <h4 class="panel-title">
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
                                                                         <span class="fa fa-angle-up"></span>
-                                                                        Question 4
+                                                                        4. Is there any break in between the event?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseFour" class="panel-collapse collapse">
                                                                 <div class="panel-body">
-                                                                    Answer 4
+                                                                    Each round will take place for 30 minutes. After each round, there will be a 30-minute break
                                                                 </div>
                                                             </div>
                                                         </div>
 
-                                                        <div class="panel panel-default animated slideInRight">
-                                                            <div class="panel-heading">
-                                                                <h4 class="panel-title">
-                                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
-                                                                        <span class="fa fa-angle-up"></span>
-                                                                        Question 5
-                                                                    </a>
-                                                                </h4>
-                                                            </div>
-                                                            <div id="collapseFive" class="panel-collapse collapse ">
-                                                                <div class="panel-body">
-                                                                    Answer 5
-                                                                </div>
-                                                            </div>
-                                                        </div>
+
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
 
-
                                     </div>
-
                                 </div>
                                 <!-- End Feature Content -->
 
