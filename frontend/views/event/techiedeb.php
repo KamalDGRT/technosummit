@@ -218,13 +218,16 @@ EventAsset::register($this);
                                                                 <h4 class="panel-title">
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true">
                                                                         <span class="fa fa-angle-up"></span>
-                                                                        Question 1
+                                                                        1. What is Techie Deb?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseOne" class="panel-collapse collapse in">
                                                                 <div class="panel-body">
-                                                                    Answer 1
+                                                                    The debate is a conversation without sufficient argument or counter-argument for selection
+                                                                    of any standpoints. A Technical Debate is a debate conducted in an online medium. A debate
+                                                                    is formal, deliberate, executive according to an agreed-upon set of rules, and a decision
+                                                                    is made at the end of the debate.
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -234,13 +237,15 @@ EventAsset::register($this);
                                                                 <h4 class="panel-title">
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
                                                                         <span class="fa fa-angle-up"></span>
-                                                                        Question 2
+                                                                        2. Aim of Technical Debate?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseTwo" class="panel-collapse collapse">
                                                                 <div class="panel-body">
-                                                                    Answer 2
+                                                                    The aim of the debate is to convince the opposition that you're right. The primary aim
+                                                                    of the debate is to generate effective critical thinking among students into primary issues
+                                                                    in a given topic.
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -250,13 +255,15 @@ EventAsset::register($this);
                                                                 <h4 class="panel-title">
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
                                                                         <span class="fa fa-angle-up"></span>
-                                                                        Question 3
+                                                                        3. Advantages of Techie Deb?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseThree" class="panel-collapse collapse">
                                                                 <div class="panel-body">
-                                                                    Answer 3
+                                                                    Debating helps you to develop essential critical thinking skills – the ability to make
+                                                                    reasoned and well-understood arguments in addition to questioning the evidence behind a
+                                                                    particular stance or a conclusion.
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -266,13 +273,19 @@ EventAsset::register($this);
                                                                 <h4 class="panel-title">
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
                                                                         <span class="fa fa-angle-up"></span>
-                                                                        Question 4
+                                                                        4. What are all the skills you will learn from the Debate?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseFour" class="panel-collapse collapse">
                                                                 <div class="panel-body">
-                                                                    Answer 4
+                                                                    <ul class="list-group">
+                                                                        <li class="list-group-item"><span>Improving critical thinking skills.</span></li>
+                                                                        <li class="list-group-item"><span>Improving the rigorous higher order. </span></li>
+                                                                        <li class="list-group-item"><span>Enhancing the ability to structure and organize thoughts. </span></li>
+                                                                        <li class="list-group-item"><span>Improving a learner's ability to form balanced, informed arguments and reasoning and evidence.</span></li>
+                                                                        <li class="list-group-item"><span>Enhancing learner's analytical, research, note-taking skills. </span></li>
+                                                                    </ul>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -282,13 +295,21 @@ EventAsset::register($this);
                                                                 <h4 class="panel-title">
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
                                                                         <span class="fa fa-angle-up"></span>
-                                                                        Question 5
+                                                                        5. What are the techniques of a Debate?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseFive" class="panel-collapse collapse ">
                                                                 <div class="panel-body">
-                                                                    Answer 5
+                                                                    <ul class="list-group">
+                                                                        <li class="list-group-item"><span>Preparation of your topic. </span></li>
+                                                                        <li class="list-group-item"><span>Stay on topic. </span></li>
+                                                                        <li class="list-group-item"><span>Speak slowly, clearly and charismatically. </span></li>
+                                                                        <li class="list-group-item"><span>Be confident with your topic. </span></li>
+                                                                        <li class="list-group-item"><span>Think about your body language. </span></li>
+                                                                        <li class="list-group-item"><span>Listen and take notes. </span></li>
+                                                                        <li class="list-group-item"><span>Anticipate your opponent's question before they are uttered.</span></li>
+                                                                    </ul>
                                                                 </div>
                                                             </div>
                                                         </div>

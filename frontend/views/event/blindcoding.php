@@ -7,7 +7,7 @@ use yii\helpers\Html;
 use frontend\assets\EventAsset;
 use yii\helpers\Url;
 
-$this->title = '';
+$this->title = 'Blind Coding';
 EventAsset::register($this);
 ?>
 <?php $this->beginPage() ?>
@@ -76,18 +76,23 @@ EventAsset::register($this);
                             <div class="row">
                                 <div class="col-md-6 col-sm-12">
                                     <div class="mu-about-left">
-                                        <img class="animated slideInLeft" src="<?php echo Yii::$app->params['frontendUrl'] . 'event/images/event_robokart.png'; ?>" alt="Men Speaker"> </div>
+                                        <img class="animated slideInLeft" src="<?php echo Yii::$app->params['frontendUrl'] . 'event/images/event_blindcoding.png'; ?>" alt="Blind Coding">
+                                    </div>
                                 </div>
                                 <div class="col-md-6 col-sm-12">
                                     <div class="row">
                                         <div class=" mu-about-right animated slideInRight">
                                             <h2 style="text-decoration: underline;">Description :-</h2>
 
-                                            <p>So, what is blind coding? Is it for blind people? Or you have to code by closing the monitor off? The answer is no. The event is for those who have just stepped into the field of coding.
-                                                The main motive of blind coding is to promote coding culture among students and to give confidence to the beginners or the starters in this area
-
+                                            <p>
+                                                So, what is blind coding? Is it for blind people?
+                                                Or you have to code by closing the monitor off? The answer is no.
+                                                The event is for those who have just stepped into the field of coding.
                                             </p><br>
-                                            <p>Theme of this event is <b>“Money from Machines”</b>.</p>
+                                            <p>
+                                                The main motive of blind coding is to promote coding culture among
+                                                students and to give confidence to the beginners or the starters in this area.
+                                            </p>
                                         </div>
                                     </div>
 
@@ -101,6 +106,10 @@ EventAsset::register($this);
                                                         <li class="list-group-item"><span>1. The event consists of 4 rounds, and each round lasts for 30 minutes.</span></li>
                                                         <li class="list-group-item"><span>2. First Two rounds consist of MCQs.</span></li>
                                                         <li class="list-group-item"><span>3. Last Two rounds consist of Coding questions.</span></li>
+                                                        <li class="list-group-item"><span>4. Scores will be given by the judges.</span></li>
+                                                        <li class="list-group-item"><span>5. Winners will be declared based on marks scored.</span></li>
+                                                        <li class="list-group-item"><span>6. Judges decision will be final.</span></li>
+                                                        <li class="list-group-item"><span><b>Time : </b> 2 hours</span></li>
                                                     </ul>
 
                                                 </div>

@@ -172,14 +172,12 @@ EventAsset::register($this);
                                                                 <h4 class="panel-title">
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true">
                                                                         <span class="fa fa-angle-up"></span>
-                                                                        Question 1
                                                                         1. Should the model be product or service based?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseOne" class="panel-collapse collapse in">
                                                                 <div class="panel-body">
-                                                                    Answer 1
                                                                     Either
                                                                 </div>
                                                             </div>
@@ -190,14 +188,12 @@ EventAsset::register($this);
                                                                 <h4 class="panel-title">
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
                                                                         <span class="fa fa-angle-up"></span>
-                                                                        Question 2
                                                                         2. Is there any technical description?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseTwo" class="panel-collapse collapse">
                                                                 <div class="panel-body">
-                                                                    Answer 2
                                                                     No technical description required (as it's your trade secret).
                                                                 </div>
                                                             </div>
@@ -208,14 +204,12 @@ EventAsset::register($this);
                                                                 <h4 class="panel-title">
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
                                                                         <span class="fa fa-angle-up"></span>
-                                                                        Question 3
-                                                                        On what basis should the PPT be presented?
+                                                                        3. On what basis should the PPT be presented?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseThree" class="panel-collapse collapse">
                                                                 <div class="panel-body">
-                                                                    Answer 3
                                                                     Business aspects only.
                                                                 </div>
                                                             </div>
@@ -226,15 +220,14 @@ EventAsset::register($this);
                                                                 <h4 class="panel-title">
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
                                                                         <span class="fa fa-angle-up"></span>
-                                                                        Question 4
-                                                                        How will the case study be conducted in round two?
+                                                                        4. How will the case study be conducted in round two?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseFour" class="panel-collapse collapse">
                                                                 <div class="panel-body">
-                                                                    Answer 4
-                                                                    A problem statement will be given. You'll be then judged based on your Problem-Solving skills and Business-Oriented approach.
+                                                                    A problem statement will be given. You'll be then judged based on
+                                                                    your Problem-Solving skills and Business-Oriented approach.
                                                                 </div>
                                                             </div>
                                                         </div>

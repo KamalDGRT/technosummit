@@ -129,13 +129,13 @@ EventAsset::register($this);
                                                                 <h4 class="panel-title">
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true">
                                                                         <span class="fa fa-angle-up"></span>
-                                                                        Question 1
+                                                                        1: How many sessions will be there?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseOne" class="panel-collapse collapse in">
                                                                 <div class="panel-body">
-                                                                    Answer 1
+                                                                    There will be two sessions in total.
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -145,13 +145,13 @@ EventAsset::register($this);
                                                                 <h4 class="panel-title">
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
                                                                         <span class="fa fa-angle-up"></span>
-                                                                        Question 2
+                                                                        2: Is there any prerequisite?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseTwo" class="panel-collapse collapse">
                                                                 <div class="panel-body">
-                                                                    Answer 2
+                                                                    No. There is no prerequisite for attending the workshop. Everything will be taught from scratch.
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -161,48 +161,17 @@ EventAsset::register($this);
                                                                 <h4 class="panel-title">
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
                                                                         <span class="fa fa-angle-up"></span>
-                                                                        Question 3
+                                                                        3: What about the hands-on session?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseThree" class="panel-collapse collapse">
                                                                 <div class="panel-body">
-                                                                    Answer 3
+                                                                    The second half will be a hands-on session.
                                                                 </div>
                                                             </div>
                                                         </div>
 
-                                                        <div class="panel panel-default animated slideInLeft">
-                                                            <div class="panel-heading">
-                                                                <h4 class="panel-title">
-                                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
-                                                                        <span class="fa fa-angle-up"></span>
-                                                                        Question 4
-                                                                    </a>
-                                                                </h4>
-                                                            </div>
-                                                            <div id="collapseFour" class="panel-collapse collapse">
-                                                                <div class="panel-body">
-                                                                    Answer 4
-                                                                </div>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="panel panel-default animated slideInRight">
-                                                            <div class="panel-heading">
-                                                                <h4 class="panel-title">
-                                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
-                                                                        <span class="fa fa-angle-up"></span>
-                                                                        Question 5
-                                                                    </a>
-                                                                </h4>
-                                                            </div>
-                                                            <div id="collapseFive" class="panel-collapse collapse ">
-                                                                <div class="panel-body">
-                                                                    Answer 5
-                                                                </div>
-                                                            </div>
-                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>

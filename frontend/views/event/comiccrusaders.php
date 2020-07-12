@@ -103,14 +103,14 @@ EventAsset::register($this);
                                                         <li class="list-group-item"><span>2. Judges decision will be final. </span></li>
                                                     </ul>
                                                     <br>
-                                                    <h5>Participants will be scored based on the following criteria:<h5>
-                                                            <ul class="list-group">
-                                                                <li class="list-group-item"><span> (i) Design </span></li>
-                                                                <li class="list-group-item"><span> (ii) Layout </span></li>
-                                                                <li class="list-group-item"><span> (iii) Use of Language </span></li>
-                                                                <li class="list-group-item"><span> (iv) Creativity and Imagination </span></li>
-                                                                <li class="list-group-item"><span> (v) Humour </span></li>
-                                                            </ul>
+                                                    <h5>Participants will be scored based on the following criteria:</h5>
+                                                    <ul class="list-group">
+                                                        <li class="list-group-item"><span> (i) Design </span></li>
+                                                        <li class="list-group-item"><span> (ii) Layout </span></li>
+                                                        <li class="list-group-item"><span> (iii) Use of Language </span></li>
+                                                        <li class="list-group-item"><span> (iv) Creativity and Imagination </span></li>
+                                                        <li class="list-group-item"><span> (v) Humour </span></li>
+                                                    </ul>
                                                 </div>
                                             </div>
                                         </div>
@@ -129,13 +129,13 @@ EventAsset::register($this);
                                                                 <h4 class="panel-title">
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true">
                                                                         <span class="fa fa-angle-up"></span>
-                                                                        Question 1
+                                                                        1. Are there any extra points for using a digital medium for creating comics?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseOne" class="panel-collapse collapse in">
                                                                 <div class="panel-body">
-                                                                    Answer 1
+                                                                    NO.
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -145,13 +145,13 @@ EventAsset::register($this);
                                                                 <h4 class="panel-title">
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
                                                                         <span class="fa fa-angle-up"></span>
-                                                                        Question 2
+                                                                        2. Is there any page limit for the comic book?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseTwo" class="panel-collapse collapse">
                                                                 <div class="panel-body">
-                                                                    Answer 2
+                                                                    Yes. Minimum of 2 pages and maximum of 5 pages. Each page must contain 5 panels at least.
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -161,13 +161,13 @@ EventAsset::register($this);
                                                                 <h4 class="panel-title">
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
                                                                         <span class="fa fa-angle-up"></span>
-                                                                        Question 3
+                                                                        3. When will the topic be announced?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseThree" class="panel-collapse collapse">
                                                                 <div class="panel-body">
-                                                                    Answer 3
+                                                                    Topics will be given on the spot. You can choose any one from the given comics.
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -177,32 +177,17 @@ EventAsset::register($this);
                                                                 <h4 class="panel-title">
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
                                                                         <span class="fa fa-angle-up"></span>
-                                                                        Question 4
+                                                                        4. How many comics can we submit? Can we submit multiple entries?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseFour" class="panel-collapse collapse">
                                                                 <div class="panel-body">
-                                                                    Answer 4
+                                                                    No. Multiple entries will not be permitted. Only one submission per participant is considered.
                                                                 </div>
                                                             </div>
                                                         </div>
 
-                                                        <div class="panel panel-default animated slideInRight">
-                                                            <div class="panel-heading">
-                                                                <h4 class="panel-title">
-                                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
-                                                                        <span class="fa fa-angle-up"></span>
-                                                                        Question 5
-                                                                    </a>
-                                                                </h4>
-                                                            </div>
-                                                            <div id="collapseFive" class="panel-collapse collapse ">
-                                                                <div class="panel-body">
-                                                                    Answer 5
-                                                                </div>
-                                                            </div>
-                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>

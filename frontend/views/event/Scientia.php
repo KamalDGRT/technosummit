@@ -92,7 +92,7 @@ EventAsset::register($this);
                                         <!-- Row starts -->
                                         <div class="col-md-12">
                                             <div class="mu-sponsors-area animated zoomInRight">
-                                                <p class="myAccordion">Rules and Regulations</p>
+                                                <p class="myAccordion">Rounds Description</p>
                                                 <div class="myPanel">
 
                                                     <!-- Round1 Starts -->
@@ -148,6 +148,24 @@ EventAsset::register($this);
                                         </div>
                                     </div> <!-- Row ends -->
 
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="mu-sponsors-area animated zoomInRight">
+                                                <p class="myAccordion">Rules and Regulations</p>
+                                                <div class="myPanel">
+                                                    <ul class="list-group">
+                                                        <li class="list-group-item"><span>1. Time of submission will be taken into account for scores.</span></li>
+                                                        <li class="list-group-item"><span>2. This is an individual event.</span></li>
+                                                        <li class="list-group-item"><span>3. Connectivity and internet issues will not be taken into considerations.</span></li>
+                                                        <li class="list-group-item"><span>4. Participants have to submit before time runs out in quizzes to score.</span></li>
+                                                        <li class="list-group-item"><span>5. Participants are kindly requested to join 10 minutes prior to the time allocated for the round 2 presentation.</span></li>
+                                                        <li class="list-group-item"><span>6. Event results and scores will be sent to your registered E-mail ID.</span></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> <!-- Row ends -->
+
                                     <!-- FAQs -->
                                     <div class="row">
                                         <div class="col-md-12">
@@ -161,13 +179,13 @@ EventAsset::register($this);
                                                                 <h4 class="panel-title">
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true">
                                                                         <span class="fa fa-angle-up"></span>
-                                                                        Question 1
+                                                                        1. How many rounds will be there?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseOne" class="panel-collapse collapse in">
                                                                 <div class="panel-body">
-                                                                    Answer 1
+                                                                    2
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -177,13 +195,13 @@ EventAsset::register($this);
                                                                 <h4 class="panel-title">
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
                                                                         <span class="fa fa-angle-up"></span>
-                                                                        Question 2
+                                                                        2. What will be the level of difficulty in each round?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseTwo" class="panel-collapse collapse">
                                                                 <div class="panel-body">
-                                                                    Answer 2
+                                                                    The questions will be moderate (round 1) and moderate and complex (round 2) to test your knowledge in science and technology.
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -193,13 +211,13 @@ EventAsset::register($this);
                                                                 <h4 class="panel-title">
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
                                                                         <span class="fa fa-angle-up"></span>
-                                                                        Question 3
+                                                                        3. Can we participate as a team?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseThree" class="panel-collapse collapse">
                                                                 <div class="panel-body">
-                                                                    Answer 3
+                                                                    No, you can't participate because this is an individual event.
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -209,13 +227,13 @@ EventAsset::register($this);
                                                                 <h4 class="panel-title">
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
                                                                         <span class="fa fa-angle-up"></span>
-                                                                        Question 4
+                                                                        4. What if my internet connection is low?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseFour" class="panel-collapse collapse">
                                                                 <div class="panel-body">
-                                                                    Answer 4
+                                                                    Make sure connections are strong beforehand.
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -225,13 +243,13 @@ EventAsset::register($this);
                                                                 <h4 class="panel-title">
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
                                                                         <span class="fa fa-angle-up"></span>
-                                                                        Question 5
+                                                                        5. What about a break?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseFive" class="panel-collapse collapse ">
                                                                 <div class="panel-body">
-                                                                    Answer 5
+                                                                    Between each round you have a minimum of 2 hours of break.
                                                                 </div>
                                                             </div>
                                                         </div>

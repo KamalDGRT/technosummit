@@ -128,13 +128,13 @@ EventAsset::register($this);
                                                                 <h4 class="panel-title">
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true">
                                                                         <span class="fa fa-angle-up"></span>
-                                                                        Question 1
+                                                                        1. What is the time limit of the video?
                                                                     </a>
                                                                 </h4>
                                                             </div>
-                                                            <div id="collapseOne" class="panel-collapse collapse in">
+                                                            <div id="collapseOne" class="panel-collapse collapse">
                                                                 <div class="panel-body">
-                                                                    Answer 1
+                                                                    One to two minutes.
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -144,13 +144,13 @@ EventAsset::register($this);
                                                                 <h4 class="panel-title">
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
                                                                         <span class="fa fa-angle-up"></span>
-                                                                        Question 2
+                                                                        2. Is there any theme to be followed?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseTwo" class="panel-collapse collapse">
                                                                 <div class="panel-body">
-                                                                    Answer 2
+                                                                    No. There is no certain theme, It’s open for your choice.
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -160,48 +160,22 @@ EventAsset::register($this);
                                                                 <h4 class="panel-title">
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
                                                                         <span class="fa fa-angle-up"></span>
-                                                                        Question 3
+                                                                        3. On which criteria will the event be judged?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseThree" class="panel-collapse collapse">
                                                                 <div class="panel-body">
-                                                                    Answer 3
+                                                                    <ul class="list-group">
+                                                                        It’s judged based on your
+                                                                        <li class="list-group-item"><span>innovation</span></li>
+                                                                        <li class="list-group-item"><span>creativity</span></li>
+                                                                        <li class="list-group-item"><span>video making</span></li>
+                                                                    </ul>
                                                                 </div>
                                                             </div>
                                                         </div>
 
-                                                        <div class="panel panel-default animated slideInLeft">
-                                                            <div class="panel-heading">
-                                                                <h4 class="panel-title">
-                                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
-                                                                        <span class="fa fa-angle-up"></span>
-                                                                        Question 4
-                                                                    </a>
-                                                                </h4>
-                                                            </div>
-                                                            <div id="collapseFour" class="panel-collapse collapse">
-                                                                <div class="panel-body">
-                                                                    Answer 4
-                                                                </div>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="panel panel-default animated slideInRight">
-                                                            <div class="panel-heading">
-                                                                <h4 class="panel-title">
-                                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
-                                                                        <span class="fa fa-angle-up"></span>
-                                                                        Question 5
-                                                                    </a>
-                                                                </h4>
-                                                            </div>
-                                                            <div id="collapseFive" class="panel-collapse collapse ">
-                                                                <div class="panel-body">
-                                                                    Answer 5
-                                                                </div>
-                                                            </div>
-                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
