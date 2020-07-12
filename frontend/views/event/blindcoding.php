@@ -121,12 +121,14 @@ EventAsset::register($this);
                                   <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true">
                                     <span class="fa fa-angle-up"></span>
                                     Question 1
+                                    1. The event comprises how many rounds?
                                   </a>
                                 </h4>
                               </div>
                               <div id="collapseOne" class="panel-collapse collapse in">
                                 <div class="panel-body">
                                   Answer 1
+                                  3 rounds
                                 </div>
                               </div>
                             </div>
@@ -137,12 +139,14 @@ EventAsset::register($this);
                                   <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
                                     <span class="fa fa-angle-up"></span>
                                     Question 2
+                                    2. What will be the level of difficulty?
                                   </a>
                                 </h4>
                               </div>
                               <div id="collapseTwo" class="panel-collapse collapse">
                                 <div class="panel-body">
                                   Answer 2
+                                  The questions will be framed on an average level to test your fundamentals.
                                 </div>
                               </div>
                             </div>
@@ -153,12 +157,14 @@ EventAsset::register($this);
                                   <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
                                     <span class="fa fa-angle-up"></span>
                                     Question 3
+                                    3. Is there any elimination process?
                                   </a>
                                 </h4>
                               </div>
                               <div id="collapseThree" class="panel-collapse collapse">
                                 <div class="panel-body">
                                   Answer 3
+                                  There will be no elimination round. The winners will be decided based on the marks scored by him/her at the end of the event.
                                 </div>
                               </div>
                             </div>
@@ -169,31 +175,19 @@ EventAsset::register($this);
                                   <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
                                     <span class="fa fa-angle-up"></span>
                                     Question 4
+                                    4. Is there any break in between the event?
                                   </a>
                                 </h4>
                               </div>
                               <div id="collapseFour" class="panel-collapse collapse">
                                 <div class="panel-body">
                                   Answer 4
+                                  Each round will take place for 30 minutes. After each round, there will be a 30-minute break
                                 </div>
                               </div>
                             </div>
 
-                            <div class="panel panel-default animated slideInRight">
-                              <div class="panel-heading">
-                                <h4 class="panel-title">
-                                  <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
-                                    <span class="fa fa-angle-up"></span>
-                                    Question 5
-                                  </a>
-                                </h4>
-                              </div>
-                              <div id="collapseFive" class="panel-collapse collapse ">
-                                <div class="panel-body">
-                                  Answer 5
-                                </div>
-                              </div>
-                            </div>
+
                           </div>
                         </div>
                       </div>
