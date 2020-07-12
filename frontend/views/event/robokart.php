@@ -168,12 +168,14 @@ EventAsset::register($this);
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true">
                                                                         <span class="fa fa-angle-up"></span>
                                                                         Question 1
+                                                                        Who can participate?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseOne" class="panel-collapse collapse in">
                                                                 <div class="panel-body">
                                                                     Answer 1
+                                                                    An undergraduate student of any stream.
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -184,12 +186,14 @@ EventAsset::register($this);
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
                                                                         <span class="fa fa-angle-up"></span>
                                                                         Question 2
+                                                                        How to send animation and Algorithms?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseTwo" class="panel-collapse collapse">
                                                                 <div class="panel-body">
                                                                     Answer 2
+                                                                    Animation in the form of video and algorithm in the document together from one email.
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -200,12 +204,14 @@ EventAsset::register($this);
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
                                                                         <span class="fa fa-angle-up"></span>
                                                                         Question 3
+                                                                        Where to send?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseThree" class="panel-collapse collapse">
                                                                 <div class="panel-body">
                                                                     Answer 3
+                                                                    robosclub.d2000@gmail.com
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -216,31 +222,19 @@ EventAsset::register($this);
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
                                                                         <span class="fa fa-angle-up"></span>
                                                                         Question 4
+                                                                        Is there any specific domain?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseFour" class="panel-collapse collapse">
                                                                 <div class="panel-body">
                                                                     Answer 4
+                                                                    No specific domain.
                                                                 </div>
                                                             </div>
                                                         </div>
 
-                                                        <div class="panel panel-default animated slideInRight">
-                                                            <div class="panel-heading">
-                                                                <h4 class="panel-title">
-                                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
-                                                                        <span class="fa fa-angle-up"></span>
-                                                                        Question 5
-                                                                    </a>
-                                                                </h4>
-                                                            </div>
-                                                            <div id="collapseFive" class="panel-collapse collapse ">
-                                                                <div class="panel-body">
-                                                                    Answer 5
-                                                                </div>
-                                                            </div>
-                                                        </div>
+
                                                     </div>
                                                 </div>
                                             </div>
