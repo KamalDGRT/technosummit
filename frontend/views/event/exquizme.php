@@ -100,8 +100,8 @@ EventAsset::register($this);
                                                 <p class="myAccordion">Rules and Regulations</p>
                                                 <div class="myPanel">
                                                     <ul class="list-group">
-                                                        <li class="list-group-item"><span> Two sets of quizzes on the respective days. </span></li>
-                                                        <li class="list-group-item"><span> The quiz will be set for about 15-20 minutes. </span></li>
+                                                        <li class="list-group-item"><span> Two sets of quizzes will be held on the day of the event. </span></li>
+                                                        <li class="list-group-item"><span> Each quiz will be set for about 15-20 minutes. </span></li>
                                                         <li class="list-group-item"><span> Only the scores will be displayed at the end of the Quiz, and the answers will not be displayed. </span></li>
                                                         <li class="list-group-item"><span> Certain mandatory login credentials are required before joining the quiz such as Name, e-mail of the candidate, University /College they study etc for the purpose of generation of the certificate. </span></li>
                                                         <li class="list-group-item"><span> The participant should attain a minimum of 80% to acquire the certificate. </span></li>

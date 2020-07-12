@@ -118,7 +118,7 @@ EventAsset::register($this);
                                                 <p class="myAccordion">Rules and Regulations</p>
                                                 <div class="myPanel">
                                                     <ul class="list-group">
-                                                        <li class="list-group-item"><span> The topic is COVID-19, and the participants should make a product which can be developed and can get commercialized that helps the community. </span></li>
+                                                        <li class="list-group-item"><span> The participants are supposed to represent an idea which should be useful for the community.</span></li>
                                                         <li class="list-group-item"><span> The event consists of only one round, and it is an individual event. </span></li>
                                                         <li class="list-group-item"><span> Submission of videos is compulsory. </span></li>
                                                         <li class="list-group-item"><span> The length of the video can be around 1 to 2 minutes. </span></li>
