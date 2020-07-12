@@ -166,13 +166,13 @@ EventAsset::register($this);
                                                                 <h4 class="panel-title">
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
                                                                         <span class="fa fa-angle-up"></span>
-                                                                        Question 1
+                                                                        1. How many levels are there at the event?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseOne" class="panel-collapse collapse in">
                                                                 <div class="panel-body">
-                                                                    Answer 1
+                                                                    There are 3 levels. 1st level is a quiz in which all the registered participants are allowed. Shortlisted students are allowed to level 2. Level 2 is connections. Selected students in level 2 are qualified to participate in the final level of “PUZZLE MAKING”.
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -182,13 +182,13 @@ EventAsset::register($this);
                                                                 <h4 class="panel-title">
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
                                                                         <span class="fa fa-angle-up"></span>
-                                                                        Question 2
+                                                                        2. Is it an interactive platform?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseTwo" class="panel-collapse collapse">
                                                                 <div class="panel-body">
-                                                                    Answer 2
+                                                                    Yes.
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -198,13 +198,13 @@ EventAsset::register($this);
                                                                 <h4 class="panel-title">
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
                                                                         <span class="fa fa-angle-up"></span>
-                                                                        Question 3
+                                                                        3. How can I contact the organizer for any clarifications?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseThree" class="panel-collapse collapse">
                                                                 <div class="panel-body">
-                                                                    Answer 3
+                                                                    You can contact the given WhatsApp number of the respective organizer.
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -214,13 +214,13 @@ EventAsset::register($this);
                                                                 <h4 class="panel-title">
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
                                                                         <span class="fa fa-angle-up"></span>
-                                                                        Question 4
+                                                                        4. Do we require an internet connection?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseFour" class="panel-collapse collapse">
                                                                 <div class="panel-body">
-                                                                    Answer 4
+                                                                    Proper and stable internet connection is required.
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -230,13 +230,13 @@ EventAsset::register($this);
                                                                 <h4 class="panel-title">
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
                                                                         <span class="fa fa-angle-up"></span>
-                                                                        Question 5
+                                                                        5. Will I get a certificate?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseFive" class="panel-collapse collapse ">
                                                                 <div class="panel-body">
-                                                                    Answer 5
+                                                                    All the participants who have attended will get an E-certificate.
                                                                 </div>
                                                             </div>
                                                         </div>

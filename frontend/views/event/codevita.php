@@ -179,13 +179,13 @@ EventAsset::register($this);
                                                                 <h4 class="panel-title">
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true">
                                                                         <span class="fa fa-angle-up"></span>
-                                                                        Question 1
+                                                                        1. What is the format of the registration?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseOne" class="panel-collapse collapse in">
                                                                 <div class="panel-body">
-                                                                    Answer 1
+                                                                    In the college website we have provided the registration link for the event.
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -195,13 +195,13 @@ EventAsset::register($this);
                                                                 <h4 class="panel-title">
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
                                                                         <span class="fa fa-angle-up"></span>
-                                                                        Question 2
+                                                                        2. Is there any format for attendance?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseTwo" class="panel-collapse collapse">
                                                                 <div class="panel-body">
-                                                                    Answer 2
+                                                                    The attendance link is provided in the middle of the event,participants can give their attendance through there link.
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -211,13 +211,13 @@ EventAsset::register($this);
                                                                 <h4 class="panel-title">
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
                                                                         <span class="fa fa-angle-up"></span>
-                                                                        Question 3
+                                                                        3. On which platform the event takes place?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseThree" class="panel-collapse collapse">
                                                                 <div class="panel-body">
-                                                                    Answer 3
+                                                                    The event will be conducted on the online platform “ZOOM”.
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -227,13 +227,13 @@ EventAsset::register($this);
                                                                 <h4 class="panel-title">
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
                                                                         <span class="fa fa-angle-up"></span>
-                                                                        Question 4
+                                                                        4. Is there any registration fee?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseFour" class="panel-collapse collapse">
                                                                 <div class="panel-body">
-                                                                    Answer 4
+                                                                    Yes, the registration fee for the event is Rs. 50/-.
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -243,16 +243,33 @@ EventAsset::register($this);
                                                                 <h4 class="panel-title">
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
                                                                         <span class="fa fa-angle-up"></span>
-                                                                        Question 5
+                                                                        5. Total number of rounds?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseFive" class="panel-collapse collapse ">
                                                                 <div class="panel-body">
-                                                                    Answer 5
+                                                                    There will be two rounds in total.
                                                                 </div>
                                                             </div>
                                                         </div>
+
+                                                        <div class="panel panel-default animated slideInRight">
+                                                            <div class="panel-heading">
+                                                                <h4 class="panel-title">
+                                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
+                                                                        <span class="fa fa-angle-up"></span>
+                                                                        6. Who can participate?
+                                                                    </a>
+                                                                </h4>
+                                                            </div>
+                                                            <div id="collapseSix" class="panel-collapse collapse ">
+                                                                <div class="panel-body">
+                                                                    Anyone who is willing to participate is most welcome.
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
                                                     </div>
                                                 </div>
                                             </div>

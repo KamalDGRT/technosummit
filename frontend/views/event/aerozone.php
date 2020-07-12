@@ -175,13 +175,15 @@ EventAsset::register($this);
                                                                 <h4 class="panel-title">
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true">
                                                                         <span class="fa fa-angle-up"></span>
-                                                                        Question 1
+                                                                        1. What kind of software is allowed?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseOne" class="panel-collapse collapse in">
                                                                 <div class="panel-body">
-                                                                    Answer 1
+                                                                    Any 3D modelling software is allowed. All you need to do is to design
+                                                                    a 3D model which we assign to you at that time of the event.
+                                                                    But we highly prefer Catia/solid works/fusion 360.
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -191,13 +193,14 @@ EventAsset::register($this);
                                                                 <h4 class="panel-title">
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
                                                                         <span class="fa fa-angle-up"></span>
-                                                                        Question 2
+                                                                        2. What if I got Disconnected?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseTwo" class="panel-collapse collapse">
                                                                 <div class="panel-body">
-                                                                    Answer 2
+                                                                    A few minutes (i.e. 1-2mins) of disconnection is okay because it’s quite normal.
+                                                                    But we recommend you to record your screen during the session.
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -207,13 +210,14 @@ EventAsset::register($this);
                                                                 <h4 class="panel-title">
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
                                                                         <span class="fa fa-angle-up"></span>
-                                                                        Question 3
+                                                                        3. How will the winners be selected?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseThree" class="panel-collapse collapse">
                                                                 <div class="panel-body">
-                                                                    Answer 3
+                                                                    The winners must qualify in round one and complete the task as fast as possible in round two.
+                                                                    The fastest and the best will be the winner.
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -223,32 +227,17 @@ EventAsset::register($this);
                                                                 <h4 class="panel-title">
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
                                                                         <span class="fa fa-angle-up"></span>
-                                                                        Question 4
+                                                                        4. What is the task related to?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseFour" class="panel-collapse collapse">
                                                                 <div class="panel-body">
-                                                                    Answer 4
+                                                                    It might be anything related to Aircraft components.
                                                                 </div>
                                                             </div>
                                                         </div>
 
-                                                        <div class="panel panel-default animated slideInRight">
-                                                            <div class="panel-heading">
-                                                                <h4 class="panel-title">
-                                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
-                                                                        <span class="fa fa-angle-up"></span>
-                                                                        Question 5
-                                                                    </a>
-                                                                </h4>
-                                                            </div>
-                                                            <div id="collapseFive" class="panel-collapse collapse ">
-                                                                <div class="panel-body">
-                                                                    Answer 5
-                                                                </div>
-                                                            </div>
-                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
