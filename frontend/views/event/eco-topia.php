@@ -122,12 +122,14 @@ EventAsset::register($this);
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true">
                                                                         <span class="fa fa-angle-up"></span>
                                                                         Question 1
+                                                                        Is it a theme-based competition?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseOne" class="panel-collapse collapse in">
                                                                 <div class="panel-body">
                                                                     Answer 1
+                                                                    Yes, it is a theme-based competition.
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -138,12 +140,14 @@ EventAsset::register($this);
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
                                                                         <span class="fa fa-angle-up"></span>
                                                                         Question 2
+                                                                        Should the poster be submitted in any specific dimensions?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseTwo" class="panel-collapse collapse">
                                                                 <div class="panel-body">
                                                                     Answer 2
+                                                                    No, there is no need for any specific dimensions.
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -154,12 +158,14 @@ EventAsset::register($this);
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
                                                                         <span class="fa fa-angle-up"></span>
                                                                         Question 3
+                                                                        How can I submit the poster?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseThree" class="panel-collapse collapse">
                                                                 <div class="panel-body">
                                                                     Answer 3
+                                                                    You can submit the poster via mail.
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -170,12 +176,14 @@ EventAsset::register($this);
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
                                                                         <span class="fa fa-angle-up"></span>
                                                                         Question 4
+                                                                        To which mail should I send the poster?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseFour" class="panel-collapse collapse">
                                                                 <div class="panel-body">
                                                                     Answer 4
+                                                                    We will inform you of the mail id at the beginning of the competition.
                                                                 </div>
                                                             </div>
                                                         </div>
