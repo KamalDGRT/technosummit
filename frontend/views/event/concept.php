@@ -7,7 +7,7 @@ use yii\helpers\Html;
 use frontend\assets\EventAsset;
 use yii\helpers\Url;
 
-$this->title = '';
+$this->title = 'Concept';
 EventAsset::register($this);
 ?>
 <?php $this->beginPage() ?>
@@ -47,8 +47,8 @@ EventAsset::register($this);
 
                         <div class="mu-hero-featured-content animated slideInDown">
 
-                            <h1>ROBOKART</h1>
-                            <h2>ROBOTICS CLUB</h2>
+                            <h1>CONCEPT IDEA BOX</h1>
+                            <h2>ENCORE CLUB</h2>
                             <br><br>
                             <a href="<?php echo Url::to(['/event/index']) ?>" class="btn btn-first">BACK</a>
                             <a href="<?php echo Url::to(['/site/registration']) ?>" class="btn btn-nav">REGISTER</a>
@@ -76,30 +76,34 @@ EventAsset::register($this);
                             <div class="row">
                                 <div class="col-md-6 col-sm-12">
                                     <div class="mu-about-left">
-                                        <img class="animated slideInLeft" src="<?php echo Yii::$app->params['frontendUrl'] . 'event/images/event_robokart.png'; ?>" alt="Men Speaker"> </div>
+                                        <img class="animated slideInLeft" src="<?php echo Yii::$app->params['frontendUrl'] . 'event/images/event_concept.png'; ?>" alt="Concept"> </div>
                                 </div>
                                 <div class="col-md-6 col-sm-12">
                                     <div class="row">
                                         <div class=" mu-about-right animated slideInRight">
                                             <h2 style="text-decoration: underline;">Description :-</h2>
-
-                                            <p>Innovation is crucial to the continuing success of an organisation. This event is all about UNBOXING YOUR IDEAS in this perfect platform. The concept gives you a platform to showcase your ideas for making a better community for better tomorrow.
+                                            <p>
+                                                Innovation is crucial to the continuing success of an organisation. This event is all
+                                                about UNBOXING YOUR IDEAS in this perfect platform. The concept gives you a platform to
+                                                showcase your ideas for making a better community for better tomorrow.
                                             </p><br>
-                                            <p>Theme of this event is <b>“Money from Machines”</b>.</p>
+                                            <p>
+                                                <b>Number of Rounds : 1</b>
+                                            </p>
                                         </div>
                                     </div>
 
+                                    <!-- Row starts -->
                                     <div class="row">
-                                        <!-- Row starts -->
                                         <div class="col-md-12">
                                             <div class="mu-sponsors-area animated zoomInRight">
-                                                <p class="myAccordion">Rules and Regulations</p>
+                                                <p class="myAccordion">Round Description</p>
                                                 <div class="myPanel">
                                                     <ul class="list-group">
-                                                        <li class="list-group-item"><span>1. The participants, once registered, are ready to begin with.</span></li>
-                                                        <li class="list-group-item"><span>2. Since the topic is COVID-19, the participants are supposed to represent an idea, which can be useful in a pandemic like the current situation.</span></li>
-                                                        <li class="list-group-item"><span>3. The participants have to submit their entries via a short video of around 1 to 2 minutes. </span></li>
-                                                        <li class="list-group-item"><span>4. A drawing can also be made along with the video, which is optional</span></li>
+                                                        <li class="list-group-item"><span> The participants, once registered, are ready to begin with.</span></li>
+                                                        <li class="list-group-item"><span> Since the topic is COVID-19, the participants are supposed to represent an idea, which can be useful in a pandemic like the current situation.</span></li>
+                                                        <li class="list-group-item"><span> The participants have to submit their entries via a short video of around 1 to 2 minutes. </span></li>
+                                                        <li class="list-group-item"><span> A drawing can also be made along with the video, which is optional</span></li>
                                                     </ul>
 
                                                 </div>
@@ -107,6 +111,52 @@ EventAsset::register($this);
                                         </div>
                                     </div> <!-- Row ends -->
 
+                                    <!-- Row starts -->
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="mu-sponsors-area animated zoomInRight">
+                                                <p class="myAccordion">Rules and Regulations</p>
+                                                <div class="myPanel">
+                                                    <ul class="list-group">
+                                                        <li class="list-group-item"><span> The topic is COVID-19, and the participants should make a product which can be developed and can get commercialized that helps the community. </span></li>
+                                                        <li class="list-group-item"><span> The event consists of only one round, and it is an individual event. </span></li>
+                                                        <li class="list-group-item"><span> Submission of videos is compulsory. </span></li>
+                                                        <li class="list-group-item"><span> The length of the video can be around 1 to 2 minutes. </span></li>
+                                                        <li class="list-group-item"><span> An additional source of project depiction such as posters or drawing can also be submitted. (optional) </span></li>
+                                                        <li class="list-group-item"><span> The deadline to submit the video (compulsory) and drawings (optional) is on or before 05-08-2020. </span></li>
+                                                        <li class="list-group-item"><span> The top 10 to 15 submissions will be considered by the jury and will be displayed on the day of the event. </span></li>
+                                                        <li class="list-group-item"><span> A mail will be sent to the students who get selected. </span></li>
+                                                        <li class="list-group-item"><span> The selected students will be asked to present their project for 3-4 minutes. </span></li>
+                                                        <li class="list-group-item"><span> The winners will be decided on the basis of their project's value.</span></li>
+                                                        <li class="list-group-item"><span> Judges decision will be final. </span></li>
+                                                    </ul>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> <!-- Row ends -->
+
+                                    <!-- Row starts -->
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="mu-sponsors-area animated zoomInRight">
+                                                <p class="myAccordion">Analysing the Project</p>
+                                                <div class="myPanel">
+                                                    <ul class="list-group">
+                                                        <li class="list-group-item"><span> The novelty of the product (30 marks) </span></li>
+                                                        <li class="list-group-item"><span> Usefulness to the community (20 marks) </span></li>
+                                                        <li class="list-group-item"><span> Presentation of the product (20 marks) </span></li>
+                                                        <li class="list-group-item"><span> Commercialization of the product (30 marks) </span></li>
+                                                    </ul>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> <!-- Row ends -->
+
+                                    After evaluating the videos, the best ten concepts of the participants will be present on the day of TECHNO SUMMIT 2020 on 07-08-2020.
+
+                                    <!-- FAQ -->
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="mu-sponsors-area animated zoomInRight">
@@ -199,6 +249,7 @@ EventAsset::register($this);
                                         </div>
 
                                     </div>
+
                                 </div>
                                 <!-- End Feature Content -->
 

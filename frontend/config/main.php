@@ -8,6 +8,7 @@ $params = array_merge(
 
 return [
     'id' => 'app-frontend',
+    'name' => 'TechnoSummit',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
     'defaultRoute' => '/site/index',
@@ -41,6 +42,7 @@ return [
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
+            'enableStrictParsing' => false,
             'rules' => [
                 '/' => '/site/index',
                 '/signup' => '/site/signup',
@@ -49,7 +51,8 @@ return [
                 '/contactus' => '/site/contactus',
                 '/navigation' => '/site/nav',
                 '/registration' => '/site/registration',
-                '/events' => '/event/index'
+                '/events' => '/event/index',
+                '/thankyou' => '/site/thanks',
             ],
         ],
 

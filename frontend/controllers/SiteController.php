@@ -17,6 +17,7 @@ use frontend\models\SignupForm;
 use frontend\models\ContactForm;
 use common\models\EventRegistration;
 use yii\web\UploadedFile;
+use yii\helpers\Url;
 /**
  * Site controller
  */
@@ -30,10 +31,15 @@ class SiteController extends Controller
         return [
             'access' => [
                 'class' => AccessControl::className(),
-                'only' => ['logout', 'signup'],
+                'only' => ['logout', 'signup','registration'],
                 'rules' => [
                     [
                         'actions' => ['signup'],
+                        'allow' => true,
+                        'roles' => ['?'],
+                    ],
+                    [
+                        'actions' => ['registration'],
                         'allow' => true,
                         'roles' => ['?'],
                     ],
@@ -104,21 +110,24 @@ class SiteController extends Controller
         return $this->render('aboutus');
     }
 
+    public function actionThanks()
+    {
+        $this->layout = false;
+        return $this->render('thanks');
+    }
+
     public function actionRegistration()
     {
         $this->layout = false;
 
         $model = new EventRegistration();
-//        echo '<pre>';
-//        echo  var_dump($model);
-//        echo '</pre>';
+
         $model->image = UploadedFile::getInstanceByName('r_screenshot');
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            echo '<script>alert("Your details have been submitted. Our team will contact you after verification.")</script>';
-            return $this->render('nav');
+            echo '<script>alert("Your details have been submitted. Our team will contact you after verification."); </script>';
+            return $this->redirect(Url::to(['/site/thanks']));
         }
-
-        Yii::$app->session->setFlash('errorMsg');
+        
         return $this->render('registration', [
             'model' => $model,
         ]);

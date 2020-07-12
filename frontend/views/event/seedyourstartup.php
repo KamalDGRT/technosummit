@@ -7,7 +7,7 @@ use yii\helpers\Html;
 use frontend\assets\EventAsset;
 use yii\helpers\Url;
 
-$this->title = '';
+$this->title = 'Seed Your Startup';
 EventAsset::register($this);
 ?>
 <?php $this->beginPage() ?>
@@ -76,18 +76,23 @@ EventAsset::register($this);
                             <div class="row">
                                 <div class="col-md-6 col-sm-12">
                                     <div class="mu-about-left">
-                                        <img class="animated slideInLeft" src="<?php echo Yii::$app->params['frontendUrl'] . 'event/images/event_robokart.png'; ?>" alt="Men Speaker"> </div>
+                                        <img class="animated slideInLeft" src="<?php echo Yii::$app->params['frontendUrl'] . 'event/images/event_seedyourstartup.png'; ?>" alt="Seed Your Startup">
+                                    </div>
                                 </div>
                                 <div class="col-md-6 col-sm-12">
                                     <div class="row">
                                         <div class=" mu-about-right animated slideInRight">
                                             <h2 style="text-decoration: underline;">Description :-</h2>
 
-                                            <p>Everything begins with a simple seed. Start-ups are the seeds which grow into the evolution which we know and witness every day.
-                                                Do you believe in having “that simple seed” in you? Do you believe that you can be the reason for the next big innovation which the world is waiting for? Show us the extent of your limitless imagination and bring your startup to this event!
-
+                                            <p>
+                                                Everything begins with a simple seed. Start-ups are the seeds which grow into the evolution
+                                                which we know and witness every day.
                                             </p><br>
-                                            <p>Theme of this event is <b>“Money from Machines”</b>.</p>
+                                            <p>
+                                                Do you believe in having “that simple seed” in you? Do you believe that you can be the reason
+                                                for the next big innovation which the world is waiting for? Show us the extent of your limitless
+                                                imagination and bring your startup to this event!
+                                            </p>
                                         </div>
                                     </div>
 
@@ -114,9 +119,10 @@ EventAsset::register($this);
                                                                 <ul class="list-group">
                                                                     <li class="list-group-item"><span>1. Participants can either participate individually or in teams with a maximum of 4 members.</span></li>
                                                                     <li class="list-group-item"><span>2. Business Idea and Presentation should be pre-prepared. (Should not be from an existing model, it should be a new one)</span></li>
-                                                                    <li class="list-group-item"><span>3. PPT can vary between min. 5 slides/ max. 8 slides.</span></li>
-                                                                    <li class="list-group-item"><span>4. Business Pitch should be min. Of 3 minutes to max. 5 minutes. </span></li>
-                                                                    <li class="list-group-item"><span>5. Followed by a Questionnaire </span></li>
+                                                                    <li class="list-group-item"><span>3. The PPT should be shared via mail and screen shared on the platform during the presentation. </span></li>
+                                                                    <li class="list-group-item"><span>4. PPT can vary between min. 5 slides/ max. 8 slides.</span></li>
+                                                                    <li class="list-group-item"><span>5. Business Pitch should be min. Of 3 minutes to max. 5 minutes. </span></li>
+                                                                    <li class="list-group-item"><span>6. Followed by a Questionnaire </span></li>
                                                                 </ul>
                                                             </div>
                                                         </div>
@@ -141,18 +147,19 @@ EventAsset::register($this);
                                                                     <li class="list-group-item"><span>2. Discussion Time will be given to compile points.</span></li>
                                                                     <li class="list-group-item"><span>3. Then the participant should speak on How to Improvise (3 — 5 minutes). </span></li>
                                                                     <li class="list-group-item"><span>4. Followed by a Questionnaire. </span></li>
+                                                                    <li class="list-group-item"><span>5. Judges decision will be final. </span></li>
                                                                 </ul>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <!-- Round2 Ends -->
-
                                                 </div><br>
-
+                                                <b>Time: </b> 7 minutes per team.
                                             </div>
                                         </div>
                                     </div> <!-- Row ends -->
 
+                                    <!-- FAQs -->
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="mu-sponsors-area animated zoomInRight">
@@ -239,6 +246,7 @@ EventAsset::register($this);
                                         </div>
 
                                     </div>
+
                                 </div>
                                 <!-- End Feature Content -->
 

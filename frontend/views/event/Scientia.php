@@ -7,7 +7,7 @@ use yii\helpers\Html;
 use frontend\assets\EventAsset;
 use yii\helpers\Url;
 
-$this->title = '';
+$this->title = 'Scientia';
 EventAsset::register($this);
 ?>
 <?php $this->beginPage() ?>
@@ -76,7 +76,7 @@ EventAsset::register($this);
                             <div class="row">
                                 <div class="col-md-6 col-sm-12">
                                     <div class="mu-about-left">
-                                        <img class="animated slideInLeft" src="<?php echo Yii::$app->params['frontendUrl'] . 'event/images/event_robokart.png'; ?>" alt="Men Speaker"> </div>
+                                        <img class="animated slideInLeft" src="<?php echo Yii::$app->params['frontendUrl'] . 'event/images/event_scientia.png'; ?>" alt="Scientia"> </div>
                                 </div>
                                 <div class="col-md-6 col-sm-12">
                                     <div class="row">
@@ -85,7 +85,6 @@ EventAsset::register($this);
 
                                             <p>Are you a science lover? Are you ready to test your knowledge? If yes, then this is a platform to show-off your science fascination. Scientia is an eminent science-related event.
                                             </p><br>
-                                            <p>Theme of this event is <b>“Money from Machines”</b>.</p>
                                         </div>
                                     </div>
 
@@ -136,6 +135,7 @@ EventAsset::register($this);
                                                                     <li class="list-group-item"><span>2. The participants have to present on the selected topic which was initially given by the organiser</span></li>
                                                                     <li class="list-group-item"><span>3. Finally, the participants have to attend the quiz given at the end of the presentation.</span></li>
                                                                     <li class="list-group-item"><span>4. Presentation time = 30 minutes </span></li>
+                                                                    <li class="list-group-item"><span>5. Quiz time = 30 minutes </span></li>
                                                                 </ul>
                                                             </div>
                                                         </div>
@@ -148,6 +148,7 @@ EventAsset::register($this);
                                         </div>
                                     </div> <!-- Row ends -->
 
+                                    <!-- FAQs -->
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="mu-sponsors-area animated zoomInRight">
@@ -240,6 +241,7 @@ EventAsset::register($this);
                                         </div>
 
                                     </div>
+
                                 </div>
                                 <!-- End Feature Content -->
 

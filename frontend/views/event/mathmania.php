@@ -7,7 +7,7 @@ use yii\helpers\Html;
 use frontend\assets\EventAsset;
 use yii\helpers\Url;
 
-$this->title = '';
+$this->title = 'MathMania';
 EventAsset::register($this);
 ?>
 <?php $this->beginPage() ?>
@@ -47,8 +47,8 @@ EventAsset::register($this);
 
                         <div class="mu-hero-featured-content animated slideInDown">
 
-                            <h1>Math mania </h1>
-                            <h2>Mathematics club</h2>
+                            <h1>Math Mania </h1>
+                            <h2>Mathematics Club</h2>
                             <br><br>
                             <a href="<?php echo Url::to(['/event/index']) ?>" class="btn btn-first">BACK</a>
                             <a href="<?php echo Url::to(['/site/registration']) ?>" class="btn btn-nav">REGISTER</a>
@@ -76,15 +76,16 @@ EventAsset::register($this);
                             <div class="row">
                                 <div class="col-md-6 col-sm-12">
                                     <div class="mu-about-left">
-                                        <img class="animated slideInLeft" src="<?php echo Yii::$app->params['frontendUrl'] . 'event/images/event_robokart.png'; ?>" alt="Men Speaker"> </div>
+                                        <img class="animated slideInLeft" src="<?php echo Yii::$app->params['frontendUrl'] . 'event/images/event_mathmania.png'; ?>" alt="Math Mania"> </div>
                                 </div>
                                 <div class="col-md-6 col-sm-12">
                                     <div class="row">
                                         <div class=" mu-about-right animated slideInRight">
                                             <h2 style="text-decoration: underline;">Description :-</h2>
 
-                                            <p>Math Mania is a funtastic event for all Math Maniacs. The event involves exciting math based quizzes and puzzles. </p><br>
-                                            <p>Theme of this event is <b>“Money from Machines”</b>.</p>
+                                            <p>Math Mania is a funtastic event for all Math Maniacs. The event involves exciting math
+                                                based quizzes and puzzles.
+                                            </p>
                                         </div>
                                     </div>
 
@@ -94,20 +95,64 @@ EventAsset::register($this);
                                             <div class="mu-sponsors-area animated zoomInRight">
                                                 <p class="myAccordion">Rules and Regulations</p>
                                                 <div class="myPanel">
-                                                    <ul class="list-group">
-                                                        <li class="list-group-item"><span>1. Level 1
-                                                                The participants are provided with a set of questions which should be answered within the allotted time, based on which they will proceed to the next level.
-                                                            </span></li>
-                                                        <li class="list-group-item"><span>2. The participants should go through 25 slides, correlate and state the connection between them.</span></li>
-                                                        <li class="list-group-item"><span>3. The participants are asked to solve a set of puzzles.
-                                                                Judges decision will be final
-                                                            </span></li>
-                                                    </ul>
+
+                                                    <div class="panel panel-default animated zoomInLeft">
+                                                        <div class="panel-heading">
+                                                            <h4 class="panel-title">
+                                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseLevelOne">
+                                                                    <span class="fa fa-angle-up"></span>
+                                                                    Level 1
+                                                                </a>
+                                                            </h4>
+                                                        </div>
+                                                        <div id="collapseLevelOne" class="panel-collapse collapse">
+                                                            <div class="panel-body">
+                                                                The participants are provided with a set of questions which should be answered within
+                                                                the allotted time, based on which they will proceed to the next level.
+                                                            </div>
+                                                        </div>
+                                                    </div><br>
+
+                                                    <div class="panel panel-default animated zoomInLeft">
+                                                        <div class="panel-heading">
+                                                            <h4 class="panel-title">
+                                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseLevelTwo">
+                                                                    <span class="fa fa-angle-up"></span>
+                                                                    Level 2
+                                                                </a>
+                                                            </h4>
+                                                        </div>
+                                                        <div id="collapseLevelTwo" class="panel-collapse collapse">
+                                                            <div class="panel-body">
+                                                                The participants should go through 25 slides, correlate and state the connection
+                                                                between them.
+                                                            </div>
+                                                        </div>
+                                                    </div><br>
+
+                                                    <div class="panel panel-default animated zoomInLeft">
+                                                        <div class="panel-heading">
+                                                            <h4 class="panel-title">
+                                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseLevelThree">
+                                                                    <span class="fa fa-angle-up"></span>
+                                                                    Level 3
+                                                                </a>
+                                                            </h4>
+                                                        </div>
+                                                        <div id="collapseLevelThree" class="panel-collapse collapse">
+                                                            <div class="panel-body">
+                                                                The participants are asked to solve a set of puzzles.
+                                                            </div>
+                                                        </div>
+                                                    </div><br>
+
+                                                    Judges decision will be final.
 
                                                 </div>
                                             </div>
                                         </div>
                                     </div> <!-- Row ends -->
+
 
                                     <div class="row">
                                         <div class="col-md-12">
@@ -119,7 +164,7 @@ EventAsset::register($this);
                                                         <div class="panel panel-default animated zoomInLeft">
                                                             <div class="panel-heading">
                                                                 <h4 class="panel-title">
-                                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true">
+                                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
                                                                         <span class="fa fa-angle-up"></span>
                                                                         Question 1
                                                                     </a>
@@ -201,6 +246,7 @@ EventAsset::register($this);
                                         </div>
 
                                     </div>
+
                                 </div>
                                 <!-- End Feature Content -->
 

@@ -11,19 +11,19 @@ $this->title = 'TechieDeb';
 EventAsset::register($this);
 ?>
 <?php $this->beginPage() ?>
-    <!DOCTYPE html>
-    <html lang="<?= Yii::$app->language ?>">
+<!DOCTYPE html>
+<html lang="<?= Yii::$app->language ?>">
 
-    <head>
-        <meta charset="<?= Yii::$app->charset ?>">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <?php $this->registerCsrfMetaTags() ?>
-        <title><?= Html::encode($this->title) ?></title>
-        <?php $this->head() ?>
-    </head>
+<head>
+    <meta charset="<?= Yii::$app->charset ?>">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <?php $this->registerCsrfMetaTags() ?>
+    <title><?= Html::encode($this->title) ?></title>
+    <?php $this->head() ?>
+</head>
 
-    <body>
+<body>
     <?php $this->beginBody() ?>
     <!-- Start Header -->
     <header id="mu-hero" class="" role="banner">
@@ -76,7 +76,7 @@ EventAsset::register($this);
                             <div class="row">
                                 <div class="col-md-6 col-sm-12">
                                     <div class="mu-about-left">
-                                        <img class="animated slideInLeft" src="<?php echo Yii::$app->params['frontendUrl'] . 'event/images/event_robokart.png';?>" alt="Men Speaker">
+                                        <img class="animated slideInLeft" src="<?php echo Yii::$app->params['frontendUrl'] . 'event/images/event_techiedeb.jpg'; ?>" alt="Techie Deb">
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-sm-12">
@@ -84,8 +84,8 @@ EventAsset::register($this);
                                         <div class=" mu-about-right animated slideInRight">
                                             <h2 style="text-decoration: underline;">Description :-</h2>
                                             <p>
-                                                The debate is an indispensable characteristic of an individual that makes them put forward their 
-                                                perspective in analyzing a situation of social cause linked with technology, whether it is in favor 
+                                                The debate is an indispensable characteristic of an individual that makes them put forward their
+                                                perspective in analyzing a situation of social cause linked with technology, whether it is in favor
                                                 or against it.
                                             </p><br>
                                             <p>Techie Deb is a debating event.</p>
@@ -102,8 +102,7 @@ EventAsset::register($this);
                                                         <div class="panel panel-default animated zoomInLeft">
                                                             <div class="panel-heading">
                                                                 <h4 class="panel-title">
-                                                                    <a data-toggle="collapse" data-parent="#accordion"
-                                                                        href="#collapseDayOne">
+                                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseDayOne">
                                                                         <span class="fa fa-angle-up"></span>
                                                                         Day 1 - Prelims
                                                                     </a>
@@ -119,16 +118,15 @@ EventAsset::register($this);
                                                         <div class="panel panel-default animated slideInLeft">
                                                             <div class="panel-heading">
                                                                 <h4 class="panel-title">
-                                                                    <a data-toggle="collapse" data-parent="#accordion"
-                                                                        href="#collapseDayTwo">
+                                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseDayTwo">
                                                                         <span class="fa fa-angle-up"></span>
-                                                                            Day 2 - Semi-finals
+                                                                        Day 2 - Semi-finals
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseDayTwo" class="panel-collapse collapse">
                                                                 <div class="panel-body">
-                                                                    Semi-final Round: Eight students will be qualified for this round, and each 
+                                                                    Semi-final Round: Eight students will be qualified for this round, and each
                                                                     speaker will be given 5 minutes to speak and 3 minutes for the rebuttal.
                                                                 </div>
                                                             </div>
@@ -137,17 +135,16 @@ EventAsset::register($this);
                                                         <div class="panel panel-default animated slideInRight">
                                                             <div class="panel-heading">
                                                                 <h4 class="panel-title">
-                                                                    <a data-toggle="collapse" data-parent="#accordion"
-                                                                        href="#collapseFinals">
+                                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFinals">
                                                                         <span class="fa fa-angle-up"></span>
-                                                                            FINALS (Day2):
+                                                                        FINALS (Day2):
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseFinals" class="panel-collapse collapse">
                                                                 <div class="panel-body">
-                                                                    Two students will be qualified for this round, and each speaker will be given 
-                                                                    6 minutes to speak and 4 minutes for the rebuttal. 
+                                                                    Two students will be qualified for this round, and each speaker will be given
+                                                                    6 minutes to speak and 4 minutes for the rebuttal.
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -155,8 +152,7 @@ EventAsset::register($this);
                                                         <div class="panel panel-default animated slideInLeft">
                                                             <div class="panel-heading">
                                                                 <h4 class="panel-title">
-                                                                    <a data-toggle="collapse" data-parent="#accordion"
-                                                                        href="#collapseWinner">
+                                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseWinner">
                                                                         <span class="fa fa-angle-up"></span>
                                                                         Selection of Winner
                                                                     </a>
@@ -164,8 +160,8 @@ EventAsset::register($this);
                                                             </div>
                                                             <div id="collapseWinner" class="panel-collapse collapse">
                                                                 <div class="panel-body">
-                                                                    Based upon the discretion of Judges in each round, the top 4 participants will be 
-                                                                    qualified for the Semi-finals and the top 2 for the Finals. 
+                                                                    Based upon the discretion of Judges in each round, the top 4 participants will be
+                                                                    qualified for the Semi-finals and the top 2 for the Finals.
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -177,24 +173,39 @@ EventAsset::register($this);
 
                                     </div>
 
-                                    <div class="row"> <!-- Row starts -->
+                                    <div class="row">
+                                        <!-- Row starts -->
                                         <div class="col-md-12">
                                             <div class="mu-sponsors-area animated zoomInRight">
                                                 <p class="myAccordion">Rules and Regulations</p>
                                                 <div class="myPanel">
 
                                                     <ul class="list-group">
-                                                        <li class="list-group-item"><span>1. The idea should be unique </span></li>
-                                                        <li class="list-group-item"><span>2. It should be practically possible.</span></li>
-                                                        <li class="list-group-item"><span>3. The idea should be framed as a 3D design with proper algorithms.</span></li>
-                                                        <li class="list-group-item"><span>4. Other than Robotics — Electronics, Electrical & Mechanical are welcome. The time limit per participant is minimum — two minutes to maximum — four minutes </span></li>
+                                                        <li class="list-group-item"><span> 1. The debate is based on the amended version of Lincoln- Douglas format, i.e., one to one. </span></li>
+                                                        <li class="list-group-item"><span> 2. Debating ~ Only individual registrations is considered and hence no restriction on the number of registrations from a college.</span></li>
+                                                        <li class="list-group-item"><span> 3. The mode of competition is online. </span></li>
+                                                        <li class="list-group-item"><span> 4. Each zoom classroom would consist of 1 Judge, 2 Participants, 2 students, and Coordinators. </span></li>
+                                                        <li class="list-group-item"><span> 5. As it is one to one debate, one team will speak FOR the motion, another one will speak AGAINST the motion. </span></li>
+                                                        <li class="list-group-item"><span> 6. All the participants are requested to prepare for both the proposition as well as the opposition where the motion to be presented by the participant will be announced by the judge in the Zoom meeting.</span></li>
+                                                        <li class="list-group-item"><span> 7. Each participant will be allotted a student coordinator from the host institution to attend the issues and doubts of the participants. </span></li>
+                                                        <li class="list-group-item"><span> 8. The organizing committee would provide the participants with the Zoom ID and Password, 1 hour prior to the respective rounds, through registered mail id and registered WhatsApp numbers. </span></li>
+                                                        <li class="list-group-item"><span> 9. Proper internet connection is required for participation in this competition, and in case of a blackout or improper connection, the participant may be disqualified by the organizing committee. </span></li>
+                                                        <li class="list-group-item"><span> 10. The official ID card of the participant must be sent to the student coordinator allotted. </span></li>
+                                                        <li class="list-group-item"><span> 11. All Participants must be in Proper formal attire during the competition. </span></li>
+                                                        <li class="list-group-item"><span> 12. Participants are not allowed to interrupt the fellow participant when he or she is presenting. </span></li>
+                                                        <li class="list-group-item"><span> 13. Participants are requested to be mindful of the time limit. Exceeding the time limit would result in negative marking. </span></li>
+                                                        <li class="list-group-item"><span> 14. No participant will be allowed to argue with the judge, and the judge’s decision will be conclusive. </span></li>
+                                                        <li class="list-group-item"><span> 15. Participants must refrain from using obscene words and are requested to maintain the dignity and decorum of the competition.</span></li>
+                                                        <li class="list-group-item"><span> 16. Organizers reserve the right to alter/change the rules/ or procedure of the competition if the need so arises.</span></li>
+                                                        <li class="list-group-item"><span> <b>ELIGIBILITY</b> : All Undergraduate Programmes students are eligible to register. </span></li>
                                                     </ul>
 
                                                 </div><br>
                                             </div>
                                         </div>
-                                    </div>     <!-- Row ends -->
+                                    </div> <!-- Row ends -->
 
+                                    <!-- FAQs -->
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="mu-sponsors-area animated zoomInRight">
@@ -205,8 +216,7 @@ EventAsset::register($this);
                                                         <div class="panel panel-default animated zoomInLeft">
                                                             <div class="panel-heading">
                                                                 <h4 class="panel-title">
-                                                                    <a data-toggle="collapse" data-parent="#accordion"
-                                                                        href="#collapseOne" aria-expanded="true">
+                                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true">
                                                                         <span class="fa fa-angle-up"></span>
                                                                         Question 1
                                                                     </a>
@@ -222,8 +232,7 @@ EventAsset::register($this);
                                                         <div class="panel panel-default animated slideInLeft">
                                                             <div class="panel-heading">
                                                                 <h4 class="panel-title">
-                                                                    <a data-toggle="collapse" data-parent="#accordion"
-                                                                        href="#collapseTwo">
+                                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
                                                                         <span class="fa fa-angle-up"></span>
                                                                         Question 2
                                                                     </a>
@@ -239,8 +248,7 @@ EventAsset::register($this);
                                                         <div class="panel panel-default animated slideInRight">
                                                             <div class="panel-heading">
                                                                 <h4 class="panel-title">
-                                                                    <a data-toggle="collapse" data-parent="#accordion"
-                                                                        href="#collapseThree">
+                                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
                                                                         <span class="fa fa-angle-up"></span>
                                                                         Question 3
                                                                     </a>
@@ -256,8 +264,7 @@ EventAsset::register($this);
                                                         <div class="panel panel-default animated slideInLeft">
                                                             <div class="panel-heading">
                                                                 <h4 class="panel-title">
-                                                                    <a data-toggle="collapse" data-parent="#accordion"
-                                                                        href="#collapseFour">
+                                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
                                                                         <span class="fa fa-angle-up"></span>
                                                                         Question 4
                                                                     </a>
@@ -273,8 +280,7 @@ EventAsset::register($this);
                                                         <div class="panel panel-default animated slideInRight">
                                                             <div class="panel-heading">
                                                                 <h4 class="panel-title">
-                                                                    <a data-toggle="collapse" data-parent="#accordion"
-                                                                        href="#collapseFive">
+                                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
                                                                         <span class="fa fa-angle-up"></span>
                                                                         Question 5
                                                                     </a>
@@ -292,6 +298,7 @@ EventAsset::register($this);
                                         </div>
 
                                     </div>
+
                                 </div>
                                 <!-- End Feature Content -->
 
@@ -307,7 +314,7 @@ EventAsset::register($this);
 
 
     <?php $this->endBody() ?>
-    </body>
+</body>
 
-    </html>
+</html>
 <?php $this->endPage() ?>

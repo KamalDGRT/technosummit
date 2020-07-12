@@ -11,19 +11,19 @@ $this->title = 'Robokart';
 EventAsset::register($this);
 ?>
 <?php $this->beginPage() ?>
-    <!DOCTYPE html>
-    <html lang="<?= Yii::$app->language ?>">
+<!DOCTYPE html>
+<html lang="<?= Yii::$app->language ?>">
 
-    <head>
-        <meta charset="<?= Yii::$app->charset ?>">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <?php $this->registerCsrfMetaTags() ?>
-        <title><?= Html::encode($this->title) ?></title>
-        <?php $this->head() ?>
-    </head>
+<head>
+    <meta charset="<?= Yii::$app->charset ?>">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <?php $this->registerCsrfMetaTags() ?>
+    <title><?= Html::encode($this->title) ?></title>
+    <?php $this->head() ?>
+</head>
 
-    <body>
+<body>
     <?php $this->beginBody() ?>
     <!-- Start Header -->
     <header id="mu-hero" class="" role="banner">
@@ -76,84 +76,85 @@ EventAsset::register($this);
                             <div class="row">
                                 <div class="col-md-6 col-sm-12">
                                     <div class="mu-about-left">
-                                    <img class="animated slideInLeft" src="<?php echo Yii::$app->params['frontendUrl'] . 'event/images/event_robokart.png';?>" alt="Men Speaker">                                    </div>
+                                        <img class="animated slideInLeft" src="<?php echo Yii::$app->params['frontendUrl'] . 'event/images/event_robokart.png'; ?>" alt="Men Speaker"> </div>
                                 </div>
                                 <div class="col-md-6 col-sm-12">
                                     <div class="row">
                                         <div class=" mu-about-right animated slideInRight">
                                             <h2 style="text-decoration: underline;">Description :-</h2>
 
-                                            <p>The event is all about designing a unique and useful design of a robot which works either mechanically 
-                                            or electrically. The module should have a wide and useful vision, and it should be a problem solving device. 
-                                            It should be  related to robotics and mechatronics. Your design will be judged on the basis of its efficiency 
-                                            and Algorithm with reliability and cost efficiency. You can use any software to show the design of the machine.
+                                            <p>The event is all about designing a unique and useful design of a robot which works either mechanically
+                                                or electrically. The module should have a wide and useful vision, and it should be a problem solving device.
+                                                It should be related to robotics and mechatronics. Your design will be judged on the basis of its efficiency
+                                                and Algorithm with reliability and cost efficiency. You can use any software to show the design of the machine.
                                             </p><br>
                                             <p>Theme of this event is <b>“Money from Machines”</b>.</p>
                                         </div>
                                     </div>
 
-                                    <div class="row"> <!-- Row starts -->
+                                    <div class="row">
+                                        <!-- Row starts -->
                                         <div class="col-md-12">
                                             <div class="mu-sponsors-area animated zoomInRight">
                                                 <p class="myAccordion">Rules and Regulations</p>
                                                 <div class="myPanel">
 
-                                                <!-- Round1 Starts -->
-                                                <div class="panel panel-default animated zoomInLeft">
-                                                    <div class="panel-heading">
-                                                        <h4 class="panel-title">
-                                                            <a data-toggle="collapse" data-parent="#accordion"
-                                                                href="#collapseRoundOne">
-                                                                <span class="fa fa-angle-up"></span>
-                                                                Round 1
-                                                            </a>
-                                                        </h4>
-                                                    </div>
+                                                    <!-- Round1 Starts -->
+                                                    <div class="panel panel-default animated zoomInLeft">
+                                                        <div class="panel-heading">
+                                                            <h4 class="panel-title">
+                                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseRoundOne">
+                                                                    <span class="fa fa-angle-up"></span>
+                                                                    Round 1
+                                                                </a>
+                                                            </h4>
+                                                        </div>
 
-                                                    <div id="collapseRoundOne" class="panel-collapse collapse">
-                                                        <div class="panel-body">
-                                                            <ul class="list-group">
-                                                                <li class="list-group-item"><span>1. The idea should be unique </span></li>
-                                                                <li class="list-group-item"><span>2. It should be practically possible.</span></li>
-                                                                <li class="list-group-item"><span>3. The idea should be framed as a 3D design with proper algorithms.</span></li>
-                                                                <li class="list-group-item"><span>4. Other than Robotics — Electronics, Electrical & Mechanical are welcome. The time limit per participant is minimum — two minutes to maximum — four minutes </span></li>
-                                                            </ul>
+                                                        <div id="collapseRoundOne" class="panel-collapse collapse">
+                                                            <div class="panel-body">
+                                                                <ul class="list-group">
+                                                                    <li class="list-group-item"><span>1. The idea should be unique </span></li>
+                                                                    <li class="list-group-item"><span>2. It should be practically possible.</span></li>
+                                                                    <li class="list-group-item"><span>3. The idea should be framed as a 3D design with proper algorithms.</span></li>
+                                                                    <li class="list-group-item"><span>4. Other than Robotics — Electronics, Electrical & Mechanical are welcome. The time limit per participant is minimum — two minutes to maximum — four minutes </span></li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div><br>
+                                                    <!-- Round1 Ends -->
+
+                                                    <!-- Round2 Starts -->
+                                                    <div class="panel panel-default animated zoomInLeft">
+                                                        <div class="panel-heading">
+                                                            <h4 class="panel-title">
+                                                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseRoundTwo">
+                                                                    <span class="fa fa-angle-up"></span>
+                                                                    Round 2
+                                                                </a>
+                                                            </h4>
+                                                        </div>
+
+                                                        <div id="collapseRoundTwo" class="panel-collapse collapse">
+                                                            <div class="panel-body">
+                                                                <ul class="list-group">
+                                                                    <li class="list-group-item"><span>1. If your Design gets selected, then a presentation should be delivered for Minimum five minutes to Maximum seven minutes. </span></li>
+                                                                    <li class="list-group-item"><span>2. In this round, your design will be judged on the basis of market availability and also for the generation of its demand.</span></li>
+                                                                    <li class="list-group-item"><span>3. Time limit should not be exceeded.</span></li>
+                                                                    <li class="list-group-item"><span>4. For designing you can use AutoCad, KiCad, OnShape, AutoDesk Eagle, PCB web design. (Any Software)</span></li>
+                                                                    <li class="list-group-item"><span>5. Judges decision will be final.</span></li>
+                                                                </ul>
+                                                            </div>
                                                         </div>
                                                     </div>
+                                                    <!-- Round2 Ends -->
+
                                                 </div><br>
-                                                <!-- Round1 Ends -->
-
-                                                <!-- Round2 Starts -->
-                                                <div class="panel panel-default animated zoomInLeft">
-                                                    <div class="panel-heading">
-                                                        <h4 class="panel-title">
-                                                            <a data-toggle="collapse" data-parent="#accordion"
-                                                                href="#collapseRoundTwo">
-                                                                <span class="fa fa-angle-up"></span>
-                                                                Round 2
-                                                            </a>
-                                                        </h4>
-                                                    </div>
-
-                                                    <div id="collapseRoundTwo" class="panel-collapse collapse">
-                                                        <div class="panel-body">
-                                                            <ul class="list-group">
-                                                                <li class="list-group-item"><span>1.  </span></li>
-                                                                <li class="list-group-item"><span>2.  </span></li>
-                                                                <li class="list-group-item"><span>3.  </span></li>
-                                                                <li class="list-group-item"><span>4.  </span></li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <!-- Round2 Ends -->
-                                                
-                                            </div><br>
 
                                             </div>
                                         </div>
-                                    </div>     <!-- Row ends -->
+                                    </div> <!-- Row ends -->
 
+                                    <!-- FAQ -->
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="mu-sponsors-area animated zoomInRight">
@@ -164,8 +165,7 @@ EventAsset::register($this);
                                                         <div class="panel panel-default animated zoomInLeft">
                                                             <div class="panel-heading">
                                                                 <h4 class="panel-title">
-                                                                    <a data-toggle="collapse" data-parent="#accordion"
-                                                                        href="#collapseOne" aria-expanded="true">
+                                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true">
                                                                         <span class="fa fa-angle-up"></span>
                                                                         Question 1
                                                                     </a>
@@ -181,8 +181,7 @@ EventAsset::register($this);
                                                         <div class="panel panel-default animated slideInLeft">
                                                             <div class="panel-heading">
                                                                 <h4 class="panel-title">
-                                                                    <a data-toggle="collapse" data-parent="#accordion"
-                                                                        href="#collapseTwo">
+                                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
                                                                         <span class="fa fa-angle-up"></span>
                                                                         Question 2
                                                                     </a>
@@ -198,8 +197,7 @@ EventAsset::register($this);
                                                         <div class="panel panel-default animated slideInRight">
                                                             <div class="panel-heading">
                                                                 <h4 class="panel-title">
-                                                                    <a data-toggle="collapse" data-parent="#accordion"
-                                                                        href="#collapseThree">
+                                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
                                                                         <span class="fa fa-angle-up"></span>
                                                                         Question 3
                                                                     </a>
@@ -215,8 +213,7 @@ EventAsset::register($this);
                                                         <div class="panel panel-default animated slideInLeft">
                                                             <div class="panel-heading">
                                                                 <h4 class="panel-title">
-                                                                    <a data-toggle="collapse" data-parent="#accordion"
-                                                                        href="#collapseFour">
+                                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
                                                                         <span class="fa fa-angle-up"></span>
                                                                         Question 4
                                                                     </a>
@@ -232,8 +229,7 @@ EventAsset::register($this);
                                                         <div class="panel panel-default animated slideInRight">
                                                             <div class="panel-heading">
                                                                 <h4 class="panel-title">
-                                                                    <a data-toggle="collapse" data-parent="#accordion"
-                                                                        href="#collapseFive">
+                                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
                                                                         <span class="fa fa-angle-up"></span>
                                                                         Question 5
                                                                     </a>
@@ -251,6 +247,8 @@ EventAsset::register($this);
                                         </div>
 
                                     </div>
+
+
                                 </div>
                                 <!-- End Feature Content -->
 
@@ -266,7 +264,7 @@ EventAsset::register($this);
 
 
     <?php $this->endBody() ?>
-    </body>
+</body>
 
-    </html>
+</html>
 <?php $this->endPage() ?>
