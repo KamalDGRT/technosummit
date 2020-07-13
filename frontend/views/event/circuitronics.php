@@ -132,13 +132,13 @@ EventAsset::register($this);
                                                                 <h4 class="panel-title">
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true">
                                                                         <span class="fa fa-angle-up"></span>
-                                                                        Question 1
+                                                                        1. Through which medium the event will be conducted?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseOne" class="panel-collapse collapse in">
                                                                 <div class="panel-body">
-                                                                    Answer 1
+                                                                    The event will be conducted on the online webinar Platform “ZOOM”.
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -148,13 +148,13 @@ EventAsset::register($this);
                                                                 <h4 class="panel-title">
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
                                                                         <span class="fa fa-angle-up"></span>
-                                                                        Question 2
+                                                                        2. Is there any registration fee?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseTwo" class="panel-collapse collapse">
                                                                 <div class="panel-body">
-                                                                    Answer 2
+                                                                    Yes, the registration fee for the event is Rs. 50/-
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -164,13 +164,15 @@ EventAsset::register($this);
                                                                 <h4 class="panel-title">
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
                                                                         <span class="fa fa-angle-up"></span>
-                                                                        Question 3
+                                                                        3. How many rounds are there in total?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseThree" class="panel-collapse collapse">
                                                                 <div class="panel-body">
-                                                                    Answer 3
+                                                                    There will be two rounds in total. In the first round, the participants have to identify circuit
+                                                                    components based on the image shown, whereas in the second round they will create a document and
+                                                                    a present on the topic given on the spot.
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -180,13 +182,13 @@ EventAsset::register($this);
                                                                 <h4 class="panel-title">
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
                                                                         <span class="fa fa-angle-up"></span>
-                                                                        Question 4
+                                                                        4. Who can participate?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseFour" class="panel-collapse collapse">
                                                                 <div class="panel-body">
-                                                                    Answer 4
+                                                                    Anyone who is willing to participate is most welcome.
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -196,16 +198,36 @@ EventAsset::register($this);
                                                                 <h4 class="panel-title">
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
                                                                         <span class="fa fa-angle-up"></span>
-                                                                        Question 5
+                                                                        5. How will the winners be selected?
                                                                     </a>
                                                                 </h4>
                                                             </div>
                                                             <div id="collapseFive" class="panel-collapse collapse ">
                                                                 <div class="panel-body">
-                                                                    Answer 5
+                                                                    In the first round, points will be given to the participants based on the correct identification
+                                                                    of the circuit. The participants with the highest 10 total points will be eligible for the second
+                                                                    round. There will be 3 winners after the completion of the second round.
                                                                 </div>
                                                             </div>
                                                         </div>
+
+                                                        <div class="panel panel-default animated slideInRight">
+                                                            <div class="panel-heading">
+                                                                <h4 class="panel-title">
+                                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
+                                                                        <span class="fa fa-angle-up"></span>
+                                                                        6. What is the time duration for each round?
+                                                                    </a>
+                                                                </h4>
+                                                            </div>
+                                                            <div id="collapseSix" class="panel-collapse collapse ">
+                                                                <div class="panel-body">
+                                                                    The first round will be Half an Hour, the second round will be for one hour.
+                                                                    And the total time duration will be a maximum of 2 hours.
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
                                                     </div>
                                                 </div>
                                             </div>
