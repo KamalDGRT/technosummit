@@ -133,7 +133,7 @@ class EventRegistration extends \yii\db\ActiveRecord
             5 => 'CIRCUITRONICS',
             6 => 'SCIENTIA',
             7 => 'Code-Vita',
-            8 => 'CONCEPT',
+            8 => 'CONCEPT-IDEABOX',
             9 => 'SEED YOUR STARTUP',
             10 => 'COVID-A-THON',
             11 => 'D & D',
