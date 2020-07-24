@@ -63,7 +63,7 @@ class EventRegistrationController extends Controller
     {
         $dataProvider = new ActiveDataProvider([
             'query' => EventRegistration::find(),
-            'pagination' => true
+            'pagination' => false
         ]);
 
         return $this->render('datafilter', [
