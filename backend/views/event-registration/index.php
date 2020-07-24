@@ -44,8 +44,6 @@ $this->params['breadcrumbs'][] = $this->title;
             //'r_transaction_id',
             //'created_at',
             //'created_by',
-
-            ['class' => 'yii\grid\ActionColumn'],
         ],
     ]); ?>
 

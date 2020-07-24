@@ -19,8 +19,11 @@
             [
                 'label' => 'Data Filter',
                 'url' => ['/event-registration/datafilter']
+            ],
+            [
+                'label' => 'Event-Wise Count',
+                'url' => ['/event-registration/eventwisecount']
             ]
-
         ]
     ])  ?>
 </aside>

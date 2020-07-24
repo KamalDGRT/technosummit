@@ -15,29 +15,59 @@ use yii\imagine\Image;
 
     <?php echo $form->errorSummary($model) ?>
 
-    <?= $form->field($model, 'image_id')->textInput(['maxlength' => true, 'readonly' =>'readonly']) ?>
+    <div class="row">
 
-    <?= $form->field($model, 'r_name')->textInput(['maxlength' => true, 'readonly' =>'readonly']) ?>
+        <div class="col-md-4">
+        <?= $form->field($model, 'image_id')->textInput(['maxlength' => true, 'readonly' =>'readonly']) ?>
+        </div>
 
-    <?= $form->field($model, 'r_email')->textInput(['maxlength' => true, 'readonly' =>'readonly']) ?>
+        <div class="col-md-4">
+        <?= $form->field($model, 'r_name')->textInput(['maxlength' => true, 'readonly' =>'readonly']) ?>
+        </div>
 
-    <?= $form->field($model, 'r_phone')->textInput(['maxlength' => true, 'readonly' =>'readonly']) ?>
+        <div class="col-md-4">
+        <?= $form->field($model, 'r_email')->textInput(['maxlength' => true, 'readonly' =>'readonly']) ?>
+        </div>
+        
+    </div>
 
-    <?= $form->field($model, 'r_college')->textInput(['maxlength' => true]) ?>
+    <div class="row">
 
-    <?= $form->field($model, 'r_year')->textInput([ 'readonly' =>'readonly']) ?>
+        <div class="col-md-4">
+            <?= $form->field($model, 'r_phone')->textInput(['maxlength' => true, 'readonly' =>'readonly']) ?>
+        </div>    
 
-    <?= $form->field($model, 'r_city')->textInput(['maxlength' => true, 'readonly' =>'readonly']) ?>
+        <div class="col-md-8">
+            <?= $form->field($model, 'r_college')->textInput(['maxlength' => true]) ?>
+        </div>
 
-    <?= $form->field($model, 'r_state')->textInput(['maxlength' => true, 'readonly' =>'readonly']) ?>
+    </div>
+    
+    <div class="row">
 
-    <?= $form->field($model, 'r_event')->textInput(['readonly' =>'readonly']) ?>
-    <?= $form->field($model, 'r_event')->dropDownList($model->getEventLabels(), ['readonly' => 'readonly']) ?>
+        <div class="col-md-3">
+            <?= $form->field($model, 'r_year')->textInput([ 'readonly' =>'readonly']) ?>
+        </div>
 
-    <div class="embed-responsive embed-responsive-16by9 mb-3">
+        <div class="col-md-3">
+            <?= $form->field($model, 'r_city')->textInput(['maxlength' => true, 'readonly' =>'readonly']) ?>
+        </div>
+
+        <div class="col-md-3">
+            <?= $form->field($model, 'r_state')->textInput(['maxlength' => true, 'readonly' =>'readonly']) ?>
+        </div>
+
+        <div class="col-md-3">    
+            <?= $form->field($model, 'r_event')->dropDownList($model->getEventLabels(), ['readonly' => 'readonly']) ?>
+        </div>
+
+    </div>
+
+
+    <!-- <div class="embed-responsive embed-responsive-16by9 mb-3"> -->
         <img class="embed-responsive-item"
                src="<?php echo $model->getImageLink() ?>">
-    </div>
+    <!-- </div> -->
 
     <?= $form->field($model, 'r_transaction_id')->textInput(['maxlength' => true, 'readonly' =>'readonly']) ?>
 

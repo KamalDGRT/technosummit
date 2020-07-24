@@ -49,6 +49,9 @@ class EventRegistrationController extends Controller
     {
         $dataProvider = new ActiveDataProvider([
             'query' => EventRegistration::find(),
+            'pagination' => [
+                'pageSize' => 10,
+            ],
         ]);
 
         return $this->render('index', [
@@ -60,10 +63,21 @@ class EventRegistrationController extends Controller
     {
         $dataProvider = new ActiveDataProvider([
             'query' => EventRegistration::find(),
-            'pagination' => false
+            'pagination' => true
         ]);
 
         return $this->render('datafilter', [
+            'dataProvider' => $dataProvider,
+        ]);
+    }
+
+    public function actionEventwisecount()
+    {
+        $dataProvider = new ActiveDataProvider([
+            'query' => EventRegistration::find()->groupBy(['r_event']),
+        ]);
+
+        return $this->render('eventwisecount', [
             'dataProvider' => $dataProvider,
         ]);
     }
