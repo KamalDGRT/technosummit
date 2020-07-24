@@ -30,11 +30,8 @@ $this->title = 'About Us';
         <div class="inner-container animated slideInDown">
             <h1 class="animated slideInRight">ABOUT SATHYABAMA:</h1>
             <p class="text animated slideInRight">
-                A prestigious institution which outshines in all fields for more than three successful decades is our Sathyabama
-                Institute of Science and Technology. With the blessings of our Founder Chancellor, Col. Dr. Jeppiaar, and
-                under the dynamic leadership of Dr. Mariazeena Johnson, Chancellor and Dr. Marie Johnson, President, this
-                esteemed institution has secured 39<sup>th</sup> rank in the NIRF RANKING 2020 and it is ranked among the top 50
-                universities in the country for the 5<sup>th</sup> consecutive year.
+                A prestigious institution which outshines in all fields for more than three successful decades is our Sathyabama Institute of Science and Technology. With the blessings of our Founder Chancellor, 
+                Col.&nbsp;Dr.&nbsp;Jeppiaar, and under the dynamic leadership of Dr.&nbsp;Mariazeena&nbsp;Johnson, Chancellor and Dr.&nbsp;Marie&nbsp;Johnson, President, this esteemed institution has secured 39<sup>th</sup> rank in the NIRF RANKING 2020 and it is ranked among the top 50 universities in the country for the 5<sup>th</sup> consecutive year.
                 <br><br>
                 Sathyabama Institute of Science and Technology is offering multi-disciplinary academic programmes in various
                 fields of Engineering, Science, Technology, Law, Nursing, Dental and Management. It is established under Sec.3
