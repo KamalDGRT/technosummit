@@ -20,7 +20,7 @@ $this->params['breadcrumbs'][] = $this->title;
         'dataProvider' => $dataProvider,
         'tableOptions' => [
             'id' => 'regtable',
-            'class' => 'table table-striped'
+            'class' => 'table table-striped table-bordered'
         ],
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],

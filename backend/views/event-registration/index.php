@@ -18,7 +18,7 @@ $this->params['breadcrumbs'][] = $this->title;
         'dataProvider' => $dataProvider,
         'tableOptions' => [
             'id' => 'regtable',
-            'class' => 'table table-striped'
+            'class' => 'table table-striped table-bordered'
         ],
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
@@ -32,6 +32,12 @@ $this->params['breadcrumbs'][] = $this->title;
             'r_name',
             'r_email:email',
             'r_phone',
+            [
+                'attribute' => 'r_event',
+                'content' => function ($model) {
+                    return $model->getEventLabels()[$model->r_event];
+                }
+            ],
             //'r_college',
             //'r_year',
             //'r_city',

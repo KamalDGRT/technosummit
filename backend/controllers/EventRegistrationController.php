@@ -73,6 +73,7 @@ class EventRegistrationController extends Controller
     {
         $dataProvider = new ActiveDataProvider([
             'query' => EventRegistration::find()->groupBy(['r_event']),
+            'pagination' => false
         ]);
 
         return $this->render('eventwisecount', [
