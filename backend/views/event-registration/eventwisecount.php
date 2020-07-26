@@ -18,22 +18,26 @@ $this->params['breadcrumbs'][] = $this->title;
 
     <?= GridView::widget([
         'dataProvider' => $dataProvider,
+        'tableOptions' => [
+            'id' => 'regtable',
+            'class' => 'table table-striped'
+        ],
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
 
             [
                 'attribute' => 'r_event',
-                'content' => function($model){
+                'content' => function ($model) {
                     return $model->getEventLabels()[$model->r_event];
                 }
             ],
 
             [
                 'attribute' => 'count',
-                'content' => function($model){
+                'content' => function ($model) {
                     $event = new ActiveDataProvider([
-                        'query' => EventRegistration::find()->where(['r_event'=>$model->r_event]),
-                        ]);
+                        'query' => EventRegistration::find()->where(['r_event' => $model->r_event]),
+                    ]);
                     $eventCount = $event->getCount();
                     return $eventCount;
                 }
@@ -41,10 +45,10 @@ $this->params['breadcrumbs'][] = $this->title;
 
             [
                 'attribute' => 'confirmed',
-                'content' => function($model){
+                'content' => function ($model) {
                     $event = new ActiveDataProvider([
-                        'query' => EventRegistration::find()->where(['r_event'=>$model->r_event,'status'=>1]),
-                        ]);
+                        'query' => EventRegistration::find()->where(['r_event' => $model->r_event, 'status' => 1]),
+                    ]);
                     $eventCount = $event->getCount();
                     return $eventCount;
                 }
@@ -52,10 +56,10 @@ $this->params['breadcrumbs'][] = $this->title;
 
             [
                 'attribute' => 'not confirmed',
-                'content' => function($model){
+                'content' => function ($model) {
                     $event = new ActiveDataProvider([
-                        'query' => EventRegistration::find()->where(['r_event'=>$model->r_event,'status'=>0]),
-                        ]);
+                        'query' => EventRegistration::find()->where(['r_event' => $model->r_event, 'status' => 0]),
+                    ]);
                     $eventCount = $event->getCount();
                     return $eventCount;
                 }

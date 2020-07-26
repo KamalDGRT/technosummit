@@ -16,6 +16,10 @@ $this->params['breadcrumbs'][] = $this->title;
 
     <?= GridView::widget([
         'dataProvider' => $dataProvider,
+        'tableOptions' => [
+            'id' => 'regtable',
+            'class' => 'table table-striped'
+        ],
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
             [
@@ -35,7 +39,7 @@ $this->params['breadcrumbs'][] = $this->title;
             //'r_event',
             [
                 'attribute' => 'status',
-                'content' => function($model){
+                'content' => function ($model) {
                     return $model->getStatusLabels()[$model->status];
                 }
             ],

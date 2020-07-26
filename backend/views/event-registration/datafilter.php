@@ -18,8 +18,8 @@ $this->params['breadcrumbs'][] = $this->title;
     <?= GridView::widget([
         'dataProvider' => $dataProvider,
         'tableOptions' => [
-                'id' => 'example',
-                'class' => 'table table-bordered'
+            'id' => 'example',
+            'class' => 'table table-bordered'
         ],
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
@@ -32,13 +32,13 @@ $this->params['breadcrumbs'][] = $this->title;
             //'r_state',
             [
                 'attribute' => 'r_event',
-                'content' => function($model){
+                'content' => function ($model) {
                     return $model->getEventLabels()[$model->r_event];
                 }
             ],
             [
                 'attribute' => 'status',
-                'content' => function($model){
+                'content' => function ($model) {
                     return $model->getStatusLabels()[$model->status];
                 }
             ],
