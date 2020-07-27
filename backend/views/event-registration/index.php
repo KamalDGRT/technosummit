@@ -43,6 +43,7 @@ $this->params['breadcrumbs'][] = $this->title;
             //'r_city',
             //'r_state',
             //'r_event',
+            'r_transaction_id',
             [
                 'attribute' => 'status',
                 'content' => function ($model) {
