@@ -11,4 +11,5 @@ return [
             'class' => 'yii\caching\FileCache',
         ],
     ],
+    'timeZone' => 'Asia/Calcutta',
 ];

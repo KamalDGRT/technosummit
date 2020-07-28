@@ -18,7 +18,7 @@ $this->params['breadcrumbs'][] = $this->title;
         'dataProvider' => $dataProvider,
         'tableOptions' => [
             'id' => 'regtable',
-            'class' => 'table table-striped table-bordered'
+            'class' => 'table table-striped table-bordered text-nowrap'
         ],
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
@@ -53,7 +53,7 @@ $this->params['breadcrumbs'][] = $this->title;
             //'has_image',
             //'image_name',
             //'r_transaction_id',
-            //'created_at',
+            'created_at:datetime',
             //'created_by',
         ],
     ]); ?>
