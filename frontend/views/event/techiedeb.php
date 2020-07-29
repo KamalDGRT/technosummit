@@ -104,7 +104,7 @@ EventAsset::register($this);
                                                                 <h4 class="panel-title">
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseDayOne">
                                                                         <span class="fa fa-angle-up"></span>
-                                                                        Day 1 - Prelims
+                                                                        Prelims
                                                                     </a>
                                                                 </h4>
                                                             </div>
@@ -120,7 +120,7 @@ EventAsset::register($this);
                                                                 <h4 class="panel-title">
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseDayTwo">
                                                                         <span class="fa fa-angle-up"></span>
-                                                                        Day 2 - Semi-finals
+                                                                        Semi-finals
                                                                     </a>
                                                                 </h4>
                                                             </div>
@@ -137,7 +137,7 @@ EventAsset::register($this);
                                                                 <h4 class="panel-title">
                                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseFinals">
                                                                         <span class="fa fa-angle-up"></span>
-                                                                        FINALS (Day2):
+                                                                        FINALS:
                                                                     </a>
                                                                 </h4>
                                                             </div>

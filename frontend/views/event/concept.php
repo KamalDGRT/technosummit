@@ -101,7 +101,7 @@ EventAsset::register($this);
                                                 <div class="myPanel">
                                                     <ul class="list-group">
                                                         <li class="list-group-item"><span> The participants, once registered, are ready to begin with.</span></li>
-                                                        <li class="list-group-item"><span> Since the topic is COVID-19, the participants are supposed to represent an idea, which can be useful in a pandemic like the current situation.</span></li>
+                                                        <li class="list-group-item"><span> The participants are supposed to represent an idea, which can be useful in a pandemic like the current situation.</span></li>
                                                         <li class="list-group-item"><span> The participants have to submit their entries via a short video of around 1 to 2 minutes. </span></li>
                                                         <li class="list-group-item"><span> A drawing can also be made along with the video, which is optional</span></li>
                                                     </ul>
