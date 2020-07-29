@@ -16,6 +16,7 @@ $this->title = 'Technosummit Registration';
 
 <head>
     <meta charset="<?= Yii::$app->charset ?>">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <?php $this->registerCsrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
@@ -69,35 +70,19 @@ $this->title = 'Technosummit Registration';
     <div class="myPanel">
         <div class="row">
             <div class="column" style="background-color:#fff;">
-                <ul>
-                    <li style="text-align: center; font-weight:bold; background:none;">Day 1 : 7<sup>th</sup> August 2020</li>
-                    <li>1. MATH - MANIA </li>
-                    <li>2. SCIENTIA</li>
-                    <li>3. COMIC CRUSADERS</li>
-                    <li>4. BLIND CODING</li>
-                    <li>5. WEB WORLD</li>
-                    <li>6. CIRCUITRONICS</li>
-                    <li>7. ROBOKART</li>
-                    <li>8. SEED YOU START UP</li>
-                    <li>9. AERO ZONE</li>
-                    <li>10. CODE-VITA</li>
-                </ul>
+                <?= Html::img('event/images/day1.jpeg', 
+                                ['alt'=>'some', 
+                                'class'=>'responsive'
+                                ]
+                            );?>
             </div>
+
             <div class="column" style="background-color:#fff;">
-                <ul>
-                    <li style="text-align: center; font-weight:bold; background:none;">Day 2 : 8<sup>th</sup> August 2020</li>
-                    <li>1. ECO-TOPIA</li>
-                    <li>2. 5-MT</li>
-                    <li>3. COVIDATHON</li>
-                    <li>4. CONCEPT IDEA BOX</li>
-                    <li>5. DAVINCI CODE</li>
-                    <li>6. D &amp; D</li>
-                    <li>7. EX QUIZ ME</li>
-                    <li>8. FILMINA</li>
-                    <li>9. TECHIE-DEB</li>
-                    <li>10. AI WORKSHOP</li>
-                    <li>11. SKETCH</li>
-                </ul>
+                <?= Html::img('event/images/day2.jpeg', 
+                                ['alt'=>'some', 
+                                'class'=>'responsive'
+                                ]
+                            );?>
             </div>
         </div>
 

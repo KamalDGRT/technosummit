@@ -2,10 +2,11 @@
 
 use yii\helpers\Html;
 use yii\grid\GridView;
-
+use backend\assets\IndexAsset;
 /* @var $this yii\web\View */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
+IndexAsset::register($this);
 $this->title = 'Event Registrations';
 $this->params['breadcrumbs'][] = $this->title;
 ?>

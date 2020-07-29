@@ -274,11 +274,36 @@ div.myPanel.show {
 }
 
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     .column {
         width: 100%;
     }
+
+    #msform {
+        width: 100%;
+    }
+    
+    #msform input, #msform textarea, #msform select {
+        padding: 10px;
+        font-size: 20px;
+    }
 }
+
+@media screen and (max-width: 450px) {
+    .column {
+        width: 100%;
+    }
+
+    #msform {
+        width: 100%;
+    }
+    
+    #msform input, #msform textarea, #msform select {
+        padding: 10px;
+        font-size: 15px;
+    }
+}
+
 
 ul {
     list-style-type: none; /* Remove bullets */
@@ -292,4 +317,9 @@ ul li {
     margin-top: -1px; /* Prevent double borders */
     background-color: #f6f6f6; /* Add a grey background color */
     padding: 12px; /* Add some padding */
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
 }

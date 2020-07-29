@@ -4,10 +4,12 @@ use yii\helpers\Html;
 use yii\grid\GridView;
 use common\models\EventRegistration;
 use yii\data\ActiveDataProvider;
+use backend\assets\EventwiseAsset;
 
 /* @var $this yii\web\View */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
+EventwiseAsset::register($this);
 $this->title = 'Event Registrations';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
@@ -38,7 +40,8 @@ $this->params['breadcrumbs'][] = $this->title;
                     $event = new ActiveDataProvider([
                         'query' => EventRegistration::find()->where(['r_event' => $model->r_event]),
                     ]);
-                    $eventCount = $event->getCount();
+
+                    $eventCount = $event->getTotalCount();
                     return $eventCount;
                 }
             ],
@@ -49,7 +52,7 @@ $this->params['breadcrumbs'][] = $this->title;
                     $event = new ActiveDataProvider([
                         'query' => EventRegistration::find()->where(['r_event' => $model->r_event, 'status' => 1]),
                     ]);
-                    $eventCount = $event->getCount();
+                    $eventCount = $event->getTotalCount();
                     return $eventCount;
                 }
             ],
@@ -60,7 +63,7 @@ $this->params['breadcrumbs'][] = $this->title;
                     $event = new ActiveDataProvider([
                         'query' => EventRegistration::find()->where(['r_event' => $model->r_event, 'status' => 0]),
                     ]);
-                    $eventCount = $event->getCount();
+                    $eventCount = $event->getTotalCount();
                     return $eventCount;
                 }
             ]

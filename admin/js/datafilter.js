@@ -1,5 +1,5 @@
 // This code has been beautified via http://jsbeautifier.org/ with 2 spaces indentation.
-$(document).ready(function() {
+$(document).ready(function () {
     function cbDropdown(column) {
         return $('<ul>', {
             'class': 'cb-dropdown'
@@ -13,13 +13,13 @@ $(document).ready(function() {
         buttons: [
             'copy', 'csv', 'excel', 'pdf', 'print'
         ],
-        initComplete: function() {
-            this.api().columns().every(function() {
+        initComplete: function () {
+            this.api().columns().every(function () {
                 var column = this;
                 var ddmenu = cbDropdown($(column.header()))
-                    .on('change', ':checkbox', function() {
+                    .on('change', ':checkbox', function () {
                         var active;
-                        var vals = $(':checked', ddmenu).map(function(index, element) {
+                        var vals = $(':checked', ddmenu).map(function (index, element) {
                             active = true;
                             return $.fn.dataTable.util.escapeRegex($(element).val());
                         }).toArray().join('|');
@@ -44,7 +44,7 @@ $(document).ready(function() {
                         }
                     });
 
-                column.data().unique().sort().each(function(d, j) {
+                column.data().unique().sort().each(function (d, j) {
                     var // wrapped
                         $label = $('<label>'),
                         $text = $('<span>', {
