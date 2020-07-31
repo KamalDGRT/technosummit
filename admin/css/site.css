@@ -55,3 +55,60 @@ aside .nav-pills .nav-link.active {
     height: 100%;
     opacity: 0;
 }
+
+.myText{
+    color:black;
+    font-weight: bold;
+}
+
+@media (min-width:0px) {
+    .card-body{
+        line-height: 20px;
+    }
+    .myText{
+        font-size: medium;
+        line-height: 20px;
+    }
+}
+
+@media (min-width:576px) {
+    .card-body{
+        line-height: 30px;
+    }
+    .myText{
+        font-size: large;
+        line-height: 20px;
+    }
+}
+
+@media (min-width:768px) {
+    .card-body{
+        line-height: 60px;
+    }
+    .myText{
+        font-size: large;
+        line-height: 25px;
+    }   
+}
+
+@media (min-width:992px) {
+    .card-body{
+        line-height: 80px;
+    }
+    .myText{
+        font-size: larger;
+        line-height: 30px;
+    }
+}
+
+@media (min-width:1200px) {
+    .card-body{
+        line-height: 120px;
+    }
+    .myText{
+        font-size:20px;
+        line-height: 25px;
+        font-weight: bolder;
+    }
+}
+

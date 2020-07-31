@@ -1,4 +1,5 @@
 <?php
+
 namespace backend\controllers;
 
 use common\models\EventRegistration;
@@ -62,12 +63,24 @@ class SiteController extends Controller
     public function actionIndex()
     {
         $numberOfRegistrations = EventRegistration::find()->count();
+        $numberOfRegistrationsConfirmed = EventRegistration::find()->eventConfirmed()->count();
+        $numberOfRegistrationsNotConfirmed = EventRegistration::find()->eventNotConfirmed()->count();
         $totalParticipants = EventRegistration::find()->count('DISTINCT(r_email)');
         $totalColleges = EventRegistration::find()->count('DISTINCT(r_college)');
-        return $this->render('index',[
+        $numberOfBoys = EventRegistration::find()->eventConfirmed()->isABoy()->count('DISTINCT(r_email)');
+        $numberOfGirls = EventRegistration::find()->eventConfirmed()->isAGirl()->count('DISTINCT(r_email)');
+        $numberOfUPI = EventRegistration::find()->eventConfirmed()->isUPI()->count();
+        $numberOfBank = EventRegistration::find()->eventConfirmed()->isAccountTransfer()->count();
+        return $this->render('index', [
             'numberOfRegistrations' => $numberOfRegistrations,
+            'numberOfRegistrationsConfirmed' => $numberOfRegistrationsConfirmed,
+            'numberOfRegistrationsNotConfirmed' => $numberOfRegistrationsNotConfirmed,
             'totalParticipants' => $totalParticipants,
-            'totalColleges' => $totalColleges
+            'totalColleges' => $totalColleges,
+            'numberOfBoys' => $numberOfBoys,
+            'numberOfGirls' => $numberOfGirls,
+            'numberOfUPI' => $numberOfUPI,
+            'numberOfBank' => $numberOfBank,
         ]);
     }
 

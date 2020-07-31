@@ -54,13 +54,13 @@ class EventRegistrationQuery extends \yii\db\ActiveQuery
         return $this->andWhere(['r_salutation' => 2]);
     }
 
-    public function isUPI()
-    {
-        return $this->andWhere(['r_payment' => 2]);
-    }
-
     public function isAccountTransfer()
     {
         return $this->andWhere(['r_payment' => 1]);
+    }
+
+    public function isUPI()
+    {
+        return $this->andWhere(['r_payment' => 2]);
     }
 }
