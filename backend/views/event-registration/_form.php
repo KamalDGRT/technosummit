@@ -17,15 +17,19 @@ use yii\imagine\Image;
 
     <div class="row">
 
-        <div class="col-md-4">
+        <div class="col-md-3">
             <?= $form->field($model, 'image_id')->textInput(['maxlength' => true, 'readonly' => 'readonly']) ?>
         </div>
 
-        <div class="col-md-4">
+        <div class="col-md-3">
+            <?= $form->field($model, 'r_salutation')->dropDownList($model->getSalutationLabels(), ['readonly' => 'readonly']) ?>
+        </div>
+
+        <div class="col-md-3">
             <?= $form->field($model, 'r_name')->textInput(['maxlength' => true, 'readonly' => 'readonly']) ?>
         </div>
 
-        <div class="col-md-4">
+        <div class="col-md-3">
             <?= $form->field($model, 'r_email')->textInput(['maxlength' => true, 'readonly' => 'readonly']) ?>
         </div>
 
@@ -68,8 +72,13 @@ use yii\imagine\Image;
     <img class="embed-responsive-item" src="<?php echo $model->getImageLink() ?>">
     <!-- </div> -->
     <div class="row">
+
         <div class="col-md-6">
             <?= $form->field($model, 'r_transaction_id')->textInput(['maxlength' => true, 'readonly' => 'readonly']) ?>
+        </div>
+
+        <div class="col-md-6">
+            <?= $form->field($model, 'r_payment')->dropDownList($model->getPaymentLabels(), ['readonly' => 'readonly']) ?>
         </div>
 
     </div>
