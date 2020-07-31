@@ -32,7 +32,7 @@ use yii\imagine\Image;
 class EventRegistration extends \yii\db\ActiveRecord
 {
     const STATUS_NOT_CONFIRMED = 0;
-    const STATUS_COMFIRMED = 1;
+    const STATUS_CONFIRMED = 1;
 
     /**
      * @var \yii\web\UploadedFile
@@ -61,8 +61,8 @@ class EventRegistration extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['r_name', 'r_email', 'r_phone', 'r_college', 'r_year', 'r_city', 'r_state', 'r_event', 'r_transaction_id'], 'required'],
-            [['r_year', 'r_event', 'status', 'has_image', 'created_at'], 'integer'],
+            [['r_name', 'r_email', 'r_phone', 'r_college', 'r_year', 'r_city', 'r_state', 'r_payment', 'r_event', 'r_transaction_id'], 'required'],
+            [['r_year', 'r_event', 'status', 'has_image', 'created_at','r_payment'], 'integer'],
             [['image_id'], 'string', 'max' => 16],
             [['r_name', 'r_email', 'r_phone', 'r_college', 'r_city', 'r_state', 'r_transaction_id', 'created_by'], 'string', 'max' => 255],
             [['image_name'], 'string', 'max' => 512],
@@ -95,6 +95,8 @@ class EventRegistration extends \yii\db\ActiveRecord
             'status' => 'Status',
             'has_image' => 'Has Image',
             'image_name' => 'Image Name',
+            'r_salutaion' => 'Salutation',
+            'r_payment' => 'Payment Method',
             'r_transaction_id' => 'Transaction ID',
             'created_at' => 'Created At',
             'created_by' => 'Created By',
@@ -154,7 +156,7 @@ class EventRegistration extends \yii\db\ActiveRecord
     {
         return [
             self::STATUS_NOT_CONFIRMED => 'Not Confirmed',
-            self::STATUS_COMFIRMED => 'Confirmed',
+            self::STATUS_CONFIRMED => 'Confirmed',
         ];
     }
 

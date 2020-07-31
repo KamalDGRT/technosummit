@@ -36,6 +36,31 @@ class EventRegistrationQuery extends \yii\db\ActiveQuery
 
     public function eventConfirmed()
     {
-        return $this->andWhere(['status' => EventRegistration::STATUS_COMFIRMED]);
+        return $this->andWhere(['status' => EventRegistration::STATUS_CONFIRMED]);
+    }
+
+    public function eventNotConfirmed()
+    {
+        return $this->andWhere(['status' => EventRegistration::STATUS_NOT_CONFIRMED]);
+    }
+
+    public function isABoy()
+    {
+        return $this->andWhere(['r_salutation' => 1]);
+    }
+
+    public function isAGirl()
+    {
+        return $this->andWhere(['r_salutation' => 2]);
+    }
+
+    public function isUPI()
+    {
+        return $this->andWhere(['r_payment' => 2]);
+    }
+
+    public function isAccountTransfer()
+    {
+        return $this->andWhere(['r_payment' => 1]);
     }
 }
