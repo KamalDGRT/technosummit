@@ -23,10 +23,18 @@ $this->params['breadcrumbs'][] = $this->title;
         ],
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
+
             [
                 'attribute' => 'id',
                 'content' => function ($model) {
                     return $this->render('_image_item', ['model' => $model]);
+                }
+            ],
+
+            [
+                'attribute' => 'r_salutation',
+                'content' => function ($model) {
+                    return $model->getSalutationLabels()[$model->r_salutation];
                 }
             ],
 
@@ -44,6 +52,13 @@ $this->params['breadcrumbs'][] = $this->title;
             //'r_city',
             //'r_state',
             //'r_event',
+            [
+                'attribute' => 'r_payment',
+                'content' => function ($model) {
+                    return $model->getPaymentLabels()[$model->r_payment];
+                }
+            ],
+
             'r_transaction_id',
             [
                 'attribute' => 'status',

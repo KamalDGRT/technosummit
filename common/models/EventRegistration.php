@@ -62,7 +62,7 @@ class EventRegistration extends \yii\db\ActiveRecord
     {
         return [
             [['r_name', 'r_email', 'r_phone', 'r_college', 'r_year', 'r_city', 'r_state', 'r_payment', 'r_event', 'r_transaction_id'], 'required'],
-            [['r_year', 'r_event', 'status', 'has_image', 'created_at','r_payment'], 'integer'],
+            [['r_year', 'r_event', 'status', 'has_image', 'created_at', 'r_payment'], 'integer'],
             [['image_id'], 'string', 'max' => 16],
             [['r_name', 'r_email', 'r_phone', 'r_college', 'r_city', 'r_state', 'r_transaction_id', 'created_by'], 'string', 'max' => 255],
             [['image_name'], 'string', 'max' => 512],
