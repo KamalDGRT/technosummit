@@ -138,7 +138,7 @@ class EventRegistration extends \yii\db\ActiveRecord
             8 => 'CONCEPT-IDEABOX',
             9 => 'SEED YOUR STARTUP',
             10 => 'COVID-A-THON',
-            11 => 'D & D',
+            11 => 'D and D',
             12 => 'SKETCH',
             13 => 'WEB WORLD',
             14 => 'COMIC CRUSADERS',

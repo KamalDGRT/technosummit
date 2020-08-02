@@ -101,12 +101,12 @@ EventAsset::register($this);
                                                         <div id="collapseRoundOne" class="panel-collapse collapse">
                                                             <div class="panel-body">
                                                                 <ul class="list-group">
-                                                                    <li class="list-group-item"><span>1. The abstract and description of the developed technology has to be submitted to the contact mail ID.</span></li>
+                                                                    <li class="list-group-item"><span>1. The abstract and description of the developed technology has to be submitted to designanddemo@technosummit.in</span></li>
                                                                     <li class="list-group-item"><span>2. The submissions undergo technical screening by experts.</span></li>
                                                                     <li class="list-group-item"><span>3. The selection is based on technical content, the novelty of the idea, and how it is beneficial to the society.</span></li>
                                                                     <li class="list-group-item"><span>4. The selected candidates will be communicated via Email. </span></li>
                                                                     <li class="list-group-item"><span>5. These selected teams should register for the event. </span></li>
-                                                                    <li class="list-group-item"><span>6. The abstracts should be submitted on or before 20th July.</span></li>
+                                                                    <li class="list-group-item"><span>6. The abstracts should be submitted on or before 4<sup>th</sup> August 2020. (if registered later contact the co-ordinators)</span></li>
                                                                 </ul>
                                                             </div>
                                                         </div>
@@ -128,8 +128,9 @@ EventAsset::register($this);
                                                             <div class="panel-body">
                                                                 <ul class="list-group">
                                                                     <li class="list-group-item"><span>1. The technical presentation is via the online platform.</span></li>
-                                                                    <li class="list-group-item"><span>2. Each presentation will be given 10 minutes of time (8 minutes for the presentation + 2 minutes for q & A)</span></li>
-                                                                    <li class="list-group-item"><span>3. Points are based on technical content, the novelty of the idea, and how it is beneficial to the society </span></li>
+                                                                    <li class="list-group-item"><span>2. The selected teams will have to present their prototype model via PPT and if possible, they can show the working model via video.</span></li>
+                                                                    <li class="list-group-item"><span>3. Each presentation will be given 10 minutes of time (8 mins presentation + 2 mins for Q & A)</span></li>
+                                                                    <li class="list-group-item"><span>3. The marking is based on technical content, novelty of the idea, and how it is beneficial to the society.</span></li>
 
                                                                 </ul>
                                                             </div>
@@ -149,13 +150,12 @@ EventAsset::register($this);
                                                 <p class="myAccordion">Rules and Regulations</p>
                                                 <div class="myPanel">
                                                     <ul class="list-group">
-                                                        <li class="list-group-item"><span> Each team should not have more than 3 members. </span></li>
+                                                        <li class="list-group-item"><span> Each team has a maximum of 3 members. </span></li>
                                                         <li class="list-group-item"><span> A team member can belong to one team only. </span></li>
-                                                        <li class="list-group-item"><span> Each member should register individually for the event. </span></li>
-                                                        <li class="list-group-item"><span> This is a project display event in which candidates should present a working or prototype model which is useful to the society. </span></li>
-                                                        <li class="list-group-item"><span> The presentation of the project will be online through a video conference. </span></li>
+                                                        <li class="list-group-item"><span> Each member should register for the event. </span></li>
+                                                        <li class="list-group-item"><span> This is a project display event in which candidates should present a PowerPoint Presentation of a working Project or prototype (Compulsory) and if possible, they can present the working model too (Optional). </span></li>
                                                         <li class="list-group-item"><span> For any other queries, contact the event coordinators. </span></li>
-                                                        <li class="list-group-item"><span> It is preferred for the teams to have a laptop, if not, you can use mobile phones to present your project. </span></li>
+                                                        <li class="list-group-item"><span> It is preferred for the teams to have a laptop, if not, you can use mobile phones to present. </span></li>
                                                     </ul>
                                                 </div>
                                             </div>
