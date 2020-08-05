@@ -31,20 +31,6 @@ $this->title = 'Home';
                             <div class="card-body">
                                 <div class="row align-items-center no-gutters">
                                     <div class="col mr-2">
-                                        <div class="text-uppercase text-primary font-weight-bold text-xs mb-1">
-                                            <span>Total Registrations</span></div>
-                                        <div class="text-dark font-weight-bold h5 mb-0"><span><?php echo $numberOfRegistrations ?></span></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-xl-3 mb-4">
-                        <div class="card shadow border-left-warning py-2">
-                            <div class="card-body">
-                                <div class="row align-items-center no-gutters">
-                                    <div class="col mr-2">
                                         <div class="text-uppercase text-success font-weight-bold text-xs mb-1">
                                             <span>Total Registrations (Confirmed) </span></div>
                                         <div class="text-dark font-weight-bold h5 mb-0"><span><?php echo $numberOfRegistrationsConfirmed ?></span></div>
@@ -67,6 +53,21 @@ $this->title = 'Home';
                             </div>
                         </div>
                     </div>
+
+                    <div class="col-md-6 col-xl-3 mb-4">
+                        <div class="card shadow border-left-warning py-2">
+                            <div class="card-body">
+                                <div class="row align-items-center no-gutters">
+                                    <div class="col mr-2">
+                                        <div class="text-uppercase text-primary font-weight-bold text-xs mb-1">
+                                            <span>Total Registrations</span></div>
+                                        <div class="text-dark font-weight-bold h5 mb-0"><span><?php echo $numberOfRegistrations ?></span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
