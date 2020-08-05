@@ -26,7 +26,12 @@ $this->params['breadcrumbs'][] = $this->title;
         ],
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
-
+            [
+                'attribute' => 'r_salutation',
+                'content' => function ($model) {
+                    return $model->getSalutationLabels()[$model->r_salutation];
+                }
+            ],
             'r_name',
             'r_email',
             'r_phone',

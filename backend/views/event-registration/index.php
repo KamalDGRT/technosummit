@@ -3,6 +3,7 @@
 use yii\helpers\Html;
 use yii\grid\GridView;
 use backend\assets\IndexAsset;
+use common\models\User;
 /* @var $this yii\web\View */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
@@ -70,7 +71,7 @@ $this->params['breadcrumbs'][] = $this->title;
             //'image_name',
             //'r_transaction_id',
             'created_at:datetime',
-            //'created_by',
+            'updated_by'
         ],
     ]); ?>
 
