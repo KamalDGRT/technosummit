@@ -10,7 +10,7 @@ use backend\assets\EventwiseAsset;
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
 EventwiseAsset::register($this);
-$this->title = 'Event-wise Count';
+$this->title = 'Event-wise Confirmed Count';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="event-registration-index">
@@ -35,7 +35,7 @@ $this->params['breadcrumbs'][] = $this->title;
             ],
 
             [
-                'attribute' => 'confirmed',
+                'attribute' => 'count',
                 'content' => function ($model) {
                     $event = new ActiveDataProvider([
                         'query' => EventRegistration::find()->where(['r_event' => $model->r_event, 'status' => 1]),
@@ -44,31 +44,6 @@ $this->params['breadcrumbs'][] = $this->title;
                     return $eventCount;
                 }
             ],
-
-            [
-                'attribute' => 'not confirmed',
-                'content' => function ($model) {
-                    $event = new ActiveDataProvider([
-                        'query' => EventRegistration::find()->where(['r_event' => $model->r_event, 'status' => 0]),
-                    ]);
-                    $eventCount = $event->getTotalCount();
-                    return $eventCount;
-                }
-            ],
-
-            [
-                'attribute' => 'count',
-                'content' => function ($model) {
-                    $event = new ActiveDataProvider([
-                        'query' => EventRegistration::find()->where(['r_event' => $model->r_event]),
-                    ]);
-
-                    $eventCount = $event->getTotalCount();
-                    return $eventCount;
-                }
-            ],
-
-
             // [
             //     'attribute' => 'status',
             //     'content' => function($model){

@@ -25,7 +25,11 @@
                 'url' => ['/event-registration/eventwisecount']
             ],
             [
-                'label' => 'Event-wise List',
+                'label' => 'Event-Wise Count to Send',
+                'url' => ['/event-registration/eventwisecountsend']
+            ],
+            [
+                'label' => 'Event-wise Confirmed List',
                 'url' => ['/eventlist/index']
             ]
         ]

@@ -81,6 +81,18 @@ class EventRegistrationController extends Controller
         ]);
     }
 
+    public function actionEventwisecountsend()
+    {
+        $dataProvider = new ActiveDataProvider([
+            'query' => EventRegistration::find()->groupBy(['r_event']),
+            'pagination' => false
+        ]);
+
+        return $this->render('eventwisecountsend', [
+            'dataProvider' => $dataProvider,
+        ]);
+    }
+
     /**
      * Displays a single EventRegistration model.
      * @param integer $id

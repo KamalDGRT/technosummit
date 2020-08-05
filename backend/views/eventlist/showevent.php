@@ -4,12 +4,12 @@ use yii\helpers\Html;
 use yii\grid\GridView;
 use common\models\EventRegistration;
 use yii\data\ActiveDataProvider;
-use backend\assets\EventwiseAsset;
+use backend\assets\EventlistAsset;
 
 /* @var $this yii\web\View */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-EventwiseAsset::register($this);
+EventlistAsset::register($this);
 $this->title = $pageTitle;
 $this->params['breadcrumbs'][] = $this->title;
 ?>

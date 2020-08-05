@@ -50,6 +50,7 @@ return [
                 '/registration/view/<id>' => 'event-registration/view/',
                 '/datafilter' => 'event-registration/datafilter',
                 '/eventwisecount' => 'event-registration/eventwisecount',
+                '/eventwisecountsend' => 'event-registration/eventwisecountsend',
                 '/eventwiselist' => 'eventlist/index',
             ],
         ],
