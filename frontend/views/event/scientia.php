@@ -131,9 +131,9 @@ EventAsset::register($this);
                                                         <div id="collapseRoundTwo" class="panel-collapse collapse">
                                                             <div class="panel-body">
                                                                 <ul class="list-group">
-                                                                    <li class="list-group-item"><span>1. The participants have to select a topic from the topic list. </span></li>
-                                                                    <li class="list-group-item"><span>2. The participants have to present on the selected topic which was initially given by the organiser</span></li>
-                                                                    <li class="list-group-item"><span>3. Finally, the participants have to attend the quiz given at the end of the presentation.</span></li>
+                                                                    <li class="list-group-item"><span>1. The participants have to select the topic (any one) from a topic list. </span></li>
+                                                                    <li class="list-group-item"><span>2. They have to attend the presentation given by the organiser of that selected topic.</span></li>
+                                                                    <li class="list-group-item"><span>3. They have to attend the quiz given at end of the presentation.</span></li>
                                                                     <li class="list-group-item"><span>4. Presentation time = 30 minutes </span></li>
                                                                     <li class="list-group-item"><span>5. Quiz time = 30 minutes </span></li>
                                                                 </ul>
