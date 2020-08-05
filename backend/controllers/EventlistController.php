@@ -61,120 +61,333 @@ class EventlistController extends Controller
         return $this->render('index');
     }
 
-    public function actionFivemt()
+    public function actionRobokart()
     {
         $dataProvider = new ActiveDataProvider([
-            'query' => EventRegistration::find(),
+            'query' => EventRegistration::find()->eventConfirmed()->fromEvent(1),
             'pagination' => false
         ]);
 
-        return $this->render('fivemt', [
-            'dataProvider' => $dataProvider,
-        ]);
-    }
+        $pageTitle = EventRegistration::getEventLabels()[1];
 
-    public function actionRobokart()
-    {
-        return $this->render('robokart');
+        return $this->render('showevent', [
+            'dataProvider' => $dataProvider,
+            'pageTitle' => $pageTitle
+        ]);
     }
 
     public function actionBlindcoding()
     {
-        return $this->render('blindcoding');
+        $dataProvider = new ActiveDataProvider([
+            'query' => EventRegistration::find()->eventConfirmed()->fromEvent(2),
+            'pagination' => false
+        ]);
+
+        $pageTitle = EventRegistration::getEventLabels()[2];
+
+        return $this->render('showevent', [
+            'dataProvider' => $dataProvider,
+            'pageTitle' => $pageTitle
+        ]);
     }
 
     public function actionMathmania()
     {
-        return $this->render('mathmania');
+        $dataProvider = new ActiveDataProvider([
+            'query' => EventRegistration::find()->eventConfirmed()->fromEvent(3),
+            'pagination' => false
+        ]);
+
+        $pageTitle = EventRegistration::getEventLabels()[3];
+
+        return $this->render('showevent', [
+            'dataProvider' => $dataProvider,
+            'pageTitle' => $pageTitle
+        ]);
     }
 
     public function actionEcotopia()
     {
-        return $this->render('ecotopia');
+        $dataProvider = new ActiveDataProvider([
+            'query' => EventRegistration::find()->eventConfirmed()->fromEvent(4),
+            'pagination' => false
+        ]);
+
+        $pageTitle = EventRegistration::getEventLabels()[4];
+
+        return $this->render('showevent', [
+            'dataProvider' => $dataProvider,
+            'pageTitle' => $pageTitle
+        ]);
     }
 
     public function actionCircuitronics()
     {
-        return $this->render('circuitronics');
+        $dataProvider = new ActiveDataProvider([
+            'query' => EventRegistration::find()->eventConfirmed()->fromEvent(5),
+            'pagination' => false
+        ]);
+
+        $pageTitle = EventRegistration::getEventLabels()[5];
+
+        return $this->render('showevent', [
+            'dataProvider' => $dataProvider,
+            'pageTitle' => $pageTitle
+        ]);
     }
 
     public function actionScientia()
     {
-        return $this->render('scientia');
+        $dataProvider = new ActiveDataProvider([
+            'query' => EventRegistration::find()->eventConfirmed()->fromEvent(6),
+            'pagination' => false
+        ]);
+
+        $pageTitle = EventRegistration::getEventLabels()[6];
+
+        return $this->render('showevent', [
+            'dataProvider' => $dataProvider,
+            'pageTitle' => $pageTitle
+        ]);
     }
 
     public function actionCodevita()
     {
-        return $this->render('codevita');
+        $dataProvider = new ActiveDataProvider([
+            'query' => EventRegistration::find()->eventConfirmed()->fromEvent(7),
+            'pagination' => false
+        ]);
+
+        $pageTitle = EventRegistration::getEventLabels()[7];
+
+        return $this->render('showevent', [
+            'dataProvider' => $dataProvider,
+            'pageTitle' => $pageTitle
+        ]);
     }
 
     public function actionConcept()
     {
-        return $this->render('concept');
+        $dataProvider = new ActiveDataProvider([
+            'query' => EventRegistration::find()->eventConfirmed()->fromEvent(8),
+            'pagination' => false
+        ]);
+
+        $pageTitle = EventRegistration::getEventLabels()[8];
+
+        return $this->render('showevent', [
+            'dataProvider' => $dataProvider,
+            'pageTitle' => $pageTitle
+        ]);
     }
 
     public function actionSeedyourstartup()
     {
-        return $this->render('seedyourstartup');
+        $dataProvider = new ActiveDataProvider([
+            'query' => EventRegistration::find()->eventConfirmed()->fromEvent(9),
+            'pagination' => false
+        ]);
+
+        $pageTitle = EventRegistration::getEventLabels()[9];
+
+        return $this->render('showevent', [
+            'dataProvider' => $dataProvider,
+            'pageTitle' => $pageTitle
+        ]);
     }
 
     public function actionCovidathon()
     {
-        return $this->render('covidathon');
+        $dataProvider = new ActiveDataProvider([
+            'query' => EventRegistration::find()->eventConfirmed()->fromEvent(10),
+            'pagination' => false
+        ]);
+
+        $pageTitle = EventRegistration::getEventLabels()[10];
+
+        return $this->render('showevent', [
+            'dataProvider' => $dataProvider,
+            'pageTitle' => $pageTitle
+        ]);
     }
 
     public function actionDandd()
     {
-        return $this->render('dandd');
+        $dataProvider = new ActiveDataProvider([
+            'query' => EventRegistration::find()->eventConfirmed()->fromEvent(11),
+            'pagination' => false
+        ]);
+
+        $pageTitle = EventRegistration::getEventLabels()[11];
+
+        return $this->render('showevent', [
+            'dataProvider' => $dataProvider,
+            'pageTitle' => $pageTitle
+        ]);
     }
 
     public function actionSketch()
     {
-        return $this->render('sketch');
+        $dataProvider = new ActiveDataProvider([
+            'query' => EventRegistration::find()->eventConfirmed()->fromEvent(12),
+            'pagination' => false
+        ]);
+
+        $pageTitle = EventRegistration::getEventLabels()[12];
+
+        return $this->render('showevent', [
+            'dataProvider' => $dataProvider,
+            'pageTitle' => $pageTitle
+        ]);
     }
 
     public function actionWebworld()
     {
-        return $this->render('webworld');
+        $dataProvider = new ActiveDataProvider([
+            'query' => EventRegistration::find()->eventConfirmed()->fromEvent(13),
+            'pagination' => false
+        ]);
+
+        $pageTitle = EventRegistration::getEventLabels()[13];
+
+        return $this->render('showevent', [
+            'dataProvider' => $dataProvider,
+            'pageTitle' => $pageTitle
+        ]);
     }
 
     public function actionComiccrusaders()
     {
-        return $this->render('comiccrusaders');
+        $dataProvider = new ActiveDataProvider([
+            'query' => EventRegistration::find()->eventConfirmed()->fromEvent(14),
+            'pagination' => false
+        ]);
+
+        $pageTitle = EventRegistration::getEventLabels()[14];
+
+        return $this->render('showevent', [
+            'dataProvider' => $dataProvider,
+            'pageTitle' => $pageTitle
+        ]);
     }
 
     public function actionTechiedeb()
     {
-        return $this->render('techiedeb');
+        $dataProvider = new ActiveDataProvider([
+            'query' => EventRegistration::find()->eventConfirmed()->fromEvent(15),
+            'pagination' => false
+        ]);
+
+        $pageTitle = EventRegistration::getEventLabels()[15];
+
+        return $this->render('showevent', [
+            'dataProvider' => $dataProvider,
+            'pageTitle' => $pageTitle
+        ]);
     }
 
     public function actionExquizme()
     {
-        return $this->render('exquizme');
+        $dataProvider = new ActiveDataProvider([
+            'query' => EventRegistration::find()->eventConfirmed()->fromEvent(16),
+            'pagination' => false
+        ]);
+
+        $pageTitle = EventRegistration::getEventLabels()[16];
+
+        return $this->render('showevent', [
+            'dataProvider' => $dataProvider,
+            'pageTitle' => $pageTitle
+        ]);
+    }
+
+    public function actionFivemt()
+    {
+        $dataProvider = new ActiveDataProvider([
+            'query' => EventRegistration::find()->eventConfirmed()->fromEvent(17),
+            'pagination' => false
+        ]);
+
+        $pageTitle = EventRegistration::getEventLabels()[17];
+
+        return $this->render('showevent', [
+            'dataProvider' => $dataProvider,
+            'pageTitle' => $pageTitle
+        ]);
     }
 
     public function actionFilmina()
     {
-        return $this->render('filmina');
+        $dataProvider = new ActiveDataProvider([
+            'query' => EventRegistration::find()->eventConfirmed()->fromEvent(18),
+            'pagination' => false
+        ]);
+
+        $pageTitle = EventRegistration::getEventLabels()[18];
+
+        return $this->render('showevent', [
+            'dataProvider' => $dataProvider,
+            'pageTitle' => $pageTitle
+        ]);
     }
 
     public function actionAerozone()
     {
-        return $this->render('aerozone');
+        $dataProvider = new ActiveDataProvider([
+            'query' => EventRegistration::find()->eventConfirmed()->fromEvent(19),
+            'pagination' => false
+        ]);
+
+        $pageTitle = EventRegistration::getEventLabels()[19];
+
+        return $this->render('showevent', [
+            'dataProvider' => $dataProvider,
+            'pageTitle' => $pageTitle
+        ]);
     }
 
     public function actionAiworkshop()
     {
-        return $this->render('aiworkshop');
+        $dataProvider = new ActiveDataProvider([
+            'query' => EventRegistration::find()->eventConfirmed()->fromEvent(20),
+            'pagination' => false
+        ]);
+
+        $pageTitle = EventRegistration::getEventLabels()[20];
+
+        return $this->render('showevent', [
+            'dataProvider' => $dataProvider,
+            'pageTitle' => $pageTitle
+        ]);
     }
 
     public function actionDavincicode()
     {
-        return $this->render('davincicode');
+        $dataProvider = new ActiveDataProvider([
+            'query' => EventRegistration::find()->eventConfirmed()->fromEvent(21),
+            'pagination' => false
+        ]);
+
+        $pageTitle = EventRegistration::getEventLabels()[21];
+
+        return $this->render('showevent', [
+            'dataProvider' => $dataProvider,
+            'pageTitle' => $pageTitle
+        ]);
     }
 
     public function actionUnselected()
     {
-        return $this->render('unselected');
+        $dataProvider = new ActiveDataProvider([
+            'query' => EventRegistration::find()->eventConfirmed()->fromEvent(0),
+            'pagination' => false
+        ]);
+
+        $pageTitle = 'Unselected But Confirmed';
+
+        return $this->render('showevent', [
+            'dataProvider' => $dataProvider,
+            'pageTitle' => $pageTitle
+        ]);
     }
 }

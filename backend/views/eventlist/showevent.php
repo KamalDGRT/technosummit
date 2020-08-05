@@ -10,7 +10,7 @@ use backend\assets\EventwiseAsset;
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
 EventwiseAsset::register($this);
-$this->title = 'Five MT';
+$this->title = $pageTitle;
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="event-registration-index">

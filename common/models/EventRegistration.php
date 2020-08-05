@@ -227,4 +227,9 @@ class EventRegistration extends \yii\db\ActiveRecord
     {
         return $this->createdBy->username;
     }
+
+    public function isUpdatedBy($userId)
+    {
+        return $this->updatedBy->username;
+    }
 }
