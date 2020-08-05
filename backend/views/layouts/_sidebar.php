@@ -23,6 +23,10 @@
             [
                 'label' => 'Event-Wise Count',
                 'url' => ['/event-registration/eventwisecount']
+            ],
+            [
+                'label' => 'Event-wise List',
+                'url' => ['/eventlist/index']
             ]
         ]
     ])  ?>

@@ -63,4 +63,9 @@ class EventRegistrationQuery extends \yii\db\ActiveQuery
     {
         return $this->andWhere(['r_payment' => 2]);
     }
+
+    public function fromEvent($eventNumber)
+    {
+        return $this->andWhere(['r_event' => $eventNumber]);
+    }
 }
