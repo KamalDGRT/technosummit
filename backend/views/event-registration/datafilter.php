@@ -39,7 +39,7 @@ $this->params['breadcrumbs'][] = $this->title;
             [
                 'attribute' => 'status',
                 'content' => function ($model) {
-                    return $model->getStatusLabels()[$model->status];
+                    return $model->getStatusLabelsAdmin()[$model->status];
                 }
             ],
             //'has_image',
