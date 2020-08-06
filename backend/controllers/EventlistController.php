@@ -68,11 +68,9 @@ class EventlistController extends Controller
             'pagination' => false
         ]);
 
-        $pageTitle = EventRegistration::getEventLabels()[1];
 
-        return $this->render('showevent', [
+        return $this->render('robokart', [
             'dataProvider' => $dataProvider,
-            'pageTitle' => $pageTitle
         ]);
     }
 
@@ -83,11 +81,8 @@ class EventlistController extends Controller
             'pagination' => false
         ]);
 
-        $pageTitle = EventRegistration::getEventLabels()[2];
-
-        return $this->render('showevent', [
+        return $this->render('blindcoding', [
             'dataProvider' => $dataProvider,
-            'pageTitle' => $pageTitle
         ]);
     }
 
@@ -98,11 +93,8 @@ class EventlistController extends Controller
             'pagination' => false
         ]);
 
-        $pageTitle = EventRegistration::getEventLabels()[3];
-
-        return $this->render('showevent', [
+        return $this->render('mathmania', [
             'dataProvider' => $dataProvider,
-            'pageTitle' => $pageTitle
         ]);
     }
 
@@ -113,11 +105,8 @@ class EventlistController extends Controller
             'pagination' => false
         ]);
 
-        $pageTitle = EventRegistration::getEventLabels()[4];
-
-        return $this->render('showevent', [
+        return $this->render('ecotopia', [
             'dataProvider' => $dataProvider,
-            'pageTitle' => $pageTitle
         ]);
     }
 
@@ -128,11 +117,8 @@ class EventlistController extends Controller
             'pagination' => false
         ]);
 
-        $pageTitle = EventRegistration::getEventLabels()[5];
-
-        return $this->render('showevent', [
+        return $this->render('circuitronics', [
             'dataProvider' => $dataProvider,
-            'pageTitle' => $pageTitle
         ]);
     }
 
@@ -143,11 +129,8 @@ class EventlistController extends Controller
             'pagination' => false
         ]);
 
-        $pageTitle = EventRegistration::getEventLabels()[6];
-
-        return $this->render('showevent', [
+        return $this->render('scientia', [
             'dataProvider' => $dataProvider,
-            'pageTitle' => $pageTitle
         ]);
     }
 
@@ -158,11 +141,8 @@ class EventlistController extends Controller
             'pagination' => false
         ]);
 
-        $pageTitle = EventRegistration::getEventLabels()[7];
-
-        return $this->render('showevent', [
+        return $this->render('codevita', [
             'dataProvider' => $dataProvider,
-            'pageTitle' => $pageTitle
         ]);
     }
 
@@ -173,11 +153,8 @@ class EventlistController extends Controller
             'pagination' => false
         ]);
 
-        $pageTitle = EventRegistration::getEventLabels()[8];
-
-        return $this->render('showevent', [
+        return $this->render('concept', [
             'dataProvider' => $dataProvider,
-            'pageTitle' => $pageTitle
         ]);
     }
 
@@ -188,11 +165,8 @@ class EventlistController extends Controller
             'pagination' => false
         ]);
 
-        $pageTitle = EventRegistration::getEventLabels()[9];
-
-        return $this->render('showevent', [
+        return $this->render('seedyourstartup', [
             'dataProvider' => $dataProvider,
-            'pageTitle' => $pageTitle
         ]);
     }
 
@@ -203,11 +177,8 @@ class EventlistController extends Controller
             'pagination' => false
         ]);
 
-        $pageTitle = EventRegistration::getEventLabels()[10];
-
-        return $this->render('showevent', [
+        return $this->render('covidathon', [
             'dataProvider' => $dataProvider,
-            'pageTitle' => $pageTitle
         ]);
     }
 
@@ -218,11 +189,8 @@ class EventlistController extends Controller
             'pagination' => false
         ]);
 
-        $pageTitle = EventRegistration::getEventLabels()[11];
-
-        return $this->render('showevent', [
+        return $this->render('dandd', [
             'dataProvider' => $dataProvider,
-            'pageTitle' => $pageTitle
         ]);
     }
 
@@ -233,11 +201,8 @@ class EventlistController extends Controller
             'pagination' => false
         ]);
 
-        $pageTitle = EventRegistration::getEventLabels()[12];
-
-        return $this->render('showevent', [
+        return $this->render('sketch', [
             'dataProvider' => $dataProvider,
-            'pageTitle' => $pageTitle
         ]);
     }
 
@@ -248,11 +213,8 @@ class EventlistController extends Controller
             'pagination' => false
         ]);
 
-        $pageTitle = EventRegistration::getEventLabels()[13];
-
-        return $this->render('showevent', [
+        return $this->render('webworld', [
             'dataProvider' => $dataProvider,
-            'pageTitle' => $pageTitle
         ]);
     }
 
@@ -263,11 +225,8 @@ class EventlistController extends Controller
             'pagination' => false
         ]);
 
-        $pageTitle = EventRegistration::getEventLabels()[14];
-
-        return $this->render('showevent', [
+        return $this->render('comiccrusaders', [
             'dataProvider' => $dataProvider,
-            'pageTitle' => $pageTitle
         ]);
     }
 
@@ -278,11 +237,8 @@ class EventlistController extends Controller
             'pagination' => false
         ]);
 
-        $pageTitle = EventRegistration::getEventLabels()[15];
-
-        return $this->render('showevent', [
+        return $this->render('techiedeb', [
             'dataProvider' => $dataProvider,
-            'pageTitle' => $pageTitle
         ]);
     }
 
@@ -293,11 +249,9 @@ class EventlistController extends Controller
             'pagination' => false
         ]);
 
-        $pageTitle = EventRegistration::getEventLabels()[16];
-
-        return $this->render('showevent', [
+        return $this->render('exquizme', [
             'dataProvider' => $dataProvider,
-            'pageTitle' => $pageTitle
+
         ]);
     }
 
@@ -320,11 +274,8 @@ class EventlistController extends Controller
             'pagination' => false
         ]);
 
-        $pageTitle = EventRegistration::getEventLabels()[18];
-
-        return $this->render('showevent', [
+        return $this->render('filmina', [
             'dataProvider' => $dataProvider,
-            'pageTitle' => $pageTitle
         ]);
     }
 
@@ -335,11 +286,8 @@ class EventlistController extends Controller
             'pagination' => false
         ]);
 
-        $pageTitle = EventRegistration::getEventLabels()[19];
-
-        return $this->render('showevent', [
+        return $this->render('aerozone', [
             'dataProvider' => $dataProvider,
-            'pageTitle' => $pageTitle
         ]);
     }
 
@@ -350,11 +298,8 @@ class EventlistController extends Controller
             'pagination' => false
         ]);
 
-        $pageTitle = EventRegistration::getEventLabels()[20];
-
-        return $this->render('showevent', [
+        return $this->render('aiworkshop', [
             'dataProvider' => $dataProvider,
-            'pageTitle' => $pageTitle
         ]);
     }
 
@@ -365,11 +310,8 @@ class EventlistController extends Controller
             'pagination' => false
         ]);
 
-        $pageTitle = EventRegistration::getEventLabels()[21];
-
-        return $this->render('showevent', [
+        return $this->render('davincicode', [
             'dataProvider' => $dataProvider,
-            'pageTitle' => $pageTitle
         ]);
     }
 
@@ -380,11 +322,8 @@ class EventlistController extends Controller
             'pagination' => false
         ]);
 
-        $pageTitle = 'Unselected But Confirmed';
-
-        return $this->render('showevent', [
+        return $this->render('unselected', [
             'dataProvider' => $dataProvider,
-            'pageTitle' => $pageTitle
         ]);
     }
 
@@ -395,11 +334,8 @@ class EventlistController extends Controller
             'pagination' => false
         ]);
 
-        $pageTitle = 'Boys List';
-
-        return $this->render('showevent', [
+        return $this->render('boys', [
             'dataProvider' => $dataProvider,
-            'pageTitle' => $pageTitle
         ]);
     }
 
@@ -410,11 +346,8 @@ class EventlistController extends Controller
             'pagination' => false
         ]);
 
-        $pageTitle = 'Girls';
-
-        return $this->render('showevent', [
+        return $this->render('girls', [
             'dataProvider' => $dataProvider,
-            'pageTitle' => $pageTitle
         ]);
     }
 
@@ -425,11 +358,9 @@ class EventlistController extends Controller
             'pagination' => false
         ]);
 
-        $pageTitle = 'Account Transfer';
-
-        return $this->render('showevent', [
+        return $this->render('account', [
             'dataProvider' => $dataProvider,
-            'pageTitle' => $pageTitle
+
         ]);
     }
 
@@ -440,11 +371,8 @@ class EventlistController extends Controller
             'pagination' => false
         ]);
 
-        $pageTitle = 'UPI Transactions';
-
-        return $this->render('showevent', [
+        return $this->render('upilist', [
             'dataProvider' => $dataProvider,
-            'pageTitle' => $pageTitle
         ]);
     }
 }
