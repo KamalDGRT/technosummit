@@ -308,11 +308,8 @@ class EventlistController extends Controller
             'pagination' => false
         ]);
 
-        $pageTitle = EventRegistration::getEventLabels()[17];
-
         return $this->render('fivemt', [
             'dataProvider' => $dataProvider,
-            'pageTitle' => $pageTitle
         ]);
     }
 
