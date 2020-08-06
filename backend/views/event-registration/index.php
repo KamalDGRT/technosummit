@@ -71,7 +71,12 @@ $this->params['breadcrumbs'][] = $this->title;
             //'image_name',
             //'r_transaction_id',
             'created_at:datetime',
-            'updated_by'
+            [
+                'attribute' => 'updated_by',
+                'content' => function ($model) {
+                    return $model->getUpdatedByName()[$model->updated_by];
+                }
+            ],
         ],
     ]); ?>
 
