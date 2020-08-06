@@ -82,7 +82,8 @@ use yii\imagine\Image;
         </div>
 
     </div>
-    <?= $form->field($model, 'status')->dropDownList($model->getStatusLabels()) ?><br><br>
+
+    <?= $form->field($model, 'status')->dropDownList($model->getStatusLabelsAdmin()) ?><br><br>
 
     <div class="form-group">
         <?= Html::submitButton('Save', ['class' => 'btn btn-success btn-lg form-control']) ?>

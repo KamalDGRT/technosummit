@@ -160,6 +160,18 @@ class EventRegistration extends \yii\db\ActiveRecord
         ];
     }
 
+    public function getStatusLabelsAdmin()
+    {
+        return [
+            self::STATUS_NOT_CONFIRMED => 'Not Confirmed',
+            self::STATUS_CONFIRMED => 'Confirmed',
+            2 => 'Duplicate',
+            3 => 'Wrong Photo',
+            4 => 'Unclear Photo',
+            5 => 'Incorrect Amount',
+        ];
+    }
+
     public function getPaymentLabels()
     {
         return [
