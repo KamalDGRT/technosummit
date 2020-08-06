@@ -42,7 +42,7 @@ $this->params['breadcrumbs'][] = $this->title;
             //'has_image',
             //'image_name',
             'r_transaction_id',
-            //'created_at',
+            'created_at:datetime',
             //'created_by',
         ],
     ]); ?>

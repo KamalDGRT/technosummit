@@ -41,8 +41,8 @@ $this->params['breadcrumbs'][] = $this->title;
             //'r_state',
             //'has_image',
             //'image_name',
-            //'r_transaction_id',
-            //'created_at',
+            'r_transaction_id',
+            'created_at:datetime',
             //'created_by',
         ],
     ]); ?>
