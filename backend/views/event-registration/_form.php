@@ -74,7 +74,7 @@ use yii\imagine\Image;
     <div class="row">
 
         <div class="col-md-6">
-            <?= $form->field($model, 'r_transaction_id')->textInput(['maxlength' => true, 'readonly' => 'readonly']) ?>
+            <?= $form->field($model, 'r_transaction_id')->textInput(['maxlength' => true,]) ?>
         </div>
 
         <div class="col-md-6">
