@@ -375,4 +375,23 @@ class EventlistController extends Controller
             'dataProvider' => $dataProvider,
         ]);
     }
+
+    public function actionCompletelist()
+    {
+        $dataProvider = new ActiveDataProvider([
+            'query' => EventRegistration::find(),
+            'pagination' => false
+        ]);
+
+        return $this->render('completelist', [
+            'dataProvider' => $dataProvider,
+        ]);
+    }
+
+    public function actionView($id)
+    {
+        return $this->render('view', [
+            'model' => $this->findModel($id),
+        ]);
+    }
 }

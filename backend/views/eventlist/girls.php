@@ -33,6 +33,12 @@ $this->params['breadcrumbs'][] = $this->title;
                 }
             ],
             'r_name',
+            [
+                'attribute' => 'r_event',
+                'content' => function ($model) {
+                    return $model->getEventLabels()[$model->r_event];
+                }
+            ],
             'r_email',
             'r_phone',
             'r_year',

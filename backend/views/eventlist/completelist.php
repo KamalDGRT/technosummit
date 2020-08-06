@@ -33,19 +33,35 @@ $this->params['breadcrumbs'][] = $this->title;
                 }
             ],
             'r_name',
+            [
+                'attribute' => 'r_event',
+                'content' => function ($model) {
+                    return $model->getEventLabels()[$model->r_event];
+                }
+            ],
             'r_email',
             'r_phone',
             'r_year',
             'r_college',
             'r_city',
             'r_state',
-            'has_image',
+            'image_id',
             'image_name',
+            [
+                'attribute' => 'r_payment',
+                'content' => function ($model) {
+                    return $model->getPaymentLabelsAdmin()[$model->r_payment];
+                }
+            ],
             'r_transaction_id',
-            'created_at',
-            'created_by',
-            'updated_by',
-            'updated_at'
+            'created_at:datetime',
+            'updated_at:datetime',
+            [
+                'attribute' => 'updated_by',
+                'content' => function ($model) {
+                    return $model->getUpdatedByName()[$model->updated_by];
+                }
+            ],
         ],
     ]); ?>
 

@@ -183,6 +183,26 @@ class EventRegistration extends \yii\db\ActiveRecord
         ];
     }
 
+    public function getPaymentLabelsAdmin()
+    {
+        return [
+            0 => 'Not Selected',
+            1 => 'Account Transfer',
+            2 => 'UPI',
+        ];
+    }
+
+    public function getUpdatedByName()
+    {
+        return [
+            null => 'NULL',
+            1 => 'Kamal Sharma',
+            3 => 'Aqueeb Khan',
+            4 => 'Chakravaram Saitejaswi',
+            5 => 'Sai Bighnesh Prusty'
+        ];
+    }
+
     /**
      * {@inheritdoc}
      * @return \common\models\query\EventRegistrationQuery the active query used by this AR class.
