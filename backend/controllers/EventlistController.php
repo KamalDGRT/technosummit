@@ -310,7 +310,7 @@ class EventlistController extends Controller
 
         $pageTitle = EventRegistration::getEventLabels()[17];
 
-        return $this->render('showevent', [
+        return $this->render('fivemt', [
             'dataProvider' => $dataProvider,
             'pageTitle' => $pageTitle
         ]);

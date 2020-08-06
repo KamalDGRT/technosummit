@@ -169,6 +169,8 @@ class EventRegistration extends \yii\db\ActiveRecord
             3 => 'Wrong Photo',
             4 => 'Unclear Photo',
             5 => 'Incorrect Amount',
+            6 => 'Incorrect Transaction ID',
+            7 => 'Event Not Selected'
         ];
     }
 
