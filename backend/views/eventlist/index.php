@@ -457,7 +457,7 @@ $this->title = 'Eventlist Home';
                     </div>
 
                     <div class="col-md-6 col-xl-3 mb-4">
-                        <a href="<?php echo Url::to(['/eventlist/techideb']) ?>">
+                        <a href="<?php echo Url::to(['/eventlist/techiedeb']) ?>">
                             <div class="card shadow border-left-primary py-2">
 
                                 <div class="card-body">
@@ -513,6 +513,98 @@ $this->title = 'Eventlist Home';
                                             </div>
                                             <div class="text-dark font-weight-bold h5 mb-0">
                                                 <span>Unselected Events</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-auto">
+                                            <i class="far fa-sticky-note fa-2x text-gray-300"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-md-6 col-xl-3 mb-4">
+                        <a href="<?php echo Url::to(['/eventlist/boys']) ?>">
+                            <div class="card shadow border-left-primary py-2">
+
+                                <div class="card-body">
+                                    <div class="row align-items-center no-gutters">
+                                        <div class="col mr-2">
+                                            <div class="text-uppercase text-primary font-weight-bold text-xs mb-1">
+                                            </div>
+                                            <div class="text-dark font-weight-bold h5 mb-0">
+                                                <span>Boys</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-auto">
+                                            <i class="far fa-sticky-note fa-2x text-gray-300"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-md-6 col-xl-3 mb-4">
+                        <a href="<?php echo Url::to(['/eventlist/girls']) ?>">
+                            <div class="card shadow border-left-primary py-2">
+
+                                <div class="card-body">
+                                    <div class="row align-items-center no-gutters">
+                                        <div class="col mr-2">
+                                            <div class="text-uppercase text-primary font-weight-bold text-xs mb-1">
+                                            </div>
+                                            <div class="text-dark font-weight-bold h5 mb-0">
+                                                <span>Girls</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-auto">
+                                            <i class="far fa-sticky-note fa-2x text-gray-300"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-md-6 col-xl-3 mb-4">
+                        <a href="<?php echo Url::to(['/eventlist/account']) ?>">
+                            <div class="card shadow border-left-primary py-2">
+
+                                <div class="card-body">
+                                    <div class="row align-items-center no-gutters">
+                                        <div class="col mr-2">
+                                            <div class="text-uppercase text-primary font-weight-bold text-xs mb-1">
+                                            </div>
+                                            <div class="text-dark font-weight-bold h5 mb-0">
+                                                <span>Account List</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-auto">
+                                            <i class="far fa-sticky-note fa-2x text-gray-300"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-md-6 col-xl-3 mb-4">
+                        <a href="<?php echo Url::to(['/eventlist/upilist']) ?>">
+                            <div class="card shadow border-left-primary py-2">
+
+                                <div class="card-body">
+                                    <div class="row align-items-center no-gutters">
+                                        <div class="col mr-2">
+                                            <div class="text-uppercase text-primary font-weight-bold text-xs mb-1">
+                                            </div>
+                                            <div class="text-dark font-weight-bold h5 mb-0">
+                                                <span>UPI List</span>
                                             </div>
                                         </div>
                                         <div class="col-auto">

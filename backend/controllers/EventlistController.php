@@ -390,4 +390,64 @@ class EventlistController extends Controller
             'pageTitle' => $pageTitle
         ]);
     }
+
+    public function actionBoys()
+    {
+        $dataProvider = new ActiveDataProvider([
+            'query' => EventRegistration::find()->eventConfirmed()->isABoy(),
+            'pagination' => false
+        ]);
+
+        $pageTitle = 'Boys List';
+
+        return $this->render('showevent', [
+            'dataProvider' => $dataProvider,
+            'pageTitle' => $pageTitle
+        ]);
+    }
+
+    public function actionGirls()
+    {
+        $dataProvider = new ActiveDataProvider([
+            'query' => EventRegistration::find()->eventConfirmed()->isAGirl(),
+            'pagination' => false
+        ]);
+
+        $pageTitle = 'Girls';
+
+        return $this->render('showevent', [
+            'dataProvider' => $dataProvider,
+            'pageTitle' => $pageTitle
+        ]);
+    }
+
+    public function actionAccount()
+    {
+        $dataProvider = new ActiveDataProvider([
+            'query' => EventRegistration::find()->eventConfirmed()->isAccountTransfer(),
+            'pagination' => false
+        ]);
+
+        $pageTitle = 'Account Transfer';
+
+        return $this->render('showevent', [
+            'dataProvider' => $dataProvider,
+            'pageTitle' => $pageTitle
+        ]);
+    }
+
+    public function actionUpilist()
+    {
+        $dataProvider = new ActiveDataProvider([
+            'query' => EventRegistration::find()->eventConfirmed()->isUPI(),
+            'pagination' => false
+        ]);
+
+        $pageTitle = 'UPI Transactions';
+
+        return $this->render('showevent', [
+            'dataProvider' => $dataProvider,
+            'pageTitle' => $pageTitle
+        ]);
+    }
 }

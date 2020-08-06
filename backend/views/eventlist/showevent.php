@@ -37,6 +37,12 @@ $this->params['breadcrumbs'][] = $this->title;
             'r_phone',
             'r_year',
             'r_college',
+            [
+                'attribute' => 'r_event',
+                'content' => function ($model) {
+                    return $model->getEventLabels()[$model->r_event];
+                }
+            ],
             //'r_city',
             //'r_state',
             //'has_image',
