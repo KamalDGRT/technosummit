@@ -40,3 +40,4 @@ phpunit.phar
 /frontend/views/event/1round.php
 /frontend/views/event/2rounds.php
 /storage
+/vendor
