@@ -1,0 +1,13 @@
+php init
+
+composer update
+
+change db config in common/config/main-local.php
+
+add something like this:
+     'frontendUrl' => 'http://technosummit.net/' in the return statement
+of common/config/params-local.php
+
+php yii migrate
+
+setup the yii2 local hosting with the URL that you wanna give above.
