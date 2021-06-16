@@ -18,7 +18,7 @@ nbproject
 Thumbs.db
 
 # composer vendor dir
-
+/vendor
 
 # composer itself is not needed
 composer.phar
@@ -39,4 +39,6 @@ phpunit.phar
 /frontend/views/event/1round.php
 /frontend/views/event/2rounds.php
 /storage
-/vendor
+
+/frontend/web
+/backend/web
