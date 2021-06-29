@@ -120,7 +120,17 @@ class SiteController extends Controller
     public function actionRegistration()
     {
         $this->layout = false;
-        return $this->render('closed');
+        $model = new EventRegistration();
+
+        $model->image = UploadedFile::getInstanceByName('r_screenshot');
+        if ($model->load(Yii::$app->request->post()) && $model->save()) {
+            echo '<script>alert("Your details have been submitted. Our team will contact you after verification."); </script>';
+            return $this->redirect(Url::to(['/site/thanks']));
+        }
+
+        return $this->render('registration', [
+            'model' => $model,
+        ]);
     }
     /**
      * Logs in a user.
